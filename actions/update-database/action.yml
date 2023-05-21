@@ -1,4 +1,4 @@
 name: "Test"
 runs:
   using: "node16"
-  main: "./../../scripts/build/main.js"
+  main: "../../scripts/build/scripts/src/main.js"
