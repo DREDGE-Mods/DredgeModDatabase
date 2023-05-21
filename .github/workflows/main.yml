@@ -22,17 +22,6 @@ jobs:
           cd scripts
           npm install
           npm run build
-      - name: Help
-        run: |
-          echo "Test 0"
-          ls
-          cd scripts
-          echo "Test 1"
-          ls 
-          cd actions
-          echo "Test 2"
-          ls
-          pwd
       - name: Run local action
         uses: ./actions/action.yml
 
