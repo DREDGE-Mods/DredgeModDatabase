@@ -24,3 +24,8 @@ jobs:
           npm run build
       - name: Run local action
         uses: ./actions/update-database
+      - name: Upload database artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: database
+          path: ./scripts/build/database.json
