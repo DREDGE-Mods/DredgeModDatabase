@@ -32,6 +32,7 @@ jobs:
           cd actions
           echo "Test 2"
           ls
+          pwd
       - name: Run script
         uses: ./scripts/actions/action
         
