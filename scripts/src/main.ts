@@ -47,6 +47,7 @@ async function run() {
                 core.info("Saved updated database");
             }
         });
+        core.info("Saved database.json to " + process.cwd());
     });
 }
 
