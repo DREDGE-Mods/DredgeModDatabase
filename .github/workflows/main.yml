@@ -11,29 +11,7 @@ jobs:
     name: Setup
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16
-      - name: Build
-        run: |
-          cd scripts
-          npm install
-          npm run build
-      - name: Help
-        run: |
-          echo "Test 0"
-          ls
-          cd scripts
-          echo "Test 1"
-          ls 
-          cd actions
-          echo "Test 2"
-          ls
-          pwd
       - uses: actions/checkout@v3
-      - uses: ./scripts/actions/action.yml
+      - uses: ./actions/action
 
         
