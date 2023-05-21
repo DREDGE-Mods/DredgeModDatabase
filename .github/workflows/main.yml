@@ -33,9 +33,7 @@ jobs:
           echo "Test 2"
           ls
           pwd
-  run:
-    needs: setup
-    name: Run
-    uses: ./scripts/actions/action.yml
+      - uses: actions/checkout@v3
+      - uses: ./scripts/actions/action.yml
 
         
