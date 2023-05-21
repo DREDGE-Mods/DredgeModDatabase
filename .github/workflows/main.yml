@@ -22,7 +22,11 @@ jobs:
           cd scripts
           npm install
           npm run build
+      - name: Sanity check
+        run: |
+          cd scripts
           cd build
+          pwd
           ls
       - name: Run local action
         uses: ./actions/update-database
