@@ -33,7 +33,7 @@ jobs:
           echo "Test 2"
           ls
           pwd
-      - uses: actions/checkout@v3
-      - uses: ./scripts/actions/action.yml
+      - name: Run local action
+        uses: ./actions/action.yml
 
         
