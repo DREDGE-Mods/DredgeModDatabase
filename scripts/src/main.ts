@@ -39,7 +39,7 @@ async function run() {
 
     Promise.all(promises).then((results) => {
         core.info(JSON.stringify(results));
-        fs.writeFile("build/database.json", JSON.stringify(results), 'utf8', (err : Error) => {
+        fs.writeFile("database.json", JSON.stringify(results), 'utf8', (err : Error) => {
             if (err) {
                 throw new Error(err.message);
             }
