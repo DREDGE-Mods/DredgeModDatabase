@@ -38,8 +38,9 @@ async function run() {
     });
 
     Promise.all(promises).then((results) => {
-        core.info(JSON.stringify(results));
-        fs.writeFile("database.json", JSON.stringify(results), 'utf8', (err : Error) => {
+        let json = JSON.stringify(results, null, 2);
+        core.info(json);
+        fs.writeFile("database.json", json, 'utf8', (err : Error) => {
             if (err) {
                 throw new Error(err.message);
             }
