@@ -1,10 +1,17 @@
 name: Node.js CI
 
 on:
+  workflow_dispatch:
   push:
-    branches: [ main ]
+    branches: 
+      - main
+    paths:
+      - "mods.json"
   pull_request:
     branches: [ main ]
+
+permissions:
+  contents: write
 
 jobs:
   update-database:
@@ -30,8 +37,17 @@ jobs:
           ls
       - name: Run local action
         uses: ./actions/update-database
-      - name: Upload database artifact
-        uses: actions/upload-artifact@v3
+      - name: Checkout database repo
+        uses: actions/checkout@v3
         with:
-          name: database
-          path: ./scripts/build/scripts/src/database.json
+          ref: database
+          path: database
+      - name: Copy database
+        run: cp database.json database/database.json
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          branch: database
+          repository: database
+          commit_message: Update mod database
+          commit_user_name: Dredge Mod Database
