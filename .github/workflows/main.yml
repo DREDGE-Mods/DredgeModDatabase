@@ -23,6 +23,6 @@ jobs:
           npm install
           npm run build
       - name: Run local action
-        uses: ./actions/action.yml
+        uses: ./actions/action
 
         
