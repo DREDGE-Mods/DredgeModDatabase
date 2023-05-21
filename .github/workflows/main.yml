@@ -8,6 +8,7 @@ on:
 
 jobs:
   setup:
+    name: Setup
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -33,6 +34,8 @@ jobs:
           ls
           pwd
   run:
+    needs: setup
+    name: Run
     uses: ./scripts/actions/action.yml
 
         
