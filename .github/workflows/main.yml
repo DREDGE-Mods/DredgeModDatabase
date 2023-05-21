@@ -23,5 +23,5 @@ jobs:
           npm install
           npm run build
       - name: Run script
-        uses: ./scripts/actions/action
+        uses: ./actions/action.yml
         
