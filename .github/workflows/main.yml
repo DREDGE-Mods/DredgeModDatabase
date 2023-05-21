@@ -7,8 +7,8 @@ on:
     branches: [ main ]
 
 jobs:
-  setup:
-    name: Setup
+  update-database:
+    name: Update Database
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -23,4 +23,4 @@ jobs:
           npm install
           npm run build
       - name: Run local action
-        uses: ./actions/test
+        uses: ./actions/update-database
