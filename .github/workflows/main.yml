@@ -22,6 +22,8 @@ jobs:
           cd scripts
           npm install
           npm run build
+          cd build
+          ls
       - name: Run local action
         uses: ./actions/update-database
       - name: Upload database artifact
