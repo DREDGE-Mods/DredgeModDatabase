@@ -7,23 +7,23 @@
             "repo": "xen-42/cosmic-horror-fishing-buddies",
             "download": "CosmicHorrorFishingBuddies.zip"
         },
-		{
-			"name": "Disaster Button",
-			"mod_guid": "hacktix.disasterbutton",
-			"repo": "Hacktix/Winch",
-			"download": "DisasterButton.zip"
-		},
-		{
-			"name": "Example Items",
-			"mod_guid": "hacktix.exampleitems",
-			"repo": "Hacktix/Winch",
-			"download": "ExampleItems.zip"
-		},
-		{
-			"name": "Intro Skipper",
-			"mod_guid": "hacktix.introskipper",
-			"repo": "Hacktix/Winch",
-			"download": "IntroSkipper.zip"
-		}
+	{
+		"name": "Disaster Button",
+		"mod_guid": "hacktix.disasterbutton",
+		"repo": "Hacktix/Winch",
+		"download": "DisasterButton.zip"
+	},
+	{
+		"name": "Example Items",
+		"mod_guid": "hacktix.exampleitems",
+		"repo": "Hacktix/Winch",
+		"download": "ExampleItems.zip"
+	},
+	{
+		"name": "Intro Skipper",
+		"mod_guid": "hacktix.introskipper",
+		"repo": "Hacktix/Winch",
+		"download": "IntroSkipper.zip"
+	}
     ]
 }
