@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  setup:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -32,6 +32,7 @@ jobs:
           echo "Test 2"
           ls
           pwd
-      - name: Run script
-        uses: ./scripts/actions/action
+  run:
+    uses: ./scripts/actions/action.yml
+
         
