@@ -23,10 +23,14 @@ jobs:
           npm install
           npm run build
           ls
+          cd scripts
+          ls 
+          cd actions
+          ls
       - name: Help
         run: |
           ls
           pwd
       - name: Run script
-        uses: ./../scripts/actions/action
+        uses: ./scripts/actions/action
         
