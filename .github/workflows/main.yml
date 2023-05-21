@@ -22,6 +22,8 @@ jobs:
           cd scripts
           npm install
           npm run build
+      - name: Help
+        run: |
           echo "Test 0"
           ls
           cd scripts
@@ -30,10 +32,6 @@ jobs:
           cd actions
           echo "Test 2"
           ls
-      - name: Help
-        run: |
-          ls
-          pwd
       - name: Run script
         uses: ./scripts/actions/action
         
