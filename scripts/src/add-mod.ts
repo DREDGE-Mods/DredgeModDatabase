@@ -45,7 +45,7 @@ async function run() {
         let newMod : ModInfo =  {
             name: issueForm.name,
             mod_guid: issueForm.mod_guid,
-            repo: issueForm.repo,
+            repo: repo,
             download: issueForm.download
         }
         mod_list.mods = mod_list.mods.concat(newMod);
