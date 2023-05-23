@@ -7,8 +7,6 @@ on:
       - main
     paths:
       - "mods.json"
-  pull_request:
-    branches: [ main ]
 
 permissions:
   contents: write
