@@ -24,12 +24,6 @@
       "mod_guid": "hacktix.introskipper",
       "repo": "Hacktix/Winch",
       "download": "IntroSkipper.zip"
-    },
-    {
-      "name": "gu",
-      "mod_guid": "test",
-      "repo": "xen-42/dredge-cheats-terminal",
-      "download": "com.xen-42.dredge.cheatsterminal.zip"
     }
   ]
 }
