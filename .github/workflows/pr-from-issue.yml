@@ -9,6 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: Get base branch
+        id: vars
+        run: |
+          base_ref=${{ github.head_ref || github.ref }}
+          echo ::set-output name=base_branch::${base_ref#refs/*/}
       - uses: actions/setup-node@v3
         with:
           node-version: "16"
@@ -36,3 +41,4 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
           committer: "${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
           labels: "add-new-mod"
+          base: ${{ steps.vars.outputs.base_branch }}
