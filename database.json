@@ -40,9 +40,13 @@
     "downloads": 166
   },
   {
-    "name": "Gabagool",
+    "name": "gu",
     "mod_guid": "test",
-    "repo": "https://github.com/xen-42/dredge-cheats-terminal",
-    "download": "com.xen-42.dredge.cheatsterminal.zip"
+    "repo": "xen-42/dredge-cheats-terminal",
+    "download": "com.xen-42.dredge.cheatsterminal.zip",
+    "description": "A mod which enables the debug cheats terminal in Dredge",
+    "release_date": "2023-04-30T16:29:42Z",
+    "latest_version": "0.0.1",
+    "downloads": 1
   }
 ]
