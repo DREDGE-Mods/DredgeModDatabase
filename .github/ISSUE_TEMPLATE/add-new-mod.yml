@@ -1,0 +1,43 @@
+name: Add new mod
+description: Request for a new mod to be added to the database
+title: "[Your mod name here]"
+labels: ["add-new-mod"]
+body:
+  - type: input
+    id: discordId
+    attributes:
+      label: Your Discord Name
+      description: "Username you use in the [DREDGE Modding Discord](https://discord.gg/qFqPuTUAmD). This is just to know who you are."
+      placeholder: xen#5498
+  - type: input
+    id: name
+    attributes:
+      label: Mod name
+      description: The display name for your mod.
+      placeholder: Cosmic Horror Fishing Buddies
+    validations:
+      required: true
+  - type: input
+    id: mod_guid
+    attributes:
+      label: Mod GUID
+      description: "Your mod's unique ID code. We recommend this to be in the format yourname.modname, to ensure it will be unique among all the other mods. IMPORTANT: This has to match the ModGUID field from your mod's `mod_meta.json`."
+      placeholder: xen.cosmic-horror-fishing-buddies
+    validations:
+      required: true
+  - type: input
+    id: repo
+    attributes:
+      label: GitHub repository URL
+      description: GitHub repository that contains the source code and releases for your mod.
+      placeholder: https://https://github.com/xen-42/cosmic-horror-fishing-buddies
+    validations:
+      required: true
+  - type: input
+    id: download
+    attributes:
+      label: Download file name
+      description: Name of the file to be downloaded from the latest release in your GitHub repository. This allows for one repo to have multiple mods available in it.
+      placeholder: CosmicHorrorFishingBuddies.zip
+    validations:
+      required: true
