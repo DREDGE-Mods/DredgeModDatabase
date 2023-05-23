@@ -1,0 +1,36 @@
+name: PR from Issue
+on:
+  issues:
+    types: [opened, reopened, edited]
+concurrency: "main"
+jobs: 
+  pr_from_issue:
+    if: ${{ contains(github.event.issue.labels.*.name, 'add-new-mod') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+      - uses: stefanbuck/github-issue-parser@v2
+        id: issue-parser
+        with: 
+          template-path: .github/ISSUE_TEMPLATE/add-new-mod.yml
+      - name: Build
+        run: |
+          cd scripts
+          npm install
+          npm run build
+      - name: Run local action
+        uses: ./actions/add-mod
+      - name: Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          title: "Add new mod: ${{fromJSON(steps.issue-parser.outputs.jsonString).mod_guid}}"
+          commit-message: "Add new mod: ${{fromJSON(steps.issue-parser.outputs.jsonString).mod_guid}}"
+          body: "Closes #${{ github.event.issue.number }}"
+          branch-suffix: random
+          delete-branch: true
+          token: ${{ secrets.GH_TOKEN }}
+          committer: "${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
+          labels: "add-new-mod"
