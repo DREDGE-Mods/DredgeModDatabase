@@ -30,7 +30,7 @@ body:
     attributes:
       label: GitHub repository URL
       description: GitHub repository that contains the source code and releases for your mod.
-      placeholder: https://https://github.com/xen-42/cosmic-horror-fishing-buddies
+      placeholder: https://github.com/xen-42/cosmic-horror-fishing-buddies
     validations:
       required: true
   - type: input
