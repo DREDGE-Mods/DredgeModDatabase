@@ -1,0 +1,9 @@
+name: "Add mod"
+description: "Edits the mods list based on an issue"
+inputs:
+    submission-form:
+        description: "Submission issue JSON data"
+        required: true
+runs:
+    using: "node16"
+    main: "../../scripts/build/scripts/src/add-mod.js

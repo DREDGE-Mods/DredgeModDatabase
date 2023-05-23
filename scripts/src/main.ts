@@ -1,22 +1,7 @@
 const core = require("@actions/core");
-const github = require("@actions/github");
 import mod_list from "../../mods.json";
 const fetch = require("node-fetch");
 const fs = require("fs");
-
-interface ModInfo {
-    name : string,
-    mod_guid : string,
-    repo : string,
-    download : string
-}
-
-interface DatabaseModInfo extends ModInfo {
-    description?: string,
-    downloads?: number,
-    release_date?: string,
-    latest_version?: string
-}
 
 async function run() {
     core.info("Started updating mod database");
