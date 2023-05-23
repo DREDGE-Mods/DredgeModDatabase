@@ -12,7 +12,7 @@ type IssueForm = {
 async function run() {
     core.info("Adding new mod to database");
 
-    const issueForm : IssueForm = JSON.parse(core.getInput("form"));
+    const issueForm : IssueForm = JSON.parse(core.getInput("submission-form"));
     
     let repo = issueForm.repo.match(/github\.com\/([^/]+\/[^/]+)\/?.*/)?.[1];
 
