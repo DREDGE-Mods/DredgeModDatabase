@@ -14,6 +14,8 @@ async function run() {
 
     const issueForm : IssueForm = JSON.parse(core.getInput("submission-form"));
     
+    core.info("Found issue " + JSON.stringify(issueForm, null, 2));
+
     let repo = issueForm.repo.match(/github\.com\/([^/]+\/[^/]+)\/?.*/)?.[1];
 
     if (!repo) {
