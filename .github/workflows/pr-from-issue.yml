@@ -23,6 +23,8 @@ jobs:
           npm run build
       - name: Run local action
         uses: ./actions/add-mod
+        with:
+          submission-form: "${{ steps.issue-parser.outputs.jsonString }}"
       - name: Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
