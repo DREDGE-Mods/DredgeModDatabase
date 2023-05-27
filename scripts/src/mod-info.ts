@@ -9,5 +9,7 @@ interface DatabaseModInfo extends ModInfo {
     description?: string,
     downloads?: number,
     release_date?: string,
-    latest_version?: string
+    latest_version?: string,
+    readme_url?: string,
+    readme_raw?: string
 }

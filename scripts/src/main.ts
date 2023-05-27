@@ -53,6 +53,8 @@ async function getModInfo(mod : ModInfo) {
         })
     });
 
+    let default_branch = json.default_branch;
+
     let databaseJson : DatabaseModInfo = {
         name : mod.name,
         mod_guid : mod.mod_guid,
@@ -61,7 +63,9 @@ async function getModInfo(mod : ModInfo) {
         description : json.description,
         release_date : json.created_at,
         latest_version: tagJson[0].name,
-        downloads: download_count
+        downloads: download_count,
+        readme_url: "https://github.com/" + mod.repo + "/blob/" + default_branch + "/README.md",
+        readme_raw: "https://raw.githubusercontent.com/" + mod.repo + "/" + default_branch + "/README.md"
     }
     
     return databaseJson;
