@@ -27,6 +27,12 @@
       "repo": "Hacktix/Winch",
       "download": "IntroSkipper.zip",
       "description": "Skip the splash screen when starting the game"
+    },
+    {
+      "name": "Winch",
+      "mod_guid": "hacktix.winch",
+      "repo": "Hacktix/Winch",
+      "download": "Winch.zip"
     }
   ]
 }
