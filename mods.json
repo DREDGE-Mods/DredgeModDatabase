@@ -27,6 +27,13 @@
       "repo": "Hacktix/Winch",
       "download": "IntroSkipper.zip",
       "description": "Skip the splash screen when starting the game"
+    },
+    {
+      "name": "Unity Explorer",
+      "mod_guid": "bluey.unityexplorer",
+      "repo": "bdlm-dev/dredge-mods",
+      "download": "UnityExplorer.zip",
+      "description": "Build of sinai-dev's Unity Explorer for DREDGE"
     }
   ]
 }
