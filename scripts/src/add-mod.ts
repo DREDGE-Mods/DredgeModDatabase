@@ -1,4 +1,5 @@
 const core = require("@actions/core");
+import _mod_list from "../../mods.json";
 const fs = require("fs");
 
 type IssueForm = {
@@ -13,7 +14,7 @@ type IssueForm = {
 async function run() {
     core.info("Adding new mod to database");
 
-    var mod_list : { mods : Array<ModInfo> } = JSON.parse(fs.readFileSync('../../mods.json', 'utf-8'));
+    var mod_list = _mod_list as { mods : Array<ModInfo> };
 
     let submission = core.getInput("submission-form");
 
