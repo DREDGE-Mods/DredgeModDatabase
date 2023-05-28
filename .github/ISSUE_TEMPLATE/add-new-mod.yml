@@ -41,3 +41,17 @@ body:
       placeholder: CosmicHorrorFishingBuddies.zip
     validations:
       required: true
+  - type: input
+    id: author
+    attributes:
+      label: Author (optional)
+      description: Name of the author of the mod. If empty it will default to your GitHub account name / organization name.
+    validations:
+      required: false
+  - type: input
+    id: description
+    attributes:
+      label: Description (optional)
+      description: Description of the mod. If empty it will default to the About line from the GitHub repo.
+    validations:
+      required: false

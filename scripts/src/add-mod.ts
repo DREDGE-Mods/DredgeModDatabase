@@ -1,16 +1,19 @@
 const core = require("@actions/core");
-import mod_list from "../../mods.json";
 const fs = require("fs");
 
 type IssueForm = {
     name : string,
     mod_guid: string,
     repo : string,
-    download : string
+    download : string,
+    description? : string,
+    author? : string
 }
 
 async function run() {
     core.info("Adding new mod to database");
+
+    var mod_list : { mods : Array<ModInfo> } = JSON.parse(fs.readFileSync('../../mods.json', 'utf-8'));
 
     let submission = core.getInput("submission-form");
 
@@ -40,6 +43,8 @@ async function run() {
         existingMod.name = issueForm.name;
         existingMod.repo = repo;
         existingMod.download = issueForm.download;
+        
+        set_optional_fields(existingMod, issueForm, repo);
     }
     else {
         let newMod : ModInfo =  {
@@ -48,6 +53,9 @@ async function run() {
             repo: repo,
             download: issueForm.download
         }
+
+        set_optional_fields(newMod, issueForm, repo);
+
         mod_list.mods = mod_list.mods.concat(newMod);
     }
 
@@ -61,6 +69,18 @@ async function run() {
             core.info("Saved mods list with new mod added");
         }
     });
+}
+
+function set_optional_fields(mod : ModInfo, issueForm : IssueForm, repo : string) {
+    if (!is_empty(issueForm.author)) mod.author = issueForm.author;
+    else mod.author = repo.split("/")[0];
+
+    if (!is_empty(issueForm.description)) mod.description = issueForm.description;
+    else mod.description = undefined;
+}
+
+function is_empty(s : string | undefined) {
+    return s == null || s.length == 0;
 }
 
 run().catch((error) => core.setFailed("Workflow failed! " + error.message));

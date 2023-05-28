@@ -60,7 +60,8 @@ async function getModInfo(mod : ModInfo) {
         mod_guid : mod.mod_guid,
         repo : mod.repo,
         download : mod.download,
-        description : json.description,
+        author : mod.author,
+        description : is_empty(mod.description) ? mod.description : json.description,
         release_date : json.created_at,
         latest_version: tagJson[0].name,
         downloads: download_count,
@@ -81,6 +82,10 @@ async function fetch_json(url : string) {
     }
 
     return json;
+}
+
+function is_empty(s : string | undefined) {
+    return s == null || s.length == 0;
 }
 
 run().catch((error) => core.setFailed("Workflow failed! " + error.message));
