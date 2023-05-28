@@ -12,20 +12,21 @@
       "mod_guid": "hacktix.disasterbutton",
       "repo": "Hacktix/Winch",
       "download": "DisasterButton.zip",
-      "author": "Hacktix",
       "description": "Trigger sanity events via button press"
     },
     {
       "name": "Example Items",
       "mod_guid": "hacktix.exampleitems",
       "repo": "Hacktix/Winch",
-      "download": "ExampleItems.zip"
+      "download": "ExampleItems.zip",
+      "description": "Adds example items using Winch"
     },
     {
       "name": "Intro Skipper",
       "mod_guid": "hacktix.introskipper",
       "repo": "Hacktix/Winch",
-      "download": "IntroSkipper.zip"
+      "download": "IntroSkipper.zip",
+      "description": "Skip the splash screen when starting the game"
     }
   ]
 }
