@@ -4,10 +4,9 @@
     "mod_guid": "xen.cosmichorrorfishingbuddies",
     "repo": "xen-42/cosmic-horror-fishing-buddies",
     "download": "CosmicHorrorFishingBuddies.zip",
-    "description": "A multiplayer mod for DREDGE using the Winch modloader",
     "release_date": "2023-05-01T20:54:27Z",
     "latest_version": "0.0.4",
-    "downloads": 55,
+    "downloads": 73,
     "readme_url": "https://github.com/xen-42/cosmic-horror-fishing-buddies/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/cosmic-horror-fishing-buddies/main/README.md"
   },
@@ -16,10 +15,11 @@
     "mod_guid": "hacktix.disasterbutton",
     "repo": "Hacktix/Winch",
     "download": "DisasterButton.zip",
+    "author": "Hacktix",
     "description": "A simple Harmony-based mod loader for DREDGE.",
     "release_date": "2023-04-15T12:10:49Z",
     "latest_version": "alpha-1.3",
-    "downloads": 173,
+    "downloads": 180,
     "readme_url": "https://github.com/Hacktix/Winch/blob/master/README.md",
     "readme_raw": "https://raw.githubusercontent.com/Hacktix/Winch/master/README.md"
   },
@@ -28,10 +28,9 @@
     "mod_guid": "hacktix.exampleitems",
     "repo": "Hacktix/Winch",
     "download": "ExampleItems.zip",
-    "description": "A simple Harmony-based mod loader for DREDGE.",
     "release_date": "2023-04-15T12:10:49Z",
     "latest_version": "alpha-1.3",
-    "downloads": 173,
+    "downloads": 180,
     "readme_url": "https://github.com/Hacktix/Winch/blob/master/README.md",
     "readme_raw": "https://raw.githubusercontent.com/Hacktix/Winch/master/README.md"
   },
@@ -40,10 +39,9 @@
     "mod_guid": "hacktix.introskipper",
     "repo": "Hacktix/Winch",
     "download": "IntroSkipper.zip",
-    "description": "A simple Harmony-based mod loader for DREDGE.",
     "release_date": "2023-04-15T12:10:49Z",
     "latest_version": "alpha-1.3",
-    "downloads": 173,
+    "downloads": 180,
     "readme_url": "https://github.com/Hacktix/Winch/blob/master/README.md",
     "readme_raw": "https://raw.githubusercontent.com/Hacktix/Winch/master/README.md"
   }
