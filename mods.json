@@ -11,7 +11,9 @@
       "name": "Disaster Button",
       "mod_guid": "hacktix.disasterbutton",
       "repo": "Hacktix/Winch",
-      "download": "DisasterButton.zip"
+      "download": "DisasterButton.zip",
+      "author": "Hacktix",
+      "description": "Trigger sanity events via button press"
     },
     {
       "name": "Example Items",
