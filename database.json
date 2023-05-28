@@ -7,6 +7,7 @@
     "author": "xen-42",
     "description": "A multiplayer mod for DREDGE using Mirror and Winch",
     "release_date": "2023-05-01T20:54:27Z",
+    "asset_update_date": "2023-05-21T03:41:11Z",
     "latest_version": "0.0.4",
     "downloads": 73,
     "readme_url": "https://github.com/xen-42/cosmic-horror-fishing-buddies/blob/main/README.md",
@@ -20,8 +21,9 @@
     "author": "Hacktix",
     "description": "Trigger sanity events via button press",
     "release_date": "2023-04-15T12:10:49Z",
+    "asset_update_date": "2023-04-28T14:23:35Z",
     "latest_version": "alpha-1.3",
-    "downloads": 182,
+    "downloads": 31,
     "readme_url": "https://github.com/Hacktix/Winch/blob/master/README.md",
     "readme_raw": "https://raw.githubusercontent.com/Hacktix/Winch/master/README.md"
   },
@@ -33,8 +35,9 @@
     "author": "Hacktix",
     "description": "Adds example items using Winch",
     "release_date": "2023-04-15T12:10:49Z",
+    "asset_update_date": "2023-04-28T14:23:36Z",
     "latest_version": "alpha-1.3",
-    "downloads": 182,
+    "downloads": 33,
     "readme_url": "https://github.com/Hacktix/Winch/blob/master/README.md",
     "readme_raw": "https://raw.githubusercontent.com/Hacktix/Winch/master/README.md"
   },
@@ -46,8 +49,9 @@
     "author": "Hacktix",
     "description": "Skip the splash screen when starting the game",
     "release_date": "2023-04-15T12:10:49Z",
+    "asset_update_date": "2023-04-28T14:23:36Z",
     "latest_version": "alpha-1.3",
-    "downloads": 182,
+    "downloads": 40,
     "readme_url": "https://github.com/Hacktix/Winch/blob/master/README.md",
     "readme_raw": "https://raw.githubusercontent.com/Hacktix/Winch/master/README.md"
   },
@@ -59,8 +63,9 @@
     "author": "bdlm-dev",
     "description": "Build of sinai-dev's Unity Explorer for DREDGE",
     "release_date": "2023-04-18T17:33:29Z",
+    "asset_update_date": "2023-05-28T16:58:34Z",
     "latest_version": "Release",
-    "downloads": 44,
+    "downloads": 4,
     "readme_url": "https://github.com/bdlm-dev/dredge-mods/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/bdlm-dev/dredge-mods/main/README.md"
   }
