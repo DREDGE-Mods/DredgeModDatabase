@@ -47,9 +47,11 @@ async function getModInfo(mod : ModInfo) {
     // Get download count
     var download_count = 0;
     let releasesJson = await fetch_json("https://api.github.com/repos/" + mod.repo + "/releases");
-    releasesJson.forEach((x : any) => {
-        x.assets.forEach((y : any) => {
-            download_count += y.download_count;
+    releasesJson.forEach((release : any) => {
+        release.assets.forEach((asset : { name : string, download_count : number }) => {
+            if (asset.name == mod.download) {
+                download_count += asset.download_count;
+            }
         })
     });
 
