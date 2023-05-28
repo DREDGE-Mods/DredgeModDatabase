@@ -45,7 +45,7 @@ async function run() {
         existingMod.repo = repo;
         existingMod.download = issueForm.download;
         
-        set_optional_fields(existingMod, issueForm, repo);
+        set_optional_fields(existingMod, issueForm);
     }
     else {
         let newMod : ModInfo =  {
@@ -55,7 +55,7 @@ async function run() {
             download: issueForm.download
         }
 
-        set_optional_fields(newMod, issueForm, repo);
+        set_optional_fields(newMod, issueForm);
 
         mod_list.mods = mod_list.mods.concat(newMod);
     }
@@ -72,9 +72,9 @@ async function run() {
     });
 }
 
-function set_optional_fields(mod : ModInfo, issueForm : IssueForm, repo : string) {
+function set_optional_fields(mod : ModInfo, issueForm : IssueForm) {
     if (!is_empty(issueForm.author)) mod.author = issueForm.author;
-    else mod.author = repo.split("/")[0];
+    else mod.author = undefined;
 
     if (!is_empty(issueForm.description)) mod.description = issueForm.description;
     else mod.description = undefined;
