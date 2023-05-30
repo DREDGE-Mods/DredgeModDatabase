@@ -2,6 +2,12 @@
   "$schema": "./mods-schema.json",
   "mods": [
     {
+      "name": "Winch",
+      "mod_guid": "hacktix.winch",
+      "repo": "xen-42/Winch",
+      "download": "Winch.zip"
+    },
+    {
       "name": "Cosmic Horror Fishing Buddies",
       "mod_guid": "xen.cosmichorrorfishingbuddies",
       "repo": "xen-42/cosmic-horror-fishing-buddies",
@@ -10,21 +16,21 @@
     {
       "name": "Disaster Button",
       "mod_guid": "hacktix.disasterbutton",
-      "repo": "Hacktix/Winch",
+      "repo": "xen-42/Winch",
       "download": "DisasterButton.zip",
       "description": "Trigger sanity events via button press"
     },
     {
       "name": "Example Items",
       "mod_guid": "hacktix.exampleitems",
-      "repo": "Hacktix/Winch",
+      "repo": "xen-42/Winch",
       "download": "ExampleItems.zip",
       "description": "Adds example items using Winch"
     },
     {
       "name": "Intro Skipper",
       "mod_guid": "hacktix.introskipper",
-      "repo": "Hacktix/Winch",
+      "repo": "xen-42/Winch",
       "download": "IntroSkipper.zip",
       "description": "Skip the splash screen when starting the game"
     },
