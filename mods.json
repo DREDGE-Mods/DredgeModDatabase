@@ -5,7 +5,8 @@
       "name": "Winch",
       "mod_guid": "hacktix.winch",
       "repo": "xen-42/Winch",
-      "download": "Winch.zip"
+      "download": "Winch.zip",
+      "author": "Hacktix"
     },
     {
       "name": "Cosmic Horror Fishing Buddies",
@@ -18,21 +19,24 @@
       "mod_guid": "hacktix.disasterbutton",
       "repo": "xen-42/Winch",
       "download": "DisasterButton.zip",
-      "description": "Trigger sanity events via button press"
+      "description": "Trigger sanity events via button press",
+      "author": "Hacktix"
     },
     {
       "name": "Example Items",
       "mod_guid": "hacktix.exampleitems",
       "repo": "xen-42/Winch",
       "download": "ExampleItems.zip",
-      "description": "Adds example items using Winch"
+      "description": "Adds example items using Winch",
+      "author": "Hacktix"
     },
     {
       "name": "Intro Skipper",
       "mod_guid": "hacktix.introskipper",
       "repo": "xen-42/Winch",
       "download": "IntroSkipper.zip",
-      "description": "Skip the splash screen when starting the game"
+      "description": "Skip the splash screen when starting the game",
+      "author": "Hacktix"
     },
     {
       "name": "Unity Explorer",
