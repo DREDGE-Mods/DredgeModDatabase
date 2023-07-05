@@ -1,6 +1,7 @@
 const core = require("@actions/core");
 import _mod_list from "../../mods.json";
 const fs = require("fs");
+import "./mod-info";
 
 type IssueForm = {
     name : string,

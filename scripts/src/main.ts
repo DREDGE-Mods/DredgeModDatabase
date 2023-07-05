@@ -2,6 +2,7 @@ const core = require("@actions/core");
 import mod_list from "../../mods.json";
 const fetch = require("node-fetch");
 const fs = require("fs");
+import "./mod-info";
 
 async function run() {
     core.info("Started updating mod database");
@@ -16,8 +17,7 @@ async function run() {
             return x;
         })
         .catch((error) => {
-            core.info("Couldn't load mod " + mod.name + " " + error.message);
-            return mod;
+            throw new Error("Aborting database update - Couldn't load mod " + mod.name + ": " + error.message);
         })
         promises.push(promise);
     });
