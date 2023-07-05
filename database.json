@@ -4,97 +4,49 @@
     "mod_guid": "hacktix.winch",
     "repo": "xen-42/Winch",
     "download": "Winch.zip",
-    "author": "Hacktix",
-    "description": "A simple Harmony-based mod loader for DREDGE.",
-    "release_date": "2023-05-02T22:55:22Z",
-    "asset_update_date": "2023-05-30T02:14:14Z",
-    "latest_version": "manager-test",
-    "downloads": 17,
-    "readme_url": "https://github.com/xen-42/Winch/blob/master/README.md",
-    "readme_raw": "https://raw.githubusercontent.com/xen-42/Winch/master/README.md"
+    "author": "Hacktix"
   },
   {
     "name": "Cosmic Horror Fishing Buddies",
     "mod_guid": "xen.cosmichorrorfishingbuddies",
     "repo": "xen-42/cosmic-horror-fishing-buddies",
-    "download": "CosmicHorrorFishingBuddies.zip",
-    "author": "xen-42",
-    "description": "A multiplayer mod for DREDGE using Mirror and Winch",
-    "release_date": "2023-05-01T20:54:27Z",
-    "asset_update_date": "2023-05-21T03:41:11Z",
-    "latest_version": "0.0.4",
-    "downloads": 98,
-    "readme_url": "https://github.com/xen-42/cosmic-horror-fishing-buddies/blob/main/README.md",
-    "readme_raw": "https://raw.githubusercontent.com/xen-42/cosmic-horror-fishing-buddies/main/README.md"
+    "download": "CosmicHorrorFishingBuddies.zip"
   },
   {
     "name": "Disaster Button",
     "mod_guid": "hacktix.disasterbutton",
     "repo": "xen-42/Winch",
     "download": "DisasterButton.zip",
-    "author": "Hacktix",
     "description": "Trigger sanity events via button press",
-    "release_date": "2023-05-02T22:55:22Z",
-    "asset_update_date": "2023-05-30T02:14:14Z",
-    "latest_version": "manager-test",
-    "downloads": 5,
-    "readme_url": "https://github.com/xen-42/Winch/blob/master/README.md",
-    "readme_raw": "https://raw.githubusercontent.com/xen-42/Winch/master/README.md"
+    "author": "Hacktix"
   },
   {
     "name": "Example Items",
     "mod_guid": "hacktix.exampleitems",
     "repo": "xen-42/Winch",
     "download": "ExampleItems.zip",
-    "author": "Hacktix",
     "description": "Adds example items using Winch",
-    "release_date": "2023-05-02T22:55:22Z",
-    "asset_update_date": "2023-05-30T02:14:15Z",
-    "latest_version": "manager-test",
-    "downloads": 6,
-    "readme_url": "https://github.com/xen-42/Winch/blob/master/README.md",
-    "readme_raw": "https://raw.githubusercontent.com/xen-42/Winch/master/README.md"
+    "author": "Hacktix"
   },
   {
     "name": "Intro Skipper",
     "mod_guid": "hacktix.introskipper",
     "repo": "xen-42/Winch",
     "download": "IntroSkipper.zip",
-    "author": "Hacktix",
     "description": "Skip the splash screen when starting the game",
-    "release_date": "2023-05-02T22:55:22Z",
-    "asset_update_date": "2023-05-30T02:14:16Z",
-    "latest_version": "manager-test",
-    "downloads": 13,
-    "readme_url": "https://github.com/xen-42/Winch/blob/master/README.md",
-    "readme_raw": "https://raw.githubusercontent.com/xen-42/Winch/master/README.md"
+    "author": "Hacktix"
   },
   {
     "name": "Unity Explorer",
     "mod_guid": "bluey.unityexplorer",
     "repo": "bdlm-dev/dredge-mods",
     "download": "UnityExplorer.zip",
-    "author": "bdlm-dev",
-    "description": "Build of sinai-dev's Unity Explorer for DREDGE",
-    "release_date": "2023-04-18T17:33:29Z",
-    "asset_update_date": "2023-05-28T16:58:34Z",
-    "latest_version": "Release",
-    "downloads": 16,
-    "readme_url": "https://github.com/bdlm-dev/dredge-mods/blob/main/README.md",
-    "readme_raw": "https://raw.githubusercontent.com/bdlm-dev/dredge-mods/main/README.md"
+    "description": "Build of sinai-dev's Unity Explorer for DREDGE"
   },
   {
     "name": "Run in Background",
     "mod_guid": "xen.run-in-background",
     "repo": "xen-42/dredge-run-in-background",
-    "download": "xen.run-in-background.zip",
-    "author": "xen-42",
-    "description": "Stops DREDGE from pausing when you tab out",
-    "release_date": "2023-05-30T22:31:22Z",
-    "asset_update_date": "2023-05-30T22:45:01Z",
-    "latest_version": "1.0",
-    "downloads": 6,
-    "readme_url": "https://github.com/xen-42/dredge-run-in-background/blob/main/README.md",
-    "readme_raw": "https://raw.githubusercontent.com/xen-42/dredge-run-in-background/main/README.md"
+    "download": "xen.run-in-background.zip"
   }
 ]
