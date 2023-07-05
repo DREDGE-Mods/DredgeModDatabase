@@ -77,7 +77,11 @@ async function getModInfo(mod : ModInfo) {
 }
 
 async function fetch_json(url : string) {
-    let settings = {method: "GET"};
+    let settings = {
+        method: "GET",
+        authorization: `Bearer ${process.env["GITHUB_TOKEN"]}`
+    }
+
     let res = await fetch(url, settings);
     let json = await res.json();
 

@@ -37,6 +37,8 @@ jobs:
           ls
       - name: Run local action
         uses: ./actions/update-database
+        with:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       - name: Checkout database repo
         uses: actions/checkout@v3
         with:
