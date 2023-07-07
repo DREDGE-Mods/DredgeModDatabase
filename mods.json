@@ -44,12 +44,6 @@
       "repo": "bdlm-dev/dredge-mods",
       "download": "UnityExplorer.zip",
       "description": "Build of sinai-dev's Unity Explorer for DREDGE"
-    },
-    {
-      "name": "Run in Background",
-      "mod_guid": "xen.run-in-background",
-      "repo": "xen-42/dredge-run-in-background",
-      "download": "xen.run-in-background.zip"
     }
   ]
 }
