@@ -82,19 +82,5 @@
     "downloads": 16,
     "readme_url": "https://github.com/bdlm-dev/dredge-mods/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/bdlm-dev/dredge-mods/main/README.md"
-  },
-  {
-    "name": "Run in Background",
-    "mod_guid": "xen.run-in-background",
-    "repo": "xen-42/dredge-run-in-background",
-    "download": "xen.run-in-background.zip",
-    "author": "xen-42",
-    "description": "Stops DREDGE from pausing when you tab out",
-    "release_date": "2023-05-30T22:31:22Z",
-    "asset_update_date": "2023-05-30T22:45:01Z",
-    "latest_version": "1.0",
-    "downloads": 6,
-    "readme_url": "https://github.com/xen-42/dredge-run-in-background/blob/main/README.md",
-    "readme_raw": "https://raw.githubusercontent.com/xen-42/dredge-run-in-background/main/README.md"
   }
 ]
