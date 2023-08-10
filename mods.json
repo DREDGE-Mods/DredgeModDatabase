@@ -44,6 +44,12 @@
       "repo": "bdlm-dev/dredge-mods",
       "download": "UnityExplorer.zip",
       "description": "Build of sinai-dev's Unity Explorer for DREDGE"
+    },
+    {
+      "name": "Rare Fish Restock",
+      "mod_guid": "megapiggy.rarefishrestock",
+      "repo": "MegaPiggy/DredgeRareFishRestock",
+      "download": "megapiggy.rarefishrestock.zip"
     }
   ]
 }
