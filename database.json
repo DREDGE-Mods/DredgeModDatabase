@@ -9,7 +9,7 @@
     "release_date": "2023-05-02T22:55:22Z",
     "asset_update_date": "2023-05-30T02:14:14Z",
     "latest_version": "manager-test",
-    "downloads": 31,
+    "downloads": 34,
     "readme_url": "https://github.com/xen-42/Winch/blob/master/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/Winch/master/README.md"
   },
@@ -23,7 +23,7 @@
     "release_date": "2023-05-01T20:54:27Z",
     "asset_update_date": "2023-07-07T03:59:04Z",
     "latest_version": "0.1.0",
-    "downloads": 114,
+    "downloads": 117,
     "readme_url": "https://github.com/xen-42/cosmic-horror-fishing-buddies/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/cosmic-horror-fishing-buddies/main/README.md"
   },
@@ -65,7 +65,7 @@
     "release_date": "2023-05-02T22:55:22Z",
     "asset_update_date": "2023-05-30T02:14:16Z",
     "latest_version": "manager-test",
-    "downloads": 17,
+    "downloads": 20,
     "readme_url": "https://github.com/xen-42/Winch/blob/master/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/Winch/master/README.md"
   },
@@ -79,7 +79,7 @@
     "release_date": "2023-04-18T17:33:29Z",
     "asset_update_date": "2023-05-28T16:58:34Z",
     "latest_version": "Release",
-    "downloads": 20,
+    "downloads": 21,
     "readme_url": "https://github.com/bdlm-dev/dredge-mods/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/bdlm-dev/dredge-mods/main/README.md"
   },
@@ -93,7 +93,7 @@
     "release_date": "2023-08-10T09:15:21Z",
     "asset_update_date": "2023-08-11T04:09:12Z",
     "latest_version": "1.1",
-    "downloads": 2,
+    "downloads": 4,
     "readme_url": "https://github.com/MegaPiggy/DredgeRareFishRestock/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/MegaPiggy/DredgeRareFishRestock/main/README.md"
   }
