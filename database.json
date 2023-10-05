@@ -9,7 +9,7 @@
     "release_date": "2023-05-02T22:55:22Z",
     "asset_update_date": "2023-05-30T02:14:14Z",
     "latest_version": "manager-test",
-    "downloads": 54,
+    "downloads": 56,
     "readme_url": "https://github.com/xen-42/Winch/blob/master/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/Winch/master/README.md"
   },
@@ -23,7 +23,7 @@
     "release_date": "2023-05-01T20:54:27Z",
     "asset_update_date": "2023-09-24T04:00:15Z",
     "latest_version": "0.1.1",
-    "downloads": 146,
+    "downloads": 148,
     "readme_url": "https://github.com/xen-42/cosmic-horror-fishing-buddies/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/cosmic-horror-fishing-buddies/main/README.md"
   },
@@ -93,7 +93,7 @@
     "release_date": "2023-08-10T09:15:21Z",
     "asset_update_date": "2023-08-11T04:09:12Z",
     "latest_version": "1.1",
-    "downloads": 12,
+    "downloads": 13,
     "readme_url": "https://github.com/MegaPiggy/DredgeRareFishRestock/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/MegaPiggy/DredgeRareFishRestock/main/README.md"
   }
