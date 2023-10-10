@@ -4,7 +4,7 @@
     {
       "name": "Winch",
       "mod_guid": "hacktix.winch",
-      "repo": "xen-42/Winch",
+      "repo": "DREDGE-Mods/Winch",
       "download": "Winch.zip",
       "author": "Hacktix"
     },
@@ -17,7 +17,7 @@
     {
       "name": "Disaster Button",
       "mod_guid": "hacktix.disasterbutton",
-      "repo": "xen-42/Winch",
+      "repo": "DREDGE-Mods/Winch",
       "download": "DisasterButton.zip",
       "description": "Trigger sanity events via button press",
       "author": "Hacktix"
@@ -25,7 +25,7 @@
     {
       "name": "Example Items",
       "mod_guid": "hacktix.exampleitems",
-      "repo": "xen-42/Winch",
+      "repo": "DREDGE-Mods/Winch",
       "download": "ExampleItems.zip",
       "description": "Adds example items using Winch",
       "author": "Hacktix"
@@ -33,7 +33,7 @@
     {
       "name": "Intro Skipper",
       "mod_guid": "hacktix.introskipper",
-      "repo": "xen-42/Winch",
+      "repo": "DREDGE-Mods/Winch",
       "download": "IntroSkipper.zip",
       "description": "Skip the splash screen when starting the game",
       "author": "Hacktix"
