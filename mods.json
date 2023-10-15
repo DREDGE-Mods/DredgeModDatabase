@@ -50,6 +50,12 @@
       "mod_guid": "megapiggy.rarefishrestock",
       "repo": "MegaPiggy/DredgeRareFishRestock",
       "download": "megapiggy.rarefishrestock.zip"
+    },
+    {
+      "name": "Quest Item Unlocker",
+      "mod_guid": "xen.QuestItemUnlocker",
+      "repo": "xen-42/dredge-quest-item-unlocker",
+      "download": "xen.QuestItemUnlocker.zip"
     }
   ]
 }
