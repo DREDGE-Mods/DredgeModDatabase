@@ -9,7 +9,7 @@
     "release_date": "2023-05-02T22:55:22Z",
     "asset_update_date": "2023-10-10T17:20:07Z",
     "latest_version": "v0.2.3",
-    "downloads": 67,
+    "downloads": 68,
     "readme_url": "https://github.com/DREDGE-Mods/Winch/blob/master/README.md",
     "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/README.md"
   },
@@ -23,7 +23,7 @@
     "release_date": "2023-05-01T20:54:27Z",
     "asset_update_date": "2023-10-10T16:58:18Z",
     "latest_version": "0.1.2",
-    "downloads": 1,
+    "downloads": 2,
     "readme_url": "https://github.com/xen-42/cosmic-horror-fishing-buddies/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/cosmic-horror-fishing-buddies/main/README.md"
   },
@@ -65,7 +65,7 @@
     "release_date": "2023-05-02T22:55:22Z",
     "asset_update_date": "2023-10-10T17:20:09Z",
     "latest_version": "v0.2.3",
-    "downloads": 30,
+    "downloads": 32,
     "readme_url": "https://github.com/DREDGE-Mods/Winch/blob/master/README.md",
     "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/README.md"
   },
@@ -79,7 +79,7 @@
     "release_date": "2023-04-18T17:33:29Z",
     "asset_update_date": "2023-05-28T16:58:34Z",
     "latest_version": "Release",
-    "downloads": 27,
+    "downloads": 28,
     "readme_url": "https://github.com/bdlm-dev/dredge-mods/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/bdlm-dev/dredge-mods/main/README.md"
   },
@@ -96,5 +96,19 @@
     "downloads": 13,
     "readme_url": "https://github.com/MegaPiggy/DredgeRareFishRestock/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/MegaPiggy/DredgeRareFishRestock/main/README.md"
+  },
+  {
+    "name": "Quest Item Unlocker",
+    "mod_guid": "xen.QuestItemUnlocker",
+    "repo": "xen-42/dredge-quest-item-unlocker",
+    "download": "xen.QuestItemUnlocker.zip",
+    "author": "xen-42",
+    "description": "Gives you quest items with the push of a button",
+    "release_date": "2023-10-15T21:48:10Z",
+    "asset_update_date": "2023-10-15T22:09:30Z",
+    "latest_version": "0.0.1",
+    "downloads": 0,
+    "readme_url": "https://github.com/xen-42/dredge-quest-item-unlocker/blob/main/README.md",
+    "readme_raw": "https://raw.githubusercontent.com/xen-42/dredge-quest-item-unlocker/main/README.md"
   }
 ]
