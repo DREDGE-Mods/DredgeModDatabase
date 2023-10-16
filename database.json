@@ -103,7 +103,7 @@
     "repo": "xen-42/dredge-quest-item-unlocker",
     "download": "xen.QuestItemUnlocker.zip",
     "author": "xen-42",
-    "description": "Gives you quest items with the push of a button",
+    "description": "Resets relic dredge spots, so you can dredge them up again.",
     "release_date": "2023-10-15T21:48:10Z",
     "asset_update_date": "2023-10-15T22:09:30Z",
     "latest_version": "0.0.1",
