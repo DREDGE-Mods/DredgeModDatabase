@@ -12,7 +12,8 @@
       "name": "Cosmic Horror Fishing Buddies",
       "mod_guid": "xen.cosmichorrorfishingbuddies",
       "repo": "xen-42/cosmic-horror-fishing-buddies",
-      "download": "xen.CosmicHorrorFishingBuddies.zip"
+      "download": "xen.CosmicHorrorFishingBuddies.zip",
+      "downloads_offset": 159
     },
     {
       "name": "Disaster Button",

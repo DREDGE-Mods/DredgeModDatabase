@@ -45,7 +45,8 @@ async function getModInfo(mod : ModInfo) {
     let tagJson = await fetch_json("https://api.github.com/repos/" + mod.repo + "/tags");
 
     // Get download count
-    var download_count = 0;
+    // For mods that changed their zip name, we keep an old tally for the previous download count since it checks by the file name
+    var download_count = mod.downloads_offset ?? 0;
     let releasesJson = await fetch_json("https://api.github.com/repos/" + mod.repo + "/releases");
     releasesJson.forEach((release : any) => {
         release.assets.forEach((asset : { name : string, download_count : number }) => {
@@ -81,7 +82,6 @@ async function fetch_json(url : string) {
         method: "GET",
         authorization: `Bearer ${process.env["GITHUB_TOKEN"]}`
     }
-
     let res = await fetch(url, settings);
     let json = await res.json();
 

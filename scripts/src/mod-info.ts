@@ -4,7 +4,8 @@ interface ModInfo {
     repo : string,
     download : string,
     description? : string,
-    author? : string
+    author? : string,
+    downloads_offset?: number
 }
 
 interface DatabaseModInfo extends ModInfo {

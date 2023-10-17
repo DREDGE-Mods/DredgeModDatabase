@@ -37,10 +37,10 @@
                         "type": "string",
                         "description": "The name of the asset to be downloaded from the release - ex, 'CosmicHorrorFishingBuddies.zip'."
                     },
-		    "description": {
-			"type": "string",
-			"description": "The description of the mod. Leave this blank to use the About line from the GitHub repo."
-		    }
+                    "description": {
+                        "type": "string",
+                        "description": "The description of the mod. Leave this blank to use the About line from the GitHub repo."
+                    }
                 }
             }
         }
