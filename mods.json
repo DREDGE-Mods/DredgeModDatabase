@@ -57,6 +57,13 @@
       "mod_guid": "xen.QuestItemUnlocker",
       "repo": "xen-42/dredge-quest-item-unlocker",
       "download": "xen.QuestItemUnlocker.zip"
+    },
+    {
+      "name": "realistic engines",
+      "mod_guid": "gothci.realisticengines",
+      "repo": "Gothci/site-packages",
+      "download": "realisticenginesmod.zip",
+      "description": "engines need fuel to run and fuel tanks also all docks refuel the engine and the fuel tank"
     }
   ]
 }
