@@ -57,6 +57,12 @@
       "mod_guid": "xen.QuestItemUnlocker",
       "repo": "xen-42/dredge-quest-item-unlocker",
       "download": "xen.QuestItemUnlocker.zip"
+    },
+    {
+      "name": "Dredge VR",
+      "mod_guid": "xen.DredgeVR",
+      "repo": "xen-42/DredgeVR",
+      "download": "xen.DredgeVR.zip"
     }
   ]
 }
