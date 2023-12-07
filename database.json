@@ -9,7 +9,7 @@
     "release_date": "2023-05-02T22:55:22Z",
     "asset_update_date": "2023-12-05T21:38:45Z",
     "latest_version": "v0.3.0",
-    "downloads": 156,
+    "downloads": 163,
     "readme_url": "https://github.com/DREDGE-Mods/Winch/blob/master/README.md",
     "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/README.md"
   },
@@ -23,7 +23,7 @@
     "release_date": "2023-05-01T20:54:27Z",
     "asset_update_date": "2023-11-17T02:40:51Z",
     "latest_version": "v0.2.0",
-    "downloads": 227,
+    "downloads": 228,
     "readme_url": "https://github.com/xen-42/cosmic-horror-fishing-buddies/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/cosmic-horror-fishing-buddies/main/README.md"
   },
@@ -65,7 +65,7 @@
     "release_date": "2023-05-02T22:55:22Z",
     "asset_update_date": "2023-12-05T21:38:46Z",
     "latest_version": "v0.3.0",
-    "downloads": 76,
+    "downloads": 80,
     "readme_url": "https://github.com/DREDGE-Mods/Winch/blob/master/README.md",
     "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/README.md"
   },
@@ -119,9 +119,9 @@
     "author": "xen-42",
     "description": "A VR mod for Dredge",
     "release_date": "2023-10-10T23:22:08Z",
-    "asset_update_date": "2023-12-05T21:43:25Z",
-    "latest_version": "v0.2.0",
-    "downloads": 3,
+    "asset_update_date": "2023-12-06T03:31:54Z",
+    "latest_version": "v0.3.0",
+    "downloads": 9,
     "readme_url": "https://github.com/xen-42/DredgeVR/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/DredgeVR/main/README.md"
   }
