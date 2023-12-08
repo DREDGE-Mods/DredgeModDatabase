@@ -9,7 +9,7 @@
     "release_date": "2023-05-02T22:55:22Z",
     "asset_update_date": "2023-12-05T21:38:45Z",
     "latest_version": "v0.3.0",
-    "downloads": 166,
+    "downloads": 174,
     "readme_url": "https://github.com/DREDGE-Mods/Winch/blob/master/README.md",
     "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/README.md"
   },
@@ -37,7 +37,7 @@
     "release_date": "2023-05-02T22:55:22Z",
     "asset_update_date": "2023-12-05T21:38:45Z",
     "latest_version": "v0.3.0",
-    "downloads": 29,
+    "downloads": 30,
     "readme_url": "https://github.com/DREDGE-Mods/Winch/blob/master/README.md",
     "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/README.md"
   },
@@ -51,7 +51,7 @@
     "release_date": "2023-05-02T22:55:22Z",
     "asset_update_date": "2023-12-05T21:38:46Z",
     "latest_version": "v0.3.0",
-    "downloads": 43,
+    "downloads": 44,
     "readme_url": "https://github.com/DREDGE-Mods/Winch/blob/master/README.md",
     "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/README.md"
   },
@@ -65,7 +65,7 @@
     "release_date": "2023-05-02T22:55:22Z",
     "asset_update_date": "2023-12-05T21:38:46Z",
     "latest_version": "v0.3.0",
-    "downloads": 81,
+    "downloads": 84,
     "readme_url": "https://github.com/DREDGE-Mods/Winch/blob/master/README.md",
     "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/README.md"
   },
@@ -119,9 +119,9 @@
     "author": "xen-42",
     "description": "A VR mod for Dredge",
     "release_date": "2023-10-10T23:22:08Z",
-    "asset_update_date": "2023-12-06T03:31:54Z",
-    "latest_version": "v0.3.0",
-    "downloads": 12,
+    "asset_update_date": "2023-12-08T21:17:10Z",
+    "latest_version": "v0.3.1",
+    "downloads": 19,
     "readme_url": "https://github.com/xen-42/DredgeVR/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/DredgeVR/main/README.md"
   }
