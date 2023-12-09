@@ -63,6 +63,12 @@
       "mod_guid": "xen.DredgeVR",
       "repo": "xen-42/DredgeVR",
       "download": "xen.DredgeVR.zip"
+    },
+    {
+      "name": "Fast Dock",
+      "mod_guid": "megapiggy.fastdock",
+      "repo": "MegaPiggy/DredgeFastDock",
+      "download": "megapiggy.fastdock.zip"
     }
   ]
 }
