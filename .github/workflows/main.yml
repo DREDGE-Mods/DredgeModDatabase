@@ -27,6 +27,7 @@ jobs:
       - name: Build
         run: |
           cd scripts
+          npm install --os=linux --cpu=x64 sharp
           npm install
           npm run build
       - name: Sanity check
