@@ -35,10 +35,6 @@ jobs:
           cd build
           pwd
           ls
-      - name: Run local action
-        uses: ./actions/update-database
-        with:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       - name: Checkout database repo
         uses: actions/checkout@v3
         with:
@@ -46,6 +42,12 @@ jobs:
           path: database
       - name: Copy database
         run: cp database.json database/database.json
+      - name: Remove old thumbnails
+        run: rm -rf database/thumbnails
+      - name: Run local action
+        uses: ./actions/update-database
+        with:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:

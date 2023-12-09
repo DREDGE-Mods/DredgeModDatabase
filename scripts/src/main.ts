@@ -3,6 +3,7 @@ import mod_list from "../../mods.json";
 const fetch = require("node-fetch");
 const fs = require("fs");
 import "./mod-info";
+import { generateModThumbnail } from "./create-thumbnail";
 
 async function run() {
     core.info("Started updating mod database");
@@ -59,6 +60,31 @@ async function getModInfo(mod : ModInfo) {
 
     let default_branch = json.default_branch;
 
+    let repo_root = "https://raw.githubusercontent.com/" + mod.repo + "/" + default_branch;
+    let readme_raw = repo_root + "/README.md"
+
+    // Get the first image in the readme, if there is one, but make sure it isn't from img.shields.io
+    let readme_plain_text = await fetch_text(readme_raw);
+    let imageRegex = /(!\[.*\]\(.*)\)/g
+    var imageResults = readme_plain_text.match(imageRegex);
+    let first_image : string = "";
+    if (imageResults != null) {
+        for (let i = 0; i < imageResults.length; i++) {
+            var image = imageResults[i]
+            console.log(mod.name + " " + i + " " + image)
+            if (!image.includes("img.shields.io")) {
+                // Extract just the url from it
+                var first_image_match = image.match(/(!\[.*\]\()(.*)\)/);
+                if (first_image_match != null) {
+                    let image_url = fix_url(first_image_match[2], repo_root)
+                    first_image = await generateModThumbnail(mod.name, image_url)
+                }
+                break;
+            }
+        }
+    }
+
+
     let databaseJson : DatabaseModInfo = {
         name : mod.name,
         mod_guid : mod.mod_guid,
@@ -71,10 +97,19 @@ async function getModInfo(mod : ModInfo) {
         latest_version: tagJson[0].name,
         downloads: download_count,
         readme_url: "https://github.com/" + mod.repo + "/blob/" + default_branch + "/README.md",
-        readme_raw: "https://raw.githubusercontent.com/" + mod.repo + "/" + default_branch + "/README.md"
+        readme_raw: readme_raw,
+        thumbnail: first_image
     }
     
     return databaseJson;
+}
+
+async function fetch_text(url : string) {
+    let settings = {method: "GET"};
+    let res = await fetch(url, settings);
+    let text = await res.text();
+
+    return text;
 }
 
 async function fetch_json(url : string) {
@@ -94,6 +129,19 @@ async function fetch_json(url : string) {
 
 function is_empty(s : string | undefined) {
     return s == null || s.length == 0;
+}
+
+function fix_url(url : string, repo_url : string) : string {
+    if (url.startsWith("https://") || url.startsWith("http://")) {
+        return url;
+    }
+    if (url.startsWith("./")) {
+        return repo_url + url.slice(1);
+    }
+    if (url.startsWith("/")) {
+        return repo_url + url;
+    }
+    return repo_url + "/" + url;
 }
 
 run().catch((error) => core.setFailed("Workflow failed! " + error.message));
