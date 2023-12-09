@@ -16,7 +16,7 @@ permissions:
 jobs:
   update-database:
     name: Update Database
-    runs-on: windows-latest
+    runs-on: linux-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -28,6 +28,7 @@ jobs:
         run: |
           cd scripts
           npm install
+          npm install --arch=x64 --platform=linux sharp
           npm run build
       - name: Sanity check
         run: |
