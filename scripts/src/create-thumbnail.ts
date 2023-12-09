@@ -1,6 +1,7 @@
 import sharp from "sharp";
 import fs, { promises as fsp } from "fs";
 import path from "path";
+const fetch = require("node-fetch");
 
 // Adapted from the Outer Wilds Mod Database
 
