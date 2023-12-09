@@ -133,5 +133,20 @@
     "readme_url": "https://github.com/xen-42/DredgeVR/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/DredgeVR/main/README.md",
     "thumbnail": "Dredge VR.webp"
+  },
+  {
+    "name": "Fast Dock",
+    "mod_guid": "megapiggy.fastdock",
+    "repo": "MegaPiggy/DredgeFastDock",
+    "download": "megapiggy.fastdock.zip",
+    "author": "MegaPiggy",
+    "description": "Dock at triple the normal speed",
+    "release_date": "2023-12-09T22:50:40Z",
+    "asset_update_date": "2023-12-09T22:53:20Z",
+    "latest_version": "1.0",
+    "downloads": 0,
+    "readme_url": "https://github.com/MegaPiggy/DredgeFastDock/blob/main/README.md",
+    "readme_raw": "https://raw.githubusercontent.com/MegaPiggy/DredgeFastDock/main/README.md",
+    "thumbnail": ""
   }
 ]
