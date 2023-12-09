@@ -16,7 +16,7 @@ permissions:
 jobs:
   update-database:
     name: Update Database
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -27,9 +27,6 @@ jobs:
       - name: Build
         run: |
           cd scripts
-          rm package-lock.json
-          npm install --os=linux --cpu=x64 sharp
-          npm install --force @img/sharp-linux-x64
           npm install
           npm run build
       - name: Sanity check
