@@ -9,9 +9,10 @@
     "release_date": "2023-05-02T22:55:22Z",
     "asset_update_date": "2023-12-05T21:38:45Z",
     "latest_version": "v0.3.0",
-    "downloads": 176,
+    "downloads": 184,
     "readme_url": "https://github.com/DREDGE-Mods/Winch/blob/master/README.md",
-    "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/README.md"
+    "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/README.md",
+    "thumbnail": "Winch.webp"
   },
   {
     "name": "Cosmic Horror Fishing Buddies",
@@ -25,7 +26,8 @@
     "latest_version": "v0.2.0",
     "downloads": 232,
     "readme_url": "https://github.com/xen-42/cosmic-horror-fishing-buddies/blob/main/README.md",
-    "readme_raw": "https://raw.githubusercontent.com/xen-42/cosmic-horror-fishing-buddies/main/README.md"
+    "readme_raw": "https://raw.githubusercontent.com/xen-42/cosmic-horror-fishing-buddies/main/README.md",
+    "thumbnail": "Cosmic Horror Fishing Buddies.webp"
   },
   {
     "name": "Disaster Button",
@@ -37,9 +39,10 @@
     "release_date": "2023-05-02T22:55:22Z",
     "asset_update_date": "2023-12-05T21:38:45Z",
     "latest_version": "v0.3.0",
-    "downloads": 30,
+    "downloads": 31,
     "readme_url": "https://github.com/DREDGE-Mods/Winch/blob/master/README.md",
-    "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/README.md"
+    "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/README.md",
+    "thumbnail": "Disaster Button.webp"
   },
   {
     "name": "Example Items",
@@ -51,9 +54,10 @@
     "release_date": "2023-05-02T22:55:22Z",
     "asset_update_date": "2023-12-05T21:38:46Z",
     "latest_version": "v0.3.0",
-    "downloads": 44,
+    "downloads": 45,
     "readme_url": "https://github.com/DREDGE-Mods/Winch/blob/master/README.md",
-    "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/README.md"
+    "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/README.md",
+    "thumbnail": "Example Items.webp"
   },
   {
     "name": "Intro Skipper",
@@ -65,9 +69,10 @@
     "release_date": "2023-05-02T22:55:22Z",
     "asset_update_date": "2023-12-05T21:38:46Z",
     "latest_version": "v0.3.0",
-    "downloads": 84,
+    "downloads": 86,
     "readme_url": "https://github.com/DREDGE-Mods/Winch/blob/master/README.md",
-    "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/README.md"
+    "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/README.md",
+    "thumbnail": "Intro Skipper.webp"
   },
   {
     "name": "Unity Explorer",
@@ -81,7 +86,8 @@
     "latest_version": "Release",
     "downloads": 64,
     "readme_url": "https://github.com/bdlm-dev/dredge-mods/blob/main/README.md",
-    "readme_raw": "https://raw.githubusercontent.com/bdlm-dev/dredge-mods/main/README.md"
+    "readme_raw": "https://raw.githubusercontent.com/bdlm-dev/dredge-mods/main/README.md",
+    "thumbnail": ""
   },
   {
     "name": "Rare Fish Restock",
@@ -95,7 +101,8 @@
     "latest_version": "1.1",
     "downloads": 42,
     "readme_url": "https://github.com/MegaPiggy/DredgeRareFishRestock/blob/main/README.md",
-    "readme_raw": "https://raw.githubusercontent.com/MegaPiggy/DredgeRareFishRestock/main/README.md"
+    "readme_raw": "https://raw.githubusercontent.com/MegaPiggy/DredgeRareFishRestock/main/README.md",
+    "thumbnail": ""
   },
   {
     "name": "Quest Item Unlocker",
@@ -107,9 +114,10 @@
     "release_date": "2023-10-15T21:48:10Z",
     "asset_update_date": "2023-10-18T01:28:17Z",
     "latest_version": "0.0.2",
-    "downloads": 22,
+    "downloads": 23,
     "readme_url": "https://github.com/xen-42/dredge-quest-item-unlocker/blob/main/README.md",
-    "readme_raw": "https://raw.githubusercontent.com/xen-42/dredge-quest-item-unlocker/main/README.md"
+    "readme_raw": "https://raw.githubusercontent.com/xen-42/dredge-quest-item-unlocker/main/README.md",
+    "thumbnail": ""
   },
   {
     "name": "Dredge VR",
@@ -121,8 +129,9 @@
     "release_date": "2023-10-10T23:22:08Z",
     "asset_update_date": "2023-12-08T21:17:10Z",
     "latest_version": "v0.3.1",
-    "downloads": 24,
+    "downloads": 43,
     "readme_url": "https://github.com/xen-42/DredgeVR/blob/main/README.md",
-    "readme_raw": "https://raw.githubusercontent.com/xen-42/DredgeVR/main/README.md"
+    "readme_raw": "https://raw.githubusercontent.com/xen-42/DredgeVR/main/README.md",
+    "thumbnail": "Dredge VR.webp"
   }
 ]
