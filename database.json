@@ -9,7 +9,7 @@
     "release_date": "2023-05-02T22:55:22Z",
     "asset_update_date": "2023-12-05T21:38:45Z",
     "latest_version": "v0.3.0",
-    "downloads": 184,
+    "downloads": 185,
     "readme_url": "https://github.com/DREDGE-Mods/Winch/blob/master/README.md",
     "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/README.md",
     "thumbnail": "Winch.webp"
@@ -24,7 +24,7 @@
     "release_date": "2023-05-01T20:54:27Z",
     "asset_update_date": "2023-11-17T02:40:51Z",
     "latest_version": "v0.2.0",
-    "downloads": 232,
+    "downloads": 233,
     "readme_url": "https://github.com/xen-42/cosmic-horror-fishing-buddies/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/cosmic-horror-fishing-buddies/main/README.md",
     "thumbnail": "Cosmic Horror Fishing Buddies.webp"
@@ -69,7 +69,7 @@
     "release_date": "2023-05-02T22:55:22Z",
     "asset_update_date": "2023-12-05T21:38:46Z",
     "latest_version": "v0.3.0",
-    "downloads": 86,
+    "downloads": 87,
     "readme_url": "https://github.com/DREDGE-Mods/Winch/blob/master/README.md",
     "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/README.md",
     "thumbnail": "Intro Skipper.webp"
@@ -99,10 +99,10 @@
     "release_date": "2023-08-10T09:15:21Z",
     "asset_update_date": "2023-08-11T04:09:12Z",
     "latest_version": "1.1",
-    "downloads": 42,
+    "downloads": 43,
     "readme_url": "https://github.com/MegaPiggy/DredgeRareFishRestock/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/MegaPiggy/DredgeRareFishRestock/main/README.md",
-    "thumbnail": ""
+    "thumbnail": "Rare Fish Restock.webp"
   },
   {
     "name": "Quest Item Unlocker",
@@ -144,7 +144,7 @@
     "release_date": "2023-12-09T22:50:40Z",
     "asset_update_date": "2023-12-09T22:53:20Z",
     "latest_version": "1.0",
-    "downloads": 0,
+    "downloads": 1,
     "readme_url": "https://github.com/MegaPiggy/DredgeFastDock/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/MegaPiggy/DredgeFastDock/main/README.md",
     "thumbnail": ""
