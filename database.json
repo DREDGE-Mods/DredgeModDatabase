@@ -9,7 +9,7 @@
     "release_date": "2023-05-02T22:55:22Z",
     "asset_update_date": "2023-12-05T21:38:45Z",
     "latest_version": "v0.3.0",
-    "downloads": 195,
+    "downloads": 197,
     "readme_url": "https://github.com/DREDGE-Mods/Winch/blob/master/README.md",
     "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/README.md",
     "thumbnail": "Winch.webp"
@@ -129,7 +129,7 @@
     "release_date": "2023-10-10T23:22:08Z",
     "asset_update_date": "2023-12-08T21:17:10Z",
     "latest_version": "v0.3.1",
-    "downloads": 49,
+    "downloads": 50,
     "readme_url": "https://github.com/xen-42/DredgeVR/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/DredgeVR/main/README.md",
     "thumbnail": "Dredge VR.webp"
@@ -142,9 +142,9 @@
     "author": "MegaPiggy",
     "description": "Dock at triple the normal speed",
     "release_date": "2023-12-09T22:50:40Z",
-    "asset_update_date": "2023-12-09T22:53:20Z",
-    "latest_version": "1.0",
-    "downloads": 8,
+    "asset_update_date": "2023-12-12T01:57:57Z",
+    "latest_version": "1.1",
+    "downloads": 10,
     "readme_url": "https://github.com/MegaPiggy/DredgeFastDock/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/MegaPiggy/DredgeFastDock/main/README.md",
     "thumbnail": ""
