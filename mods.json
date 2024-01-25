@@ -69,6 +69,12 @@
       "mod_guid": "megapiggy.fastdock",
       "repo": "MegaPiggy/DredgeFastDock",
       "download": "megapiggy.fastdock.zip"
+    },
+    {
+      "name": "Encyclopedia Lookup",
+      "mod_guid": "nogarcia.DredgeLookup",
+      "repo": "nogarcia/DredgeLookup",
+      "download": "nogarcia.DredgeLookup.zip"
     }
   ]
 }
