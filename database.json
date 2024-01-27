@@ -9,7 +9,7 @@
     "release_date": "2023-05-02T22:55:22Z",
     "asset_update_date": "2023-12-27T05:36:08Z",
     "latest_version": "v0.3.1",
-    "downloads": 358,
+    "downloads": 362,
     "readme_url": "https://github.com/DREDGE-Mods/Winch/blob/master/README.md",
     "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/README.md",
     "thumbnail": "Winch.webp"
@@ -24,7 +24,7 @@
     "release_date": "2023-05-01T20:54:27Z",
     "asset_update_date": "2023-11-17T02:40:51Z",
     "latest_version": "v0.2.0",
-    "downloads": 333,
+    "downloads": 335,
     "readme_url": "https://github.com/xen-42/cosmic-horror-fishing-buddies/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/cosmic-horror-fishing-buddies/main/README.md",
     "thumbnail": "Cosmic Horror Fishing Buddies.webp"
@@ -69,7 +69,7 @@
     "release_date": "2023-05-02T22:55:22Z",
     "asset_update_date": "2023-12-27T05:36:09Z",
     "latest_version": "v0.3.1",
-    "downloads": 142,
+    "downloads": 144,
     "readme_url": "https://github.com/DREDGE-Mods/Winch/blob/master/README.md",
     "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/README.md",
     "thumbnail": "Intro Skipper.webp"
@@ -84,7 +84,7 @@
     "release_date": "2023-04-18T17:33:29Z",
     "asset_update_date": "2023-05-28T16:58:34Z",
     "latest_version": "Release",
-    "downloads": 88,
+    "downloads": 89,
     "readme_url": "https://github.com/bdlm-dev/dredge-mods/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/bdlm-dev/dredge-mods/main/README.md",
     "thumbnail": ""
@@ -129,7 +129,7 @@
     "release_date": "2023-10-10T23:22:08Z",
     "asset_update_date": "2024-01-18T23:33:05Z",
     "latest_version": "v0.3.4",
-    "downloads": 145,
+    "downloads": 146,
     "readme_url": "https://github.com/xen-42/DredgeVR/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/DredgeVR/main/README.md",
     "thumbnail": "Dredge VR.webp"
@@ -144,7 +144,7 @@
     "release_date": "2023-12-09T22:50:40Z",
     "asset_update_date": "2023-12-12T01:57:57Z",
     "latest_version": "1.1",
-    "downloads": 55,
+    "downloads": 57,
     "readme_url": "https://github.com/MegaPiggy/DredgeFastDock/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/MegaPiggy/DredgeFastDock/main/README.md",
     "thumbnail": "Fast Dock.webp"
@@ -162,6 +162,21 @@
     "downloads": 4,
     "readme_url": "https://github.com/nogarcia/DredgeLookup/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/nogarcia/DredgeLookup/main/README.md",
+    "thumbnail": ""
+  },
+  {
+    "name": "Detailed Console Logs",
+    "mod_guid": "xen.DredgeMoreLogs",
+    "repo": "xen-42/DredgeMoreLogs",
+    "download": "xen.DredgeMoreLogs.zip",
+    "author": "xen-42",
+    "description": "Logs more info to the console in Dredge",
+    "release_date": "2024-01-26T23:40:41Z",
+    "asset_update_date": "2024-01-26T23:58:27Z",
+    "latest_version": "v0.0.1",
+    "downloads": 0,
+    "readme_url": "https://github.com/xen-42/DredgeMoreLogs/blob/main/README.md",
+    "readme_raw": "https://raw.githubusercontent.com/xen-42/DredgeMoreLogs/main/README.md",
     "thumbnail": ""
   }
 ]
