@@ -81,6 +81,12 @@
       "mod_guid": "xen.DredgeMoreLogs",
       "repo": "xen-42/DredgeMoreLogs",
       "download": "xen.DredgeMoreLogs.zip"
+    },
+    {
+      "name": "Dredge Free Cam",
+      "mod_guid": "xen.FreeCam",
+      "repo": "xen-42/dredge-freecam",
+      "download": "xen.FreeCam.zip"
     }
   ]
 }
