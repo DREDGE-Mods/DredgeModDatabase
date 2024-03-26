@@ -87,6 +87,13 @@
       "mod_guid": "xen.FreeCam",
       "repo": "xen-42/dredge-freecam",
       "download": "xen.FreeCam.zip"
+    },
+    {
+      "name": "RGB Pots",
+      "mod_guid": "nogarcia.DredgeRGBPots",
+      "repo": "nogarcia/DredgeRGBPots",
+      "download": "nogarcia.DredgeRGBPots.zip",
+      "description": "Adds informational colored lights to crab pots"
     }
   ]
 }
