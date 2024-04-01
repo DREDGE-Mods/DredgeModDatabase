@@ -37,7 +37,8 @@ async function run() {
 async function SendNotification(mod : DatabaseModInfo, oldMod : DatabaseModInfo | null) {
     try{
         var payload = GetModUpdatePayload(mod, oldMod);
-        core.info(payload);
+
+        core.info(JSON.stringify(payload));
 
         const isUpdate = oldMod != null;
     
