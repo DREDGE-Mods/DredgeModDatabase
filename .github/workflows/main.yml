@@ -46,6 +46,10 @@ jobs:
           path: database
       - name: Copy database
         run: cp database.json database/database.json
+      - name: Post updates to Discord
+        uses: ./actions/post-to-discord
+        with:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
       - name: Remove old thumbnails
         run: rm -rf database/thumbnails
       - name: Copy new thumbnails
