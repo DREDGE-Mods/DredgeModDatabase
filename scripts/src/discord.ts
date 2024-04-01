@@ -5,6 +5,43 @@ import "./mod-info";
 
 async function run() {
     core.info("Checking for mod updates to post to discord");
+
+    /* Local testing
+    var newMod : DatabaseModInfo = {
+        "name": "Cosmic Horror Fishing Buddies",
+        "author": "xen-42",
+        "repo": "xen-42/cosmic-horror-fishing-buddies",
+        "latest_version": "1.0.0",
+        "mod_guid": "xen.cosmichorrorfishingbuddies",
+        "downloads": 3,
+        "download": "xen.CosmicHorrorFishingBuddies.zip",
+        "thumbnail": "Cosmic Horror Fishing Buddies.webp"
+    }
+
+    var oldMod : DatabaseModInfo = {
+        "name": "Cosmic Horror Fishing Buddies",
+        "author": "xen-42",
+        "repo": "xen-42/cosmic-horror-fishing-buddies",
+        "latest_version": "0.1.0",
+        "mod_guid": "xen.cosmichorrorfishingbuddies",
+        "downloads": 3,
+        "download": "xen.CosmicHorrorFishingBuddies.zip",
+        "thumbnail": "Cosmic Horror Fishing Buddies.webp"
+    }
+    
+    SendNotification(url, newMod, null);
+    SendNotification(url, newMod, oldMod);
+
+    return;
+    */
+
+    if (process.env["DISCORD_WEBHOOK"] == null) {
+        core.error("Need to set DISCORD_WEBHOOK secret to post notifications!");
+        return;
+    }
+
+    var webhookUrl = <string>process.env["DISCORD_WEBHOOK"];
+
     var newDB = <DatabaseModInfo[]>JSON.parse(fs.readFileSync('./database.json','utf8'));
     var oldDB = <DatabaseModInfo[]>JSON.parse(fs.readFileSync('./database/database.json','utf8'));
 
@@ -20,7 +57,7 @@ async function run() {
             // Check for updates
             if (newMod.latest_version != oldMod.latest_version) {
                 core.info(newMod.name + " was updated from " + oldMod.latest_version + " to " + newMod.latest_version);
-                SendNotification(newMod, oldMod);
+                SendNotification(webhookUrl, newMod, oldMod);
             }
             else {
                 core.info(newMod.name + " was unchanged");
@@ -29,12 +66,12 @@ async function run() {
         else {
             // New mod just released!
             core.info(newMod.name + " was just added to the database!");
-            SendNotification(newMod, null);
+            SendNotification(webhookUrl, newMod, null);
         }
     }
 }
 
-async function SendNotification(mod : DatabaseModInfo, oldMod : DatabaseModInfo | null) {
+async function SendNotification(webhookUrl : string, mod : DatabaseModInfo, oldMod : DatabaseModInfo | null) {
     try{
         var payload = GetModUpdatePayload(mod, oldMod);
 
@@ -42,16 +79,13 @@ async function SendNotification(mod : DatabaseModInfo, oldMod : DatabaseModInfo 
 
         const isUpdate = oldMod != null;
     
-        var webhookUrl = process.env["DISCORD_WEBHOOK"];
-    
         const response = await fetch(webhookUrl, {
             method: "post",
             headers: {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify({
-                content: isUpdate ? "Mod Update" : "Mod Added",
-                embeds: payload
+                embeds: [ payload ]
             })
         });
     
@@ -67,13 +101,13 @@ async function SendNotification(mod : DatabaseModInfo, oldMod : DatabaseModInfo 
 function GetModUpdatePayload(mod : DatabaseModInfo, oldMod : DatabaseModInfo | null) {
     const isUpdate = oldMod != null;
 
-    var title = !isUpdate ? "New mod " + mod.name + " was just added to the database!" : `${mod.name} was just updated! ${oldMod.latest_version} → **${mod.latest_version}**`
+    var title = !isUpdate ? mod.name + " was just added to the database!" : `${mod.name} was just updated!\n${oldMod.latest_version} → **${mod.latest_version}**`
     var colour = !isUpdate ? 3066993 : 15105570;
 
     var description = "\u200B"; // TODO: get description from latest release
 
     var authorName = mod.author;
-    var profilePicture = `https://github.com/${mod.author}.png`
+    var profilePicture = `https://github.com/${mod.repo.split("/")[0]}.png`
 
     let slug = mod.name.toLowerCase().trim().split(" ").join("_");
 
@@ -85,11 +119,7 @@ function GetModUpdatePayload(mod : DatabaseModInfo, oldMod : DatabaseModInfo | n
         fields: [
           {
             name: title,
-            value: description
-          },
-          {
-            name: "\u200B",
-            value: `<:github:1085179483784499260> [Source Code](https://github.com/${mod.repo})`,
+            value: `\n<:github:1085179483784499260> [Source Code](https://github.com/${mod.repo})`,
           },
         ],
         author: {
@@ -100,7 +130,7 @@ function GetModUpdatePayload(mod : DatabaseModInfo, oldMod : DatabaseModInfo | n
         color: colour,
         image: {
           url: thumbnail,
-        },
+        }
       };
 }
 
