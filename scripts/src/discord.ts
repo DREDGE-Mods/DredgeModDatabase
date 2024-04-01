@@ -77,7 +77,7 @@ function GetModUpdatePayload(mod : DatabaseModInfo, oldMod : DatabaseModInfo | n
 
     let slug = mod.name.toLowerCase().trim().split(" ").join("_");
 
-    let thumbnail = "https://raw.githubusercontent.com/DREDGE-Mods/DredgeModDatabase/database/thumbnails/" + mod.thumbnail;
+    let thumbnail = "https://raw.githubusercontent.com/DREDGE-Mods/DredgeModDatabase/database/thumbnails/" + mod.thumbnail?.split(" ").join("%20");
 
     return {
         type: "rich",
@@ -89,7 +89,7 @@ function GetModUpdatePayload(mod : DatabaseModInfo, oldMod : DatabaseModInfo | n
           },
           {
             name: "\u200B",
-            value: `<:github:1085179483784499260> [Source Code](${mod.repo})`,
+            value: `<:github:1085179483784499260> [Source Code](https://github.com/${mod.repo})`,
           },
         ],
         author: {
