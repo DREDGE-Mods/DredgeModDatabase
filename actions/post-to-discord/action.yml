@@ -1,6 +1,6 @@
 name: "Test"
 inputs:
-  discord-hook-url:
+  discord-webhook-url:
     description: "Discord webhook for posting alerts about mod updates"
     required: true
 runs:
