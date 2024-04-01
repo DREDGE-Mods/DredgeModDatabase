@@ -2,7 +2,7 @@ name: "Test"
 inputs:
   DISCORD_WEBHOOK:
     description: "Discord webhook for posting alerts about mod updates"
-    required: false
+    required: true
 runs:
   using: "node16"
   main: "../../scripts/build/scripts/src/discord.js"
