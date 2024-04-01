@@ -37,7 +37,7 @@ jobs:
           ls
       - name: Run local action
         uses: ./actions/update-database
-        with:
+        env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       - name: Checkout database repo
         uses: actions/checkout@v3
@@ -46,7 +46,7 @@ jobs:
           path: database
       - name: Post updates to Discord
         uses: ./actions/post-to-discord
-        with:
+        env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
       - name: Copy database
         run: cp database.json database/database.json

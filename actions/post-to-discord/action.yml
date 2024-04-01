@@ -1,8 +1,4 @@
 name: "Test"
-inputs:
-  discord-webhook-url:
-    description: "Discord webhook for posting alerts about mod updates"
-    required: true
 runs:
   using: "node16"
   main: "../../scripts/build/scripts/src/discord.js"

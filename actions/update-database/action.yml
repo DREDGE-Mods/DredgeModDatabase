@@ -1,8 +1,4 @@
 name: "Test"
-inputs:
-  GITHUB_TOKEN:
-    description: "GitHub Token for authenticated API request"
-    required: true
 runs:
   using: "node16"
   main: "../../scripts/build/scripts/src/main.js"

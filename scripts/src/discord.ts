@@ -35,12 +35,12 @@ async function run() {
     return;
     */
 
-    if (core.getInput("discord-webhook-url") == null) {
+    if (process.env["DISCORD_WEBHOOK"] == null) {
         core.error("Need to set DISCORD_WEBHOOK secret to post notifications!");
         return;
     }
 
-    var webhookUrl = <string>core.getInput("discord-webhook-url");
+    var webhookUrl = <string>process.env["DISCORD_WEBHOOK"];
 
     var newDB = <DatabaseModInfo[]>JSON.parse(fs.readFileSync('./database.json','utf8'));
     var oldDB = <DatabaseModInfo[]>JSON.parse(fs.readFileSync('./database/database.json','utf8'));
