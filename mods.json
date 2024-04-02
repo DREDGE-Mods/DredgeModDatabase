@@ -94,6 +94,12 @@
       "repo": "nogarcia/DredgeRGBPots",
       "download": "nogarcia.DredgeRGBPots.zip",
       "description": "Adds informational colored lights to crab pots"
+    },
+    {
+      "name": "Reduced Rod Requirements",
+      "mod_guid": "xen.ReducedRodRequirements",
+      "repo": "xen-42/dredge-reduced-rod-requirements",
+      "download": "xen.ReducedRodRequirements.zip"
     }
   ]
 }
