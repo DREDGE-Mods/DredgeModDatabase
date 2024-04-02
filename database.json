@@ -223,5 +223,20 @@
     "readme_url": "https://github.com/xen-42/dredge-reduced-rod-requirements/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/dredge-reduced-rod-requirements/main/README.md",
     "thumbnail": "Reduced Rod Requirements.webp"
+  },
+  {
+    "name": "Auto Fish",
+    "mod_guid": "xen.AutoFish",
+    "repo": "xen-42/dredge-auto-fish",
+    "download": "xen.AutoFish.zip",
+    "author": "xen-42",
+    "description": "Skips the fishing/dredging mini-games",
+    "release_date": "2024-04-02T03:51:01Z",
+    "asset_update_date": "2024-04-02T04:08:10Z",
+    "latest_version": "v0.0.1",
+    "downloads": 0,
+    "readme_url": "https://github.com/xen-42/dredge-auto-fish/blob/main/README.md",
+    "readme_raw": "https://raw.githubusercontent.com/xen-42/dredge-auto-fish/main/README.md",
+    "thumbnail": ""
   }
 ]
