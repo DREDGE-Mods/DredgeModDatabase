@@ -100,6 +100,12 @@
       "mod_guid": "xen.ReducedRodRequirements",
       "repo": "xen-42/dredge-reduced-rod-requirements",
       "download": "xen.ReducedRodRequirements.zip"
+    },
+    {
+      "name": "Auto Fish",
+      "mod_guid": "xen.AutoFish",
+      "repo": "xen-42/dredge-auto-fish",
+      "download": "xen.AutoFish.zip"
     }
   ]
 }
