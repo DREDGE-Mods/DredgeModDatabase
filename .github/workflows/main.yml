@@ -44,10 +44,8 @@ jobs:
         with:
           ref: database
           path: database
-      - name: Post updates to Discord
-        uses: ./actions/post-to-discord
-        env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+      - name: Copy old database
+        run: cp database/database.json database/old_database.json
       - name: Copy database
         run: cp database.json database/database.json
       - name: Remove old thumbnails
@@ -61,3 +59,7 @@ jobs:
           repository: database
           commit_message: Update mod database
           commit_user_name: Dredge Mod Database
+      - name: Post updates to Discord
+        uses: ./actions/post-to-discord
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
