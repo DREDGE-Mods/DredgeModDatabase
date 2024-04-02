@@ -104,7 +104,7 @@ function GetModUpdatePayload(mod : DatabaseModInfo, oldMod : DatabaseModInfo | n
     var title = !isUpdate ? mod.name + " was just added to the database!" : `${mod.name} was just updated!\n${oldMod.latest_version} → **${mod.latest_version}**`
     var colour = !isUpdate ? 3066993 : 15105570;
 
-    var description = "\u200B"; // TODO: get description from latest release
+    var description = mod.description;
 
     var authorName = mod.author;
     var profilePicture = `https://github.com/${mod.repo.split("/")[0]}.png`
@@ -119,8 +119,12 @@ function GetModUpdatePayload(mod : DatabaseModInfo, oldMod : DatabaseModInfo | n
         fields: [
           {
             name: title,
-            value: `\n<:github:1085179483784499260> [Source Code](https://github.com/${mod.repo})`,
+            value: description,
           },
+          {
+            name: "\u200B",
+            value: `\n<:github:1085179483784499260> [Source Code](https://github.com/${mod.repo})`,
+          }
         ],
         author: {
           name: authorName,
