@@ -42,8 +42,8 @@ async function run() {
 
     var webhookUrl = <string>process.env["DISCORD_WEBHOOK"];
 
-    var newDB = <DatabaseModInfo[]>JSON.parse(fs.readFileSync('./database.json','utf8'));
-    var oldDB = <DatabaseModInfo[]>JSON.parse(fs.readFileSync('./database/database.json','utf8'));
+    var newDB = <DatabaseModInfo[]>JSON.parse(fs.readFileSync('./database/database.json','utf8'));
+    var oldDB = <DatabaseModInfo[]>JSON.parse(fs.readFileSync('./database/old_database.json','utf8'));
 
     const oldDBDict: Record<string, DatabaseModInfo> = {};
 
