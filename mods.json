@@ -106,6 +106,12 @@
       "mod_guid": "xen.AutoFish",
       "repo": "xen-42/dredge-auto-fish",
       "download": "xen.AutoFish.zip"
+    },
+    {
+      "name": "Monstrous Ship",
+      "mod_guid": "xen.DredgeMonstrousShip",
+      "repo": "xen-42/dredge-monstrous-ship",
+      "download": "xen.DredgeMonstrousShip.zip"
     }
   ]
 }
