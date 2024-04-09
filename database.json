@@ -9,7 +9,7 @@
     "release_date": "2023-05-02T22:55:22Z",
     "asset_update_date": "2023-12-27T05:36:08Z",
     "latest_version": "v0.3.1",
-    "downloads": 515,
+    "downloads": 517,
     "readme_url": "https://github.com/DREDGE-Mods/Winch/blob/master/README.md",
     "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/README.md",
     "thumbnail": "Winch.webp"
@@ -84,7 +84,7 @@
     "release_date": "2023-04-18T17:33:29Z",
     "asset_update_date": "2023-05-28T16:58:34Z",
     "latest_version": "Release",
-    "downloads": 118,
+    "downloads": 119,
     "readme_url": "https://github.com/bdlm-dev/dredge-mods/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/bdlm-dev/dredge-mods/main/README.md",
     "thumbnail": ""
@@ -114,7 +114,7 @@
     "release_date": "2023-10-15T21:48:10Z",
     "asset_update_date": "2023-10-18T01:28:17Z",
     "latest_version": "0.0.2",
-    "downloads": 63,
+    "downloads": 65,
     "readme_url": "https://github.com/xen-42/dredge-quest-item-unlocker/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/dredge-quest-item-unlocker/main/README.md",
     "thumbnail": "Quest Item Unlocker.webp"
@@ -144,7 +144,7 @@
     "release_date": "2023-12-09T22:50:40Z",
     "asset_update_date": "2023-12-12T01:57:57Z",
     "latest_version": "1.1",
-    "downloads": 117,
+    "downloads": 118,
     "readme_url": "https://github.com/MegaPiggy/DredgeFastDock/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/MegaPiggy/DredgeFastDock/main/README.md",
     "thumbnail": "Fast Dock.webp"
@@ -159,7 +159,7 @@
     "release_date": "2024-01-06T20:04:00Z",
     "asset_update_date": "2024-01-25T00:07:08Z",
     "latest_version": "v1.0.0",
-    "downloads": 50,
+    "downloads": 51,
     "readme_url": "https://github.com/nogarcia/DredgeLookup/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/nogarcia/DredgeLookup/main/README.md",
     "thumbnail": ""
@@ -204,7 +204,7 @@
     "release_date": "2024-03-21T21:13:53Z",
     "asset_update_date": "2024-03-26T05:46:38Z",
     "latest_version": "v1.0.0",
-    "downloads": 10,
+    "downloads": 12,
     "readme_url": "https://github.com/nogarcia/DredgeRGBPots/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/nogarcia/DredgeRGBPots/main/README.md",
     "thumbnail": "RGB Pots.webp"
@@ -219,7 +219,7 @@
     "release_date": "2024-04-02T02:32:59Z",
     "asset_update_date": "2024-04-02T03:39:26Z",
     "latest_version": "v0.0.1",
-    "downloads": 8,
+    "downloads": 10,
     "readme_url": "https://github.com/xen-42/dredge-reduced-rod-requirements/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/dredge-reduced-rod-requirements/main/README.md",
     "thumbnail": "Reduced Rod Requirements.webp"
@@ -234,7 +234,7 @@
     "release_date": "2024-04-02T03:51:01Z",
     "asset_update_date": "2024-04-02T04:08:10Z",
     "latest_version": "v0.0.1",
-    "downloads": 6,
+    "downloads": 9,
     "readme_url": "https://github.com/xen-42/dredge-auto-fish/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/dredge-auto-fish/main/README.md",
     "thumbnail": ""
