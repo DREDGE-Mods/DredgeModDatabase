@@ -112,6 +112,13 @@
       "mod_guid": "xen.DredgeMonstrousShip",
       "repo": "xen-42/dredge-monstrous-ship",
       "download": "xen.DredgeMonstrousShip.zip"
+    },
+    {
+      "name": "Stress and Taxes",
+      "mod_guid": "Johncook.StressandTaxes",
+      "repo": "Johncook2/Stress-and-Taxes",
+      "download": "Johncook2.StressandTaxes.zip",
+      "description": "An unfinished mod about making dredge harder."
     }
   ]
 }
