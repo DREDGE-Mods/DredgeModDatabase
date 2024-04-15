@@ -9,7 +9,7 @@
     "release_date": "2023-05-02T22:55:22Z",
     "asset_update_date": "2023-12-27T05:36:08Z",
     "latest_version": "v0.3.1",
-    "downloads": 532,
+    "downloads": 533,
     "readme_url": "https://github.com/DREDGE-Mods/Winch/blob/master/README.md",
     "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/README.md",
     "thumbnail": "Winch.webp"
@@ -204,7 +204,7 @@
     "release_date": "2024-03-21T21:13:53Z",
     "asset_update_date": "2024-03-26T05:46:38Z",
     "latest_version": "v1.0.0",
-    "downloads": 17,
+    "downloads": 18,
     "readme_url": "https://github.com/nogarcia/DredgeRGBPots/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/nogarcia/DredgeRGBPots/main/README.md",
     "thumbnail": "RGB Pots.webp"
@@ -249,7 +249,7 @@
     "release_date": "2023-04-30T03:58:51Z",
     "asset_update_date": "2024-04-04T04:55:35Z",
     "latest_version": "v0.0.2",
-    "downloads": 5,
+    "downloads": 7,
     "readme_url": "https://github.com/xen-42/dredge-monstrous-ship/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/dredge-monstrous-ship/main/README.md",
     "thumbnail": "Monstrous Ship.webp"
@@ -279,7 +279,7 @@
     "release_date": "2024-04-15T15:04:17Z",
     "asset_update_date": "2024-04-15T15:53:16Z",
     "latest_version": "v0.0.1",
-    "downloads": 0,
+    "downloads": 3,
     "readme_url": "https://github.com/xen-42/DredgeInstantDiscard/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/DredgeInstantDiscard/main/README.md",
     "thumbnail": ""
