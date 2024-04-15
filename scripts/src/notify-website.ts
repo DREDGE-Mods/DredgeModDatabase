@@ -7,8 +7,6 @@ import "./mod-info";
 async function run() {
     core.info("Checking for added mods to refresh website");
 
-    UpdateWebsite();
-
     var newDB = <DatabaseModInfo[]>JSON.parse(fs.readFileSync('./database/database.json','utf8'));
     var oldDB = <DatabaseModInfo[]>JSON.parse(fs.readFileSync('./database/old_database.json','utf8'));
 
@@ -37,7 +35,7 @@ async function UpdateWebsite() {
             }
         })
 
-        const response = await octokit.request('POST /repos/DREDGE-Mods/DredgeModsWebsite/dispatches', {
+        await octokit.request('POST /repos/DREDGE-Mods/DredgeModsWebsite/dispatches', {
             event_type: 'mod_added',
             client_payload: {
               unit: false,
@@ -47,10 +45,6 @@ async function UpdateWebsite() {
               'X-GitHub-Api-Version': '2022-11-28'
             }
           })
-    
-        if (!response.ok) {
-            core.error(`API post response not ok. ${response.status}: ${response.statusText}`);
-        }
     }
     catch (error) {
         core.error(`Failed to send Website notification: ${error}`);
