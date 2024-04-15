@@ -3,7 +3,6 @@ const fetch = require("node-fetch");
 const fs = require("fs");
 const octo = require("octokit")
 import "./mod-info";
-import fetch from "node-fetch";
 
 async function run() {
     core.info("Checking for added mods to refresh website");
