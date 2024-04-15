@@ -1,4 +1,4 @@
-name: "Test"
+name: "Post to Discord"
 runs:
   using: "node16"
   main: "../../scripts/build/scripts/src/discord.js"
