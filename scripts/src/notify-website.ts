@@ -32,7 +32,9 @@ async function UpdateWebsite() {
     try {    
         const octokit = new octo.Octokit({
             auth: process.env["GITHUB_TOKEN"],
-            fetch:  fetch
+            request: {
+                fetch: fetch
+            }
         })
 
         const response = await octokit.request('POST /repos/DREDGE-Mods/DredgeModsWebsite/dispatches', {
