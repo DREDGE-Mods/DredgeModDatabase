@@ -119,6 +119,12 @@
       "repo": "Johncook2/Stress-and-Taxes",
       "download": "Johncook2.StressandTaxes.zip",
       "description": "An unfinished mod about making dredge harder."
+    },
+    {
+      "name": "Instant Discard",
+      "mod_guid": "xen.InstantDiscard",
+      "repo": "xen-42/DredgeInstantDiscard",
+      "download": "xen.InstantDiscard.zip"
     }
   ]
 }
