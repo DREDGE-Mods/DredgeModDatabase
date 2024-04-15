@@ -63,3 +63,7 @@ jobs:
         uses: ./actions/post-to-discord
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+      - name: Update Website
+        uses: ./actions/notify-website
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
