@@ -37,7 +37,7 @@ async function UpdateWebsite() {
             }
         })
 
-        const response = await octokit.request('POST /repos/DREDGE-Mods/DredgeModsWebsite/dispatches', {
+        const response = await octokit.request('POST /repos/{owner}/{repo}/dispatches', {
             owner: 'DREDGE-Mods',
             repo: 'DredgeModsWebsite',
             event_type: 'mod_added',
