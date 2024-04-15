@@ -3,6 +3,7 @@ const fetch = require("node-fetch");
 const fs = require("fs");
 const octo = require("octokit")
 import "./mod-info";
+import fetch from "node-fetch";
 
 async function run() {
     core.info("Checking for added mods to refresh website");
@@ -31,7 +32,8 @@ async function run() {
 async function UpdateWebsite() {
     try {    
         const octokit = new octo.Octokit({
-            auth: process.env["GITHUB_TOKEN"]
+            auth: process.env["GITHUB_TOKEN"],
+            fetch:  fetch
         })
 
         const response = await octokit.request('POST /repos/DREDGE-Mods/DredgeModsWebsite/dispatches', {
