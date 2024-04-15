@@ -7,6 +7,8 @@ import "./mod-info";
 async function run() {
     core.info("Checking for added mods to refresh website");
 
+    UpdateWebsite();
+
     var newDB = <DatabaseModInfo[]>JSON.parse(fs.readFileSync('./database/database.json','utf8'));
     var oldDB = <DatabaseModInfo[]>JSON.parse(fs.readFileSync('./database/old_database.json','utf8'));
 
