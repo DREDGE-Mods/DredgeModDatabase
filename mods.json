@@ -125,6 +125,13 @@
       "mod_guid": "xen.InstantDiscard",
       "repo": "xen-42/DredgeInstantDiscard",
       "download": "xen.InstantDiscard.zip"
+    },
+    {
+      "name": "MorePeaceful",
+      "mod_guid": "DaSea.MorePeaceful",
+      "repo": "SeaKestrel/MorePeaceful",
+      "download": "DaSea.MorePeaceful.zip",
+      "description": "Add a real peaceful mode to Dredge"
     }
   ]
 }
