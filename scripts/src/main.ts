@@ -4,6 +4,7 @@ const fetch = require("node-fetch");
 const fs = require("fs");
 import "./mod-info";
 import { generateModThumbnail } from "./create-thumbnail";
+const octo = require("octokit")
 
 async function run() {
     core.info("Started updating mod database");
@@ -39,16 +40,23 @@ async function run() {
 }
 
 async function getModInfo(mod : ModInfo) {
+    const octokit = new octo.Octokit({
+        auth: process.env["GITHUB_TOKEN"],
+        request: {
+            fetch: fetch
+        }
+    })
+
     // Get data from API
-    let json = await fetch_json("https://api.github.com/repos/" + mod.repo);
+    let json = await fetch_json(octokit, "repos/" + mod.repo);
 
     // Get tags data
-    let tagJson = await fetch_json("https://api.github.com/repos/" + mod.repo + "/tags");
+    let tagJson = await fetch_json(octokit, "repos/" + mod.repo + "/tags");
 
     // Get download count
     // For mods that changed their zip name, we keep an old tally for the previous download count since it checks by the file name
     var download_count = mod.downloads_offset ?? 0;
-    let releasesJson = await fetch_json("https://api.github.com/repos/" + mod.repo + "/releases");
+    let releasesJson = await fetch_json(octokit, "repos/" + mod.repo + "/releases");
     releasesJson.forEach((release : any) => {
         release.assets.forEach((asset : { name : string, download_count : number }) => {
             if (asset.name == mod.download) {
@@ -112,12 +120,8 @@ async function fetch_text(url : string) {
     return text;
 }
 
-async function fetch_json(url : string) {
-    let settings = {
-        method: "GET",
-        authorization: `Bearer ${process.env["GITHUB_TOKEN"]}`
-    }
-    let res = await fetch(url, settings);
+async function fetch_json(octokit : any, url : string) {
+    let res = await octokit.request("GET " + url);
     let json = await res.json();
 
     if (json.hasOwnProperty("message") && (json["message"] as string).includes("API rate limit exceeded")) {
