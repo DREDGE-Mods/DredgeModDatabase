@@ -122,7 +122,7 @@ async function fetch_text(url : string) {
 
 async function fetch_json(octokit : any, url : string) {
     let res = await octokit.request("GET " + url);
-    let json = await res.json();
+    let json = res.data;
 
     if (json.hasOwnProperty("message") && (json["message"] as string).includes("API rate limit exceeded")) {
         throw new Error(json["message"]);
