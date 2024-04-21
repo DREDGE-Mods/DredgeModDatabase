@@ -48,15 +48,15 @@ async function getModInfo(mod : ModInfo) {
     })
 
     // Get data from API
-    let json = await fetch_json(octokit, "repos/" + mod.repo);
+    let json = await fetch_json(octokit, "/repos/" + mod.repo);
 
     // Get tags data
-    let tagJson = await fetch_json(octokit, "repos/" + mod.repo + "/tags");
+    let tagJson = await fetch_json(octokit, "/repos/" + mod.repo + "/tags");
 
     // Get download count
     // For mods that changed their zip name, we keep an old tally for the previous download count since it checks by the file name
     var download_count = mod.downloads_offset ?? 0;
-    let releasesJson = await fetch_json(octokit, "repos/" + mod.repo + "/releases");
+    let releasesJson = await fetch_json(octokit, "/repos/" + mod.repo + "/releases");
     releasesJson.forEach((release : any) => {
         release.assets.forEach((asset : { name : string, download_count : number }) => {
             if (asset.name == mod.download) {
