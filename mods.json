@@ -132,6 +132,13 @@
       "repo": "SeaKestrel/MorePeaceful",
       "download": "DaSea.MorePeaceful.zip",
       "description": "Add a real peaceful mode to Dredge"
+    },
+    {
+      "name": "BoatChanger",
+      "mod_guid": "DaSea.BoatChanger",
+      "repo": "SeaKestrel/BoatChanger",
+      "download": "DaSea.BoatChanger.zip",
+      "description": "Choose the boat's aspect"
     }
   ]
 }
