@@ -139,6 +139,13 @@
       "repo": "SeaKestrel/BoatChanger",
       "download": "DaSea.BoatChanger.zip",
       "description": "Choose the boat's aspect"
+    },
+    {
+      "name": "Full Aberration Rods",
+      "mod_guid": "DaSea.FullAberrationRods",
+      "repo": "SeaKestrel/FullAberrationRods",
+      "download": "DaSea.FullAberrationRods.zip",
+      "description": "Modify the Viscera Crane rod to allow you to combine all rods with aberration bonus in your boat"
     }
   ]
 }
