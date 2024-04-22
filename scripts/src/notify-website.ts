@@ -5,6 +5,7 @@ const octo = require("octokit")
 import "./mod-info";
 
 async function run() {
+    /*
     core.info("Checking for added mods to refresh website");
 
     var newDB = <DatabaseModInfo[]>JSON.parse(fs.readFileSync('./database/database.json','utf8'));
@@ -20,10 +21,14 @@ async function run() {
         if (!(newMod.mod_guid in oldDBDict)) {
             // New mod just released!
             core.info(newMod.name + " was just added to the database!");
-            UpdateWebsite();
+
             return;
         }
     }
+    */
+
+    // Instead of running on a separate schedule, update the site whenever the database is updated
+    UpdateWebsite();
 }
 
 async function UpdateWebsite() {
@@ -36,7 +41,7 @@ async function UpdateWebsite() {
         })
 
         await octokit.request('POST /repos/DREDGE-Mods/DredgeModsWebsite/dispatches', {
-            event_type: 'mod_added',
+            event_type: 'Database Updated',
             client_payload: {
               unit: false,
               integration: true
