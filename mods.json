@@ -146,6 +146,13 @@
       "repo": "SeaKestrel/FullAberrationRods",
       "download": "DaSea.FullAberrationRods.zip",
       "description": "Modify the Viscera Crane rod to allow you to combine all rods with aberration bonus in your boat"
+    },
+    {
+      "name": "DredgeRichPresence",
+      "mod_guid": "DaSea.DredgeRichPresence",
+      "repo": "SeaKestrel/DredgeRichPresence",
+      "download": "DaSea.DredgeRichPresence.zip",
+      "description": "A better rich presence for discord"
     }
   ]
 }
