@@ -15,5 +15,6 @@ interface DatabaseModInfo extends ModInfo {
     latest_version?: string,
     readme_url?: string,
     readme_raw?: string,
-    thumbnail?: string
+    thumbnail?: string,
+    latest_release_description?: string
 }

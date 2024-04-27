@@ -104,7 +104,8 @@ function GetModUpdatePayload(mod : DatabaseModInfo, oldMod : DatabaseModInfo | n
     var title = !isUpdate ? mod.name + " was just added to the database!" : `${mod.name} was just updated!\n${oldMod.latest_version} → **${mod.latest_version}**`
     var colour = !isUpdate ? 3066993 : 15105570;
 
-    var description = mod.description;
+    // When a new mod is added just put the description, for updates include the description of the latest release
+    var description = oldMod === null ? mod.description : mod.latest_release_description;
 
     var authorName = mod.author;
     var profilePicture = `https://github.com/${mod.repo.split("/")[0]}.png`

@@ -65,6 +65,9 @@ async function getModInfo(mod : ModInfo) {
         })
     });
     let asset_update_date = releasesJson[0].assets.filter((x : { name : string }) => x.name == mod.download)[0].updated_at;
+    // Release description
+    var latestReleaseDescription = releasesJson[0].body;
+
 
     let default_branch = json.default_branch;
 
@@ -92,6 +95,7 @@ async function getModInfo(mod : ModInfo) {
         }
     }
 
+    var description = !is_empty(mod.description) ? mod.description : json.description;
 
     let databaseJson : DatabaseModInfo = {
         name : mod.name,
@@ -99,14 +103,15 @@ async function getModInfo(mod : ModInfo) {
         repo : mod.repo,
         download : mod.download,
         author : !is_empty(mod.author) ? mod.author : mod.repo.split("/")[0],
-        description : !is_empty(mod.description) ? mod.description : json.description,
+        description : description,
         release_date : json.created_at,
         asset_update_date : asset_update_date,
         latest_version: tagJson[0].name,
         downloads: download_count,
         readme_url: "https://github.com/" + mod.repo + "/blob/" + default_branch + "/README.md",
         readme_raw: readme_raw,
-        thumbnail: first_image
+        thumbnail: first_image,
+        latest_release_description: !is_empty(latestReleaseDescription) ? latestReleaseDescription : description
     }
     
     return databaseJson;
