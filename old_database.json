@@ -12,7 +12,8 @@
     "downloads": 558,
     "readme_url": "https://github.com/DREDGE-Mods/Winch/blob/master/README.md",
     "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/README.md",
-    "thumbnail": "Winch.webp"
+    "thumbnail": "Winch.webp",
+    "latest_release_description": "- Implements new console for logs. Disabled by default, enable `WriteLogsToConsole` in WinchConfig.json to enable it."
   },
   {
     "name": "Cosmic Horror Fishing Buddies",
@@ -24,10 +25,11 @@
     "release_date": "2023-05-01T20:54:27Z",
     "asset_update_date": "2023-11-17T02:40:51Z",
     "latest_version": "v0.2.0",
-    "downloads": 483,
+    "downloads": 484,
     "readme_url": "https://github.com/xen-42/cosmic-horror-fishing-buddies/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/cosmic-horror-fishing-buddies/main/README.md",
-    "thumbnail": "Cosmic Horror Fishing Buddies.webp"
+    "thumbnail": "Cosmic Horror Fishing Buddies.webp",
+    "latest_release_description": "- Now works with patch 1.4.0 and The Pale Reach"
   },
   {
     "name": "Disaster Button",
@@ -42,7 +44,8 @@
     "downloads": 87,
     "readme_url": "https://github.com/DREDGE-Mods/Winch/blob/master/README.md",
     "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/README.md",
-    "thumbnail": "Disaster Button.webp"
+    "thumbnail": "Disaster Button.webp",
+    "latest_release_description": "- Implements new console for logs. Disabled by default, enable `WriteLogsToConsole` in WinchConfig.json to enable it."
   },
   {
     "name": "Example Items",
@@ -57,7 +60,8 @@
     "downloads": 93,
     "readme_url": "https://github.com/DREDGE-Mods/Winch/blob/master/README.md",
     "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/README.md",
-    "thumbnail": "Example Items.webp"
+    "thumbnail": "Example Items.webp",
+    "latest_release_description": "- Implements new console for logs. Disabled by default, enable `WriteLogsToConsole` in WinchConfig.json to enable it."
   },
   {
     "name": "Intro Skipper",
@@ -72,7 +76,8 @@
     "downloads": 209,
     "readme_url": "https://github.com/DREDGE-Mods/Winch/blob/master/README.md",
     "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/README.md",
-    "thumbnail": "Intro Skipper.webp"
+    "thumbnail": "Intro Skipper.webp",
+    "latest_release_description": "- Implements new console for logs. Disabled by default, enable `WriteLogsToConsole` in WinchConfig.json to enable it."
   },
   {
     "name": "Unity Explorer",
@@ -87,7 +92,8 @@
     "downloads": 123,
     "readme_url": "https://github.com/bdlm-dev/dredge-mods/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/bdlm-dev/dredge-mods/main/README.md",
-    "thumbnail": ""
+    "thumbnail": "",
+    "latest_release_description": "Current builds of my DREDGE mods.\r\nFor Winch alpha-1.3\r\n# Mods\r\n- AdjustHoodedFigures\r\n| Restart any failed Hooded Figure quests.\r\n- ConfigChanger\r\n| Creates Config.Json file allowing editing of base game attributes.\r\n| More than 60 modifiable game attributes.\r\n| Installation information in [README](https://github.com/bdlm-dev/dredge-mods#configchanger).\r\n| Attribute information [here](https://github.com/bdlm-dev/dredge-mods/edit/main/ConfigChanger).\r\n\r\n- EnableUnityExplorer\r\n| Implements [UnityExplorer](https://github.com/sinai-dev/UnityExplorer)\r\n| Altered UnityExplorer STANDALONE Mono available [here](https://github.com/bdlm-dev/DREDGE-UnityExplorer/releases)\r\n\r\n# Changes\r\n**Changelog**: https://github.com/bdlm-dev/dredge-mods/compare/2023-04-27...2023-04-28\r\n- Port all mods to alpha-1.3\r\n- ConfigChanger\r\n| Include custom attribute \"removeBoundary\" to remove out of bounds warning and events."
   },
   {
     "name": "Rare Fish Restock",
@@ -102,7 +108,8 @@
     "downloads": 154,
     "readme_url": "https://github.com/MegaPiggy/DredgeRareFishRestock/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/MegaPiggy/DredgeRareFishRestock/main/README.md",
-    "thumbnail": "Rare Fish Restock.webp"
+    "thumbnail": "Rare Fish Restock.webp",
+    "latest_release_description": "No longer restocks relics, quests, and research parts. (I didn't account for these in first version)"
   },
   {
     "name": "Quest Item Unlocker",
@@ -117,7 +124,8 @@
     "downloads": 73,
     "readme_url": "https://github.com/xen-42/dredge-quest-item-unlocker/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/dredge-quest-item-unlocker/main/README.md",
-    "thumbnail": "Quest Item Unlocker.webp"
+    "thumbnail": "Quest Item Unlocker.webp",
+    "latest_release_description": "- Fixes the Family Crest"
   },
   {
     "name": "Dredge VR",
@@ -132,7 +140,8 @@
     "downloads": 210,
     "readme_url": "https://github.com/xen-42/DredgeVR/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/DredgeVR/main/README.md",
-    "thumbnail": "Dredge VR.webp"
+    "thumbnail": "Dredge VR.webp",
+    "latest_release_description": "The Pale Reach should all work properly now with this update\r\n\r\n- Cutscenes in The Pale Reach DLC now actually play out\r\n- Fix infected fish particle orientation\r\n- Hide laser pointers when hiding UI\r\n- Show \"UNBOUND\" in tutorial popups if an input is missing\r\n- Fix snow position on Pale Reach title screen\r\n- Removed the \"disable distance particles\" option because it was buggy\r\n- Fixed message entries disappearing when changing tabs\r\n- Fixed held message positions"
   },
   {
     "name": "Fast Dock",
@@ -147,7 +156,8 @@
     "downloads": 134,
     "readme_url": "https://github.com/MegaPiggy/DredgeFastDock/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/MegaPiggy/DredgeFastDock/main/README.md",
-    "thumbnail": "Fast Dock.webp"
+    "thumbnail": "Fast Dock.webp",
+    "latest_release_description": "Fixed mod_meta.json"
   },
   {
     "name": "Encyclopedia Lookup",
@@ -162,7 +172,8 @@
     "downloads": 60,
     "readme_url": "https://github.com/nogarcia/DredgeLookup/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/nogarcia/DredgeLookup/main/README.md",
-    "thumbnail": ""
+    "thumbnail": "",
+    "latest_release_description": "First version! Either download the release manually and extract it to your Winch mod folder, or download the mod from the Available tab in the mod manager.\r\n\r\nPress <kbd>L</kbd> while hovering over a fish to open the encyclopedia to the page containing the fish.\r\n\r\n**Full Changelog**: https://github.com/nogarcia/DredgeLookup/commits/v1.0.0"
   },
   {
     "name": "Detailed Console Logs",
@@ -177,7 +188,8 @@
     "downloads": 19,
     "readme_url": "https://github.com/xen-42/DredgeMoreLogs/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/DredgeMoreLogs/main/README.md",
-    "thumbnail": ""
+    "thumbnail": "",
+    "latest_release_description": "- Logs more info to the console in Dredge"
   },
   {
     "name": "Dredge Free Cam",
@@ -192,7 +204,8 @@
     "downloads": 26,
     "readme_url": "https://github.com/xen-42/dredge-freecam/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/dredge-freecam/main/README.md",
-    "thumbnail": "Dredge Free Cam.webp"
+    "thumbnail": "Dredge Free Cam.webp",
+    "latest_release_description": "Press 0 to toggle debug free cam"
   },
   {
     "name": "RGB Pots",
@@ -207,7 +220,8 @@
     "downloads": 25,
     "readme_url": "https://github.com/nogarcia/DredgeRGBPots/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/nogarcia/DredgeRGBPots/main/README.md",
-    "thumbnail": "RGB Pots.webp"
+    "thumbnail": "RGB Pots.webp",
+    "latest_release_description": "First version! Either download the release manually and extract it to your Winch mod folder, or download the mod from the Available tab in the mod manager.\r\n\r\n**Full Changelog**: https://github.com/nogarcia/DredgeLookup/commits/v1.0.0"
   },
   {
     "name": "Reduced Rod Requirements",
@@ -222,7 +236,8 @@
     "downloads": 18,
     "readme_url": "https://github.com/xen-42/dredge-reduced-rod-requirements/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/dredge-reduced-rod-requirements/main/README.md",
-    "thumbnail": "Reduced Rod Requirements.webp"
+    "thumbnail": "Reduced Rod Requirements.webp",
+    "latest_release_description": "- Fishing with the wrong equipment will behave like broken equipment (can still fish, but slowly)"
   },
   {
     "name": "Auto Fish",
@@ -237,7 +252,8 @@
     "downloads": 16,
     "readme_url": "https://github.com/xen-42/dredge-auto-fish/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/dredge-auto-fish/main/README.md",
-    "thumbnail": ""
+    "thumbnail": "",
+    "latest_release_description": "- Skips the fishing/dredging mini-games"
   },
   {
     "name": "Monstrous Ship",
@@ -252,7 +268,8 @@
     "downloads": 13,
     "readme_url": "https://github.com/xen-42/dredge-monstrous-ship/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/dredge-monstrous-ship/main/README.md",
-    "thumbnail": "Monstrous Ship.webp"
+    "thumbnail": "Monstrous Ship.webp",
+    "latest_release_description": "- Updated to use Winch\r\n- Fixed a bunch of collision issues"
   },
   {
     "name": "Stress and Taxes",
@@ -267,7 +284,8 @@
     "downloads": 3,
     "readme_url": "https://github.com/Johncook2/Stress-and-Taxes/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/Johncook2/Stress-and-Taxes/main/README.md",
-    "thumbnail": ""
+    "thumbnail": "",
+    "latest_release_description": "An unfinished mod about making dredge harder."
   },
   {
     "name": "Instant Discard",
@@ -282,7 +300,8 @@
     "downloads": 5,
     "readme_url": "https://github.com/xen-42/DredgeInstantDiscard/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/DredgeInstantDiscard/main/README.md",
-    "thumbnail": ""
+    "thumbnail": "",
+    "latest_release_description": "Discard fish instantly instead of having to hold the button down."
   },
   {
     "name": "MorePeaceful",
@@ -297,7 +316,8 @@
     "downloads": 5,
     "readme_url": "https://github.com/SeaKestrel/MorePeaceful/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/SeaKestrel/MorePeaceful/main/README.md",
-    "thumbnail": "MorePeaceful.webp"
+    "thumbnail": "MorePeaceful.webp",
+    "latest_release_description": "Add a real peaceful mode to Dredge"
   },
   {
     "name": "BoatChanger",
@@ -312,7 +332,8 @@
     "downloads": 6,
     "readme_url": "https://github.com/SeaKestrel/BoatChanger/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/SeaKestrel/BoatChanger/main/README.md",
-    "thumbnail": "BoatChanger.webp"
+    "thumbnail": "BoatChanger.webp",
+    "latest_release_description": "Choose the boat's aspect"
   },
   {
     "name": "Full Aberration Rods",
@@ -324,10 +345,11 @@
     "release_date": "2024-04-22T14:10:52Z",
     "asset_update_date": "2024-04-22T14:15:41Z",
     "latest_version": "1.0.0",
-    "downloads": 6,
+    "downloads": 7,
     "readme_url": "https://github.com/SeaKestrel/FullAberrationRods/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/SeaKestrel/FullAberrationRods/main/README.md",
-    "thumbnail": "Full Aberration Rods.webp"
+    "thumbnail": "Full Aberration Rods.webp",
+    "latest_release_description": "Modify the Viscera Crane rod to allow you to combine all rods with aberration bonus in your boat"
   },
   {
     "name": "DredgeRichPresence",
@@ -337,11 +359,12 @@
     "author": "SeaKestrel",
     "description": "A better rich presence for discord",
     "release_date": "2024-04-24T21:49:20Z",
-    "asset_update_date": "2024-04-24T21:54:24Z",
-    "latest_version": "v1.0.0",
-    "downloads": 3,
+    "asset_update_date": "2024-04-27T13:04:56Z",
+    "latest_version": "v1.1.0",
+    "downloads": 4,
     "readme_url": "https://github.com/SeaKestrel/DredgeRichPresence/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/SeaKestrel/DredgeRichPresence/main/README.md",
-    "thumbnail": "DredgeRichPresence.webp"
+    "thumbnail": "DredgeRichPresence.webp",
+    "latest_release_description": "- Added support for the Pale Reach\r\n- Fixed Stellar Basin not showing\r\n\r\n*Thanks to MegaPiggy for contributing*"
   }
 ]
