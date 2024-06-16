@@ -368,6 +368,22 @@
     "latest_release_description": "- Added support for the Pale Reach\r\n- Fixed Stellar Basin not showing\r\n\r\n*Thanks to MegaPiggy for contributing*"
   },
   {
+    "name": "Persistent Markers",
+    "mod_guid": "megapiggy.persistentmarkers",
+    "repo": "MegaPiggy/DredgePersistentMarkers",
+    "download": "megapiggy.persistentmarkers.zip",
+    "author": "MegaPiggy",
+    "description": "Markers will display consistently, without the need of equipping your Spyglass. Also makes the drop-off harsher for how soon icons disappear from view when looking away (otherwise it's annoying)",
+    "release_date": "2024-06-16T12:57:08Z",
+    "asset_update_date": "2024-06-16T12:58:25Z",
+    "latest_version": "1.0",
+    "downloads": 0,
+    "readme_url": "https://github.com/MegaPiggy/DredgePersistentMarkers/blob/main/README.md",
+    "readme_raw": "https://raw.githubusercontent.com/MegaPiggy/DredgePersistentMarkers/main/README.md",
+    "thumbnail": "Persistent Markers.webp",
+    "latest_release_description": "First release"
+  },
+  {
     "name": "Custom Loading Screen",
     "mod_guid": "megapiggy.customloadingscreen",
     "repo": "MegaPiggy/DredgeCustomLoadingScreen",
