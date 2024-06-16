@@ -159,6 +159,12 @@
       "mod_guid": "megapiggy.persistentmarkers",
       "repo": "MegaPiggy/DredgePersistentMarkers",
       "download": "megapiggy.persistentmarkers.zip"
+    },
+    {
+      "name": "Custom Loading Screen",
+      "mod_guid": "megapiggy.customloadingscreen",
+      "repo": "MegaPiggy/DredgeCustomLoadingScreen",
+      "download": "megapiggy.customloadingscreen.zip"
     }
   ]
 }
