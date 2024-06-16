@@ -153,6 +153,12 @@
       "repo": "SeaKestrel/DredgeRichPresence",
       "download": "DaSea.DredgeRichPresence.zip",
       "description": "A better rich presence for discord"
+    },
+    {
+      "name": "Custom Loading Screen",
+      "mod_guid": "megapiggy.customloadingscreen",
+      "repo": "MegaPiggy/DredgeCustomLoadingScreen",
+      "download": "megapiggy.customloadingscreen.zip"
     }
   ]
 }
