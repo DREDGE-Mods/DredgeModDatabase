@@ -153,6 +153,12 @@
       "repo": "SeaKestrel/DredgeRichPresence",
       "download": "DaSea.DredgeRichPresence.zip",
       "description": "A better rich presence for discord"
+    },
+    {
+      "name": "Persistent Markers",
+      "mod_guid": "megapiggy.persistentmarkers",
+      "repo": "MegaPiggy/DredgePersistentMarkers",
+      "download": "megapiggy.persistentmarkers.zip"
     }
   ]
 }
