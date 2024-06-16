@@ -155,6 +155,12 @@
       "description": "A better rich presence for discord"
     },
     {
+      "name": "Persistent Markers",
+      "mod_guid": "megapiggy.persistentmarkers",
+      "repo": "MegaPiggy/DredgePersistentMarkers",
+      "download": "megapiggy.persistentmarkers.zip"
+    },
+    {
       "name": "Custom Loading Screen",
       "mod_guid": "megapiggy.customloadingscreen",
       "repo": "MegaPiggy/DredgeCustomLoadingScreen",
