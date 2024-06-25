@@ -165,6 +165,12 @@
       "mod_guid": "megapiggy.customloadingscreen",
       "repo": "MegaPiggy/DredgeCustomLoadingScreen",
       "download": "megapiggy.customloadingscreen.zip"
+    },
+    {
+      "name": "Mo' Money",
+      "mod_guid": "megapiggy.momoney",
+      "repo": "MegaPiggy/DredgeMoMoney",
+      "download": "megapiggy.momoney.zip"
     }
   ]
 }
