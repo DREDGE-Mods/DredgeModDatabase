@@ -1,4 +1,7 @@
 import { Octokit } from "@octokit/core";
+import type { OctokitResponse } from "@octokit/types";
+import { restEndpointMethods } from '@octokit/plugin-rest-endpoint-methods'
+import { RestEndpointMethodTypes } from "@octokit/plugin-rest-endpoint-methods";
 const fetch = require("node-fetch");
 
 // It's useful to log the API call count,
@@ -8,6 +11,7 @@ const LOG_API_CALL_COUNTS = false;
 
 export let apiCallCount = 0;
 
+type OctokitRepo = RestEndpointMethodTypes["repos"]["get"]["response"]["data"];
 
 function createOctokit() {
   return new Octokit({
@@ -30,3 +34,21 @@ export function getOctokit() {
   }
   return createdOctokit;
 }
+
+export function getRestEndpointMethods(octokit: Octokit) {
+  return restEndpointMethods(octokit).rest;
+}
+
+export async function getRepository(
+  octokit: Octokit,
+  owner: string,
+  repo: string
+) : Promise<OctokitResponse<OctokitRepo>> {
+  return (
+	await getRestEndpointMethods(octokit).repos.get({
+	  owner,
+	  repo,
+	})
+  );
+}
+

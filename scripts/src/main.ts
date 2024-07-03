@@ -6,7 +6,8 @@ import "./mod-info";
 import { generateModThumbnail } from "./create-thumbnail";
 import { Octokit } from "@octokit/core";
 import {
-  getOctokit
+  getOctokit,
+  getRepository
 } from "./octokit";
 
 async function run() {
@@ -45,8 +46,10 @@ async function run() {
 async function getModInfo(mod : ModInfo) {
     const octokit = getOctokit();
 
+    const [owner, repo] = mod.repo.split("/");
+
     // Get data from API
-    let json = await fetch_json(octokit, "/repos/" + mod.repo);
+    const json = (await getRepository(octokit, owner, repo)).data;
 
     // Get tags data
     let tagJson = await fetch_json(octokit, "/repos/" + mod.repo + "/tags");
