@@ -43,12 +43,7 @@ async function run() {
 }
 
 async function getModInfo(mod : ModInfo) {
-    const octokit = new octo.Octokit({
-        auth: process.env["GITHUB_TOKEN"],
-        request: {
-            fetch: fetch
-        }
-    })
+    const octokit = getOctokit();
 
     // Get data from API
     let json = await fetch_json(octokit, "/repos/" + mod.repo);
@@ -130,7 +125,7 @@ async function fetch_text(url : string) {
     return text;
 }
 
-async function fetch_json(octokit : any, url : string) {
+async function fetch_json(octokit : Octokit, url : string) {
     let res = await octokit.request("GET " + url);
     let json = res.data;
 
