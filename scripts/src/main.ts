@@ -87,12 +87,12 @@ async function getModInfo(mod : ModInfo) {
     if (imageResults != null) {
         for (let i = 0; i < imageResults.length; i++) {
             var image = imageResults[i]
-            console.log(mod.name + " " + i + " " + image)
+            console.log(mod.name + " " + i + " " + image);
             if (!image.includes("img.shields.io")) {
                 // Extract just the url from it
                 var first_image_match = image.match(/(!\[.*\]\()(.*)\)/);
                 if (first_image_match != null) {
-                    let image_url = fix_url(first_image_match[2], repo_root)
+                    let image_url = fix_url(first_image_match[2], readme_raw)
                     first_image = await generateModThumbnail(mod.name, image_url)
                 }
                 break;
@@ -145,12 +145,45 @@ function is_empty(s : string | undefined) {
     return s == null || s.length == 0;
 }
 
-function fix_url(url : string, repo_url : string) : string {
+  /**
+   * Trims slash at the end of URL if needed
+   * @param url URL
+   */
+function trimSlash(url: string): string {
+  if (url.lastIndexOf('/') === url.length - 1)
+    return url.slice(0, -1);
+  return url;
+}
+
+/**
+ * Returns directory url from file url
+   * @param itemUrl file URL
+ */
+function getDirectoryUrl(itemUrl: string) : string {
+  const urlTokens = itemUrl.split("?");
+  const url = trimSlash(urlTokens[0]);
+  return url.slice(0, url.lastIndexOf('/'));
+}
+
+function doubleDotSlash(repo_url: string, file_url: string) : string {
+    var fixed_repo_url = getDirectoryUrl(repo_url);
+    var fixed_file_url = file_url.slice(3);
+    if (fixed_file_url.startsWith("../")){
+        return doubleDotSlash(fixed_repo_url, fixed_file_url);
+    }
+    return fixed_repo_url + "/" + fixed_file_url
+}
+
+function fix_url(url : string, readme_url : string) : string {
     if (url.startsWith("https://") || url.startsWith("http://")) {
         return url;
     }
+    const repo_url = getDirectoryUrl(readme_url);
     if (url.startsWith("./")) {
         return repo_url + url.slice(1);
+    }
+    if (url.startsWith("../")) {
+        return doubleDotSlash(repo_url, url);
     }
     if (url.startsWith("/")) {
         return repo_url + url;
