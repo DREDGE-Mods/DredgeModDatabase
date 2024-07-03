@@ -48,6 +48,10 @@
                     "downloads_offset": {
                         "type": "number",
                         "description": "The amount to add to the download count."
+                    },
+                    "readme_path": {
+                        "type": "string",
+                        "description": "Path to the readme file for this mod in the default branch."
                     }
                 }
             }

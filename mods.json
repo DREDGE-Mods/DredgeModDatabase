@@ -44,7 +44,8 @@
       "mod_guid": "bluey.unityexplorer",
       "repo": "bdlm-dev/dredge-mods",
       "download": "UnityExplorer.zip",
-      "description": "Build of sinai-dev's Unity Explorer for DREDGE"
+      "description": "Build of sinai-dev's Unity Explorer for DREDGE",
+      "readme_path": "EnableUnityExplorer/README.md"
     },
     {
       "name": "Rare Fish Restock",

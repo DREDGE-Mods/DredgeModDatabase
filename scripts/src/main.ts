@@ -4,7 +4,10 @@ const fetch = require("node-fetch");
 const fs = require("fs");
 import "./mod-info";
 import { generateModThumbnail } from "./create-thumbnail";
-const octo = require("octokit")
+import { Octokit } from "@octokit/core";
+import {
+  getOctokit
+} from "./octokit";
 
 async function run() {
     core.info("Started updating mod database");
@@ -71,8 +74,10 @@ async function getModInfo(mod : ModInfo) {
 
     let default_branch = json.default_branch;
 
+    let readme_path = mod.readme_path ?? "README.md";
+    let readme_url = "https://github.com/" + mod.repo + "/blob/" + default_branch + "/" + readme_path;
     let repo_root = "https://raw.githubusercontent.com/" + mod.repo + "/" + default_branch;
-    let readme_raw = repo_root + "/README.md"
+    let readme_raw = repo_root + "/" +  readme_path;
 
     // Get the first image in the readme, if there is one, but make sure it isn't from img.shields.io
     let readme_plain_text = await fetch_text(readme_raw);
@@ -108,7 +113,7 @@ async function getModInfo(mod : ModInfo) {
         asset_update_date : asset_update_date,
         latest_version: tagJson[0].name,
         downloads: download_count,
-        readme_url: "https://github.com/" + mod.repo + "/blob/" + default_branch + "/README.md",
+        readme_url: readme_url,
         readme_raw: readme_raw,
         thumbnail: first_image,
         latest_release_description: !is_empty(latestReleaseDescription) ? latestReleaseDescription : description

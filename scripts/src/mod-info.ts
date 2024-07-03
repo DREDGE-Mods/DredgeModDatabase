@@ -5,7 +5,8 @@ interface ModInfo {
     download : string,
     description? : string,
     author? : string,
-    downloads_offset?: number
+    downloads_offset?: number,
+    readme_path? : string
 }
 
 interface DatabaseModInfo extends ModInfo {
