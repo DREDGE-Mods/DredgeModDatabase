@@ -37,9 +37,17 @@
                         "type": "string",
                         "description": "The name of the asset to be downloaded from the release - ex, 'CosmicHorrorFishingBuddies.zip'."
                     },
+                    "author": {
+                        "type": "string",
+                        "description": "The name of the author of the mod. Leave this blank to use your GitHub account name / organization name."
+                    },
                     "description": {
                         "type": "string",
                         "description": "The description of the mod. Leave this blank to use the About line from the GitHub repo."
+                    },
+                    "downloads_offset": {
+                        "type": "number",
+                        "description": "The amount to add to the download count."
                     }
                 }
             }
