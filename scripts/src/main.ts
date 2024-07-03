@@ -7,6 +7,11 @@ import { generateModThumbnail } from "./create-thumbnail";
 import { Octokit } from "@octokit/core";
 import {
   getOctokit,
+  getRestEndpointMethods,
+  getCleanedUpRelease,
+  getCleanedUpReleaseList,
+  getRepoUpdatedAt,
+  getAllReleases,
   getRepository
 } from "./octokit";
 
@@ -49,28 +54,57 @@ async function getModInfo(mod : ModInfo) {
     const [owner, repo] = mod.repo.split("/");
 
     // Get data from API
-    const json = (await getRepository(octokit, owner, repo)).data;
+    const repository = (await getRepository(octokit, owner, repo)).data;
 
-    // Get tags data
-    let tagJson = await fetch_json(octokit, "/repos/" + mod.repo + "/tags");
+    const repo_updated_at = getRepoUpdatedAt(repository);
+
+    const fullReleaseList = (await getAllReleases(octokit, owner, repo)).data
+    .sort(
+      (releaseA, releaseB) =>
+        new Date(releaseB.created_at).valueOf() -
+        new Date(releaseA.created_at).valueOf()
+    )
+    .filter((release) => !release.draft);
+
+    const isDownloadAsset = (asset : { name : string, download_count : number }) => (asset.name == mod.download);
+
+    const prereleaseList = fullReleaseList.filter(
+      (release) =>
+        release.prerelease &&
+        release.assets.some(isDownloadAsset)
+    );
+
+    const releaseList = fullReleaseList.filter(
+      (release) =>
+        !release.prerelease &&
+        release.assets.some(isDownloadAsset)
+    );
+
+    const latestRelease = releaseList[0];
+
+    if (!latestRelease) {
+      throw new Error(
+        "Failed to find latest release from either release list or latest release endpoint"
+      );
+    }
+
+    const releases = getCleanedUpReleaseList(releaseList, isDownloadAsset);
+    const prereleases = getCleanedUpReleaseList(prereleaseList, isDownloadAsset);
+    const cleanLatestRelease = getCleanedUpRelease(latestRelease, isDownloadAsset);
+    
+    const firstReleaseDate = (releases[releases.length - 1] ?? cleanLatestRelease).creation_date;
 
     // Get download count
-    // For mods that changed their zip name, we keep an old tally for the previous download count since it checks by the file name
-    var download_count = mod.downloads_offset ?? 0;
-    let releasesJson = await fetch_json(octokit, "/repos/" + mod.repo + "/releases");
-    releasesJson.forEach((release : any) => {
-        release.assets.forEach((asset : { name : string, download_count : number }) => {
-            if (asset.name == mod.download) {
-                download_count += asset.download_count;
-            }
-        })
-    });
-    let asset_update_date = releasesJson[0].assets.filter((x : { name : string }) => x.name == mod.download)[0].updated_at;
-    // Release description
-    var latestReleaseDescription = releasesJson[0].body;
+    // For mods that changed their zip name, we set the initial value to the previous download count since it checks by the file name
+    const download_count = ([...releases, ...prereleases].reduce(
+      (accumulator, release) => {
+        return accumulator + release.download_count;
+      },
+      mod.downloads_offset ?? 0
+    ));
 
 
-    let default_branch = json.default_branch;
+    let default_branch = repository.default_branch;
 
     let readme_path = mod.readme_path ?? "README.md";
     let readme_url = "https://github.com/" + mod.repo + "/blob/" + default_branch + "/" + readme_path;
@@ -98,7 +132,10 @@ async function getModInfo(mod : ModInfo) {
         }
     }
 
-    var description = !is_empty(mod.description) ? mod.description : json.description;
+    var description = !is_empty(mod.description) ? mod.description : (repository.description != null ? repository.description : undefined);
+    
+    // Release description
+    var latestReleaseDescription = cleanLatestRelease.description;
 
     let databaseJson : DatabaseModInfo = {
         name : mod.name,
@@ -107,9 +144,11 @@ async function getModInfo(mod : ModInfo) {
         download : mod.download,
         author : !is_empty(mod.author) ? mod.author : mod.repo.split("/")[0],
         description : description,
-        release_date : json.created_at,
-        asset_update_date : asset_update_date,
-        latest_version: tagJson[0].name,
+        repo_creation_date : repository.created_at,
+        repo_update_date : repo_updated_at,
+        release_date : firstReleaseDate,
+        asset_update_date : cleanLatestRelease.update_date,
+        latest_version: cleanLatestRelease.version,
         downloads: download_count,
         readme_url: readme_url,
         readme_raw: readme_raw,

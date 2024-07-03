@@ -11,6 +11,8 @@ interface ModInfo {
 
 interface DatabaseModInfo extends ModInfo {
     downloads?: number,
+    repo_creation_date?: string;
+    repo_update_date?: string;
     release_date?: string,
     asset_update_date?: string,
     latest_version?: string,
