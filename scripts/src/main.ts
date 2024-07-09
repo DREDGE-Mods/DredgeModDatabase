@@ -139,6 +139,7 @@ async function getModInfo(mod : ModInfo) {
 
     let databaseJson : DatabaseModInfo = {
         name : mod.name,
+        slug : mod.name.trim().toLowerCase().replace(/\s/g, "_"),
         mod_guid : mod.mod_guid,
         repo : mod.repo,
         download : mod.download,

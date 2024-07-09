@@ -10,6 +10,7 @@ interface ModInfo {
 }
 
 interface DatabaseModInfo extends ModInfo {
+    slug : string,
     downloads?: number,
     repo_creation_date?: string;
     repo_update_date?: string;
