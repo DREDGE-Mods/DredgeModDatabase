@@ -1,6 +1,7 @@
 [
   {
     "name": "Winch",
+    "slug": "winch",
     "mod_guid": "hacktix.winch",
     "repo": "DREDGE-Mods/Winch",
     "download": "Winch.zip",
@@ -19,6 +20,7 @@
   },
   {
     "name": "Cosmic Horror Fishing Buddies",
+    "slug": "cosmic_horror_fishing_buddies",
     "mod_guid": "xen.cosmichorrorfishingbuddies",
     "repo": "xen-42/cosmic-horror-fishing-buddies",
     "download": "xen.CosmicHorrorFishingBuddies.zip",
@@ -37,6 +39,7 @@
   },
   {
     "name": "Disaster Button",
+    "slug": "disaster_button",
     "mod_guid": "hacktix.disasterbutton",
     "repo": "DREDGE-Mods/Winch",
     "download": "DisasterButton.zip",
@@ -55,6 +58,7 @@
   },
   {
     "name": "Example Items",
+    "slug": "example_items",
     "mod_guid": "hacktix.exampleitems",
     "repo": "DREDGE-Mods/Winch",
     "download": "ExampleItems.zip",
@@ -73,6 +77,7 @@
   },
   {
     "name": "Intro Skipper",
+    "slug": "intro_skipper",
     "mod_guid": "hacktix.introskipper",
     "repo": "DREDGE-Mods/Winch",
     "download": "IntroSkipper.zip",
@@ -91,6 +96,7 @@
   },
   {
     "name": "Unity Explorer",
+    "slug": "unity_explorer",
     "mod_guid": "bluey.unityexplorer",
     "repo": "bdlm-dev/dredge-mods",
     "download": "UnityExplorer.zip",
@@ -109,6 +115,7 @@
   },
   {
     "name": "Rare Fish Restock",
+    "slug": "rare_fish_restock",
     "mod_guid": "megapiggy.rarefishrestock",
     "repo": "MegaPiggy/DredgeRareFishRestock",
     "download": "megapiggy.rarefishrestock.zip",
@@ -127,6 +134,7 @@
   },
   {
     "name": "Quest Item Unlocker",
+    "slug": "quest_item_unlocker",
     "mod_guid": "xen.QuestItemUnlocker",
     "repo": "xen-42/dredge-quest-item-unlocker",
     "download": "xen.QuestItemUnlocker.zip",
@@ -145,6 +153,7 @@
   },
   {
     "name": "Dredge VR",
+    "slug": "dredge_vr",
     "mod_guid": "xen.DredgeVR",
     "repo": "xen-42/DredgeVR",
     "download": "xen.DredgeVR.zip",
@@ -163,6 +172,7 @@
   },
   {
     "name": "Fast Dock",
+    "slug": "fast_dock",
     "mod_guid": "megapiggy.fastdock",
     "repo": "MegaPiggy/DredgeFastDock",
     "download": "megapiggy.fastdock.zip",
@@ -181,6 +191,7 @@
   },
   {
     "name": "Encyclopedia Lookup",
+    "slug": "encyclopedia_lookup",
     "mod_guid": "nogarcia.DredgeLookup",
     "repo": "nogarcia/DredgeLookup",
     "download": "nogarcia.DredgeLookup.zip",
@@ -199,6 +210,7 @@
   },
   {
     "name": "Detailed Console Logs",
+    "slug": "detailed_console_logs",
     "mod_guid": "xen.DredgeMoreLogs",
     "repo": "xen-42/DredgeMoreLogs",
     "download": "xen.DredgeMoreLogs.zip",
@@ -217,6 +229,7 @@
   },
   {
     "name": "Dredge Free Cam",
+    "slug": "dredge_free_cam",
     "mod_guid": "xen.FreeCam",
     "repo": "xen-42/dredge-freecam",
     "download": "xen.FreeCam.zip",
@@ -235,6 +248,7 @@
   },
   {
     "name": "RGB Pots",
+    "slug": "rgb_pots",
     "mod_guid": "nogarcia.DredgeRGBPots",
     "repo": "nogarcia/DredgeRGBPots",
     "download": "nogarcia.DredgeRGBPots.zip",
@@ -253,6 +267,7 @@
   },
   {
     "name": "Reduced Rod Requirements",
+    "slug": "reduced_rod_requirements",
     "mod_guid": "xen.ReducedRodRequirements",
     "repo": "xen-42/dredge-reduced-rod-requirements",
     "download": "xen.ReducedRodRequirements.zip",
@@ -271,6 +286,7 @@
   },
   {
     "name": "Auto Fish",
+    "slug": "auto_fish",
     "mod_guid": "xen.AutoFish",
     "repo": "xen-42/dredge-auto-fish",
     "download": "xen.AutoFish.zip",
@@ -289,6 +305,7 @@
   },
   {
     "name": "Monstrous Ship",
+    "slug": "monstrous_ship",
     "mod_guid": "xen.DredgeMonstrousShip",
     "repo": "xen-42/dredge-monstrous-ship",
     "download": "xen.DredgeMonstrousShip.zip",
@@ -307,6 +324,7 @@
   },
   {
     "name": "Stress and Taxes",
+    "slug": "stress_and_taxes",
     "mod_guid": "Johncook.StressandTaxes",
     "repo": "Johncook2/Stress-and-Taxes",
     "download": "Johncook2.StressandTaxes.zip",
@@ -325,6 +343,7 @@
   },
   {
     "name": "Instant Discard",
+    "slug": "instant_discard",
     "mod_guid": "xen.InstantDiscard",
     "repo": "xen-42/DredgeInstantDiscard",
     "download": "xen.InstantDiscard.zip",
@@ -343,6 +362,7 @@
   },
   {
     "name": "MorePeaceful",
+    "slug": "morepeaceful",
     "mod_guid": "DaSea.MorePeaceful",
     "repo": "SeaKestrel/MorePeaceful",
     "download": "DaSea.MorePeaceful.zip",
@@ -361,6 +381,7 @@
   },
   {
     "name": "BoatChanger",
+    "slug": "boatchanger",
     "mod_guid": "DaSea.BoatChanger",
     "repo": "SeaKestrel/BoatChanger",
     "download": "DaSea.BoatChanger.zip",
@@ -379,6 +400,7 @@
   },
   {
     "name": "Full Aberration Rods",
+    "slug": "full_aberration_rods",
     "mod_guid": "DaSea.FullAberrationRods",
     "repo": "SeaKestrel/FullAberrationRods",
     "download": "DaSea.FullAberrationRods.zip",
@@ -397,6 +419,7 @@
   },
   {
     "name": "DredgeRichPresence",
+    "slug": "dredgerichpresence",
     "mod_guid": "DaSea.DredgeRichPresence",
     "repo": "SeaKestrel/DredgeRichPresence",
     "download": "DaSea.DredgeRichPresence.zip",
@@ -415,6 +438,7 @@
   },
   {
     "name": "Persistent Markers",
+    "slug": "persistent_markers",
     "mod_guid": "megapiggy.persistentmarkers",
     "repo": "MegaPiggy/DredgePersistentMarkers",
     "download": "megapiggy.persistentmarkers.zip",
@@ -433,6 +457,7 @@
   },
   {
     "name": "Custom Loading Screen",
+    "slug": "custom_loading_screen",
     "mod_guid": "megapiggy.customloadingscreen",
     "repo": "MegaPiggy/DredgeCustomLoadingScreen",
     "download": "megapiggy.customloadingscreen.zip",
@@ -451,6 +476,7 @@
   },
   {
     "name": "Mo' Money",
+    "slug": "mo'_money",
     "mod_guid": "megapiggy.momoney",
     "repo": "MegaPiggy/DredgeMoMoney",
     "download": "megapiggy.momoney.zip",
