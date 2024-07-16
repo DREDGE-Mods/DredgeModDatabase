@@ -172,6 +172,12 @@
       "mod_guid": "megapiggy.momoney",
       "repo": "MegaPiggy/DredgeMoMoney",
       "download": "megapiggy.momoney.zip"
+    },
+    {
+      "name": "Auto Resume",
+      "mod_guid": "megapiggy.autoresume",
+      "repo": "MegaPiggy/DredgeAutoResume",
+      "download": "megapiggy.autoresume.zip"
     }
   ]
 }
