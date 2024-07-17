@@ -6,7 +6,8 @@
   "scripts": {
     "test": "npx ts-node src/main.ts",
     "build": "tsc",
-    "format": "prettier --write **/*.ts"
+    "format": "prettier --write **/*.ts",
+    "test-discord": "npx ts-node src/tests/test-discord.ts"
   },
   "keywords": [],
   "author": "",

@@ -6,35 +6,6 @@ import "./mod-info";
 async function run() {
     core.info("Checking for mod updates to post to discord");
 
-    /* Local testing
-    var newMod : DatabaseModInfo = {
-        "name": "Cosmic Horror Fishing Buddies",
-        "author": "xen-42",
-        "repo": "xen-42/cosmic-horror-fishing-buddies",
-        "latest_version": "1.0.0",
-        "mod_guid": "xen.cosmichorrorfishingbuddies",
-        "downloads": 3,
-        "download": "xen.CosmicHorrorFishingBuddies.zip",
-        "thumbnail": "Cosmic Horror Fishing Buddies.webp"
-    }
-
-    var oldMod : DatabaseModInfo = {
-        "name": "Cosmic Horror Fishing Buddies",
-        "author": "xen-42",
-        "repo": "xen-42/cosmic-horror-fishing-buddies",
-        "latest_version": "0.1.0",
-        "mod_guid": "xen.cosmichorrorfishingbuddies",
-        "downloads": 3,
-        "download": "xen.CosmicHorrorFishingBuddies.zip",
-        "thumbnail": "Cosmic Horror Fishing Buddies.webp"
-    }
-    
-    SendNotification(url, newMod, null);
-    SendNotification(url, newMod, oldMod);
-
-    return;
-    */
-
     if (process.env["DISCORD_WEBHOOK"] == null) {
         core.error("Need to set DISCORD_WEBHOOK secret to post notifications!");
         return;
@@ -71,31 +42,39 @@ async function run() {
     }
 }
 
-async function SendNotification(webhookUrl : string, mod : DatabaseModInfo, oldMod : DatabaseModInfo | null) {
+export async function SendNotification(webhookUrl : string, mod : DatabaseModInfo, oldMod : DatabaseModInfo | null) {
     try{
         var payload = GetModUpdatePayload(mod, oldMod);
-
-        core.info(JSON.stringify(payload));
-
-        const isUpdate = oldMod != null;
     
-        const response = await fetch(webhookUrl, {
-            method: "post",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify({
-                embeds: [ payload ]
-            })
-        });
-    
-        if (!response.ok) {
-            core.error(`Discord API post response not ok. ${response.status}: ${response.statusText}`);
-        }
+        await SendPayload(webhookUrl, payload);
     }
     catch (error) {
         core.error(`Failed to send Discord notification: ${error}`);
     }
+}
+
+export async function SendPayload(webhookUrl : string, payload : any) {
+    let message : any = {
+        method: "post",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            embeds: [ payload ]
+        })
+    };
+
+    core.info(JSON.stringify(message, null, 2));
+
+    await fetch(webhookUrl, message)
+    .then((response : any) => {
+        if (!response.ok) {
+            core.error(`Discord API post response not ok. ${response.status}: ${response.statusText}`);
+            return response.json()
+        }
+    }).then((data : any) => {
+        core.error(JSON.stringify(data))
+    });
 }
 
 function GetModUpdatePayload(mod : DatabaseModInfo, oldMod : DatabaseModInfo | null) {
@@ -105,7 +84,32 @@ function GetModUpdatePayload(mod : DatabaseModInfo, oldMod : DatabaseModInfo | n
     var colour = !isUpdate ? 3066993 : 15105570;
 
     // When a new mod is added just put the description, for updates include the description of the latest release
-    var description = oldMod === null ? mod.description : mod.latest_release_description;
+    var description = (oldMod === null ? mod.description : mod.latest_release_description) ?? "A mod for DREDGE";
+
+    const maxLength = 4000; // Max length of a Discord embed description is 4096, have to leave room for the title though.
+    const truncatedDisclaimer = '**...**\n\n**Check the mod repo for the complete changelog.**';
+    const endPosition = maxLength - 1 - truncatedDisclaimer.length;
+
+    core.info(description)
+    if (description && description.length > maxLength) {
+        description = description.slice(0, endPosition);
+        // Don't slice in the middle of a word
+        let lastIndex = description.lastIndexOf(' ');
+        let lastChar = description[lastIndex-1];
+        if (lastChar && lastChar.match(/^[.,:!?]/)) {
+            lastIndex--;
+        }
+        description = description.slice(0, lastIndex);
+        // Try to respect markdown links in the form [text text text](website.something.whatever)
+        // Because we only slice at spaces we just have to check if we're inside square brackets
+        let openSquareBracket = description.lastIndexOf("[");
+        let closeSquareBracket = description.lastIndexOf("]");
+        if (openSquareBracket != -1 && (closeSquareBracket == -1 || closeSquareBracket < openSquareBracket)) 
+        {
+            description = description.slice(0, openSquareBracket);
+        }
+        description += truncatedDisclaimer;
+    }
 
     var authorName = mod.author;
     var profilePicture = `https://github.com/${mod.repo.split("/")[0]}.png`
@@ -117,11 +121,8 @@ function GetModUpdatePayload(mod : DatabaseModInfo, oldMod : DatabaseModInfo | n
     return {
         type: "rich",
         title: mod.name,
+        description: `${title}\n>>> ${description}`,
         fields: [
-          {
-            name: title,
-            value: description,
-          },
           {
             name: "\u200B",
             value: `\n<:github:1085179483784499260> [Source Code](https://github.com/${mod.repo})`,

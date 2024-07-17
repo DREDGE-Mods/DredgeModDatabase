@@ -5,27 +5,7 @@ const octo = require("octokit")
 import "./mod-info";
 
 async function run() {
-    /*
     core.info("Checking for added mods to refresh website");
-
-    var newDB = <DatabaseModInfo[]>JSON.parse(fs.readFileSync('./database/database.json','utf8'));
-    var oldDB = <DatabaseModInfo[]>JSON.parse(fs.readFileSync('./database/old_database.json','utf8'));
-
-    const oldDBDict: Record<string, DatabaseModInfo> = {};
-
-    for (const mod of oldDB) {
-        oldDBDict[mod.mod_guid] = mod;
-    }
-
-    for (const newMod of newDB) {
-        if (!(newMod.mod_guid in oldDBDict)) {
-            // New mod just released!
-            core.info(newMod.name + " was just added to the database!");
-
-            return;
-        }
-    }
-    */
 
     // Instead of running on a separate schedule, update the site whenever the database is updated
     UpdateWebsite();
