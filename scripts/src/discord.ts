@@ -18,11 +18,19 @@ async function run() {
 
     const oldDBDict: Record<string, DatabaseModInfo> = {};
 
+    var postedRepos : string[] = new Array();
+
     for (const mod of oldDB) {
         oldDBDict[mod.mod_guid] = mod;
     }
 
+    // New mods
     for (const newMod of newDB) {
+        // Assume that if one central repo mod is updated it will have changelogs for all others
+        if (postedRepos.includes(newMod.repo))
+            continue;
+        postedRepos.push(newMod.repo);
+
         if (newMod.mod_guid in oldDBDict) {
             const oldMod = oldDBDict[newMod.mod_guid];
             // Check for updates
