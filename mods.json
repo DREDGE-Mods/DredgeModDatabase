@@ -6,7 +6,8 @@
       "mod_guid": "hacktix.winch",
       "repo": "DREDGE-Mods/Winch",
       "download": "Winch.zip",
-      "author": "Hacktix"
+      "author": "Hacktix",
+      "readme_path": "Winch/README.md"
     },
     {
       "name": "Cosmic Horror Fishing Buddies",
@@ -21,7 +22,8 @@
       "repo": "DREDGE-Mods/Winch",
       "download": "DisasterButton.zip",
       "description": "Trigger sanity events via button press",
-      "author": "Hacktix"
+      "author": "Hacktix",
+      "readme_path": "Winch.Examples/DisasterButton/README.md"
     },
     {
       "name": "Example Items",
@@ -29,7 +31,8 @@
       "repo": "DREDGE-Mods/Winch",
       "download": "ExampleItems.zip",
       "description": "Adds example items using Winch",
-      "author": "Hacktix"
+      "author": "Hacktix",
+      "readme_path": "Winch.Examples/ExampleItems/README.md"
     },
     {
       "name": "Intro Skipper",
@@ -37,7 +40,8 @@
       "repo": "DREDGE-Mods/Winch",
       "download": "IntroSkipper.zip",
       "description": "Skip the splash screen when starting the game",
-      "author": "Hacktix"
+      "author": "Hacktix",
+      "readme_path": "Winch.Examples/IntroSkipper/README.md"
     },
     {
       "name": "Unity Explorer",
