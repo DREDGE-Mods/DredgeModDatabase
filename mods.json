@@ -182,6 +182,13 @@
       "mod_guid": "megapiggy.autoresume",
       "repo": "MegaPiggy/DredgeAutoResume",
       "download": "megapiggy.autoresume.zip"
+    },
+    {
+      "name": "Randomizer",
+      "mod_guid": "mmbluey.randomizer",
+      "repo": "bdlm-dev/DREDGE-Randomizer",
+      "download": "mmbluey.Randomizer.zip",
+      "author": "mmbluey"
     }
   ]
 }
