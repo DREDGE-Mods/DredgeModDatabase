@@ -189,6 +189,12 @@
       "repo": "bdlm-dev/DREDGE-Randomizer",
       "download": "mmbluey.Randomizer.zip",
       "author": "mmbluey"
+    },
+    {
+      "name": "Tweaks",
+      "mod_guid": "megapiggy.tweaks",
+      "repo": "MegaPiggy/DredgeTweaks",
+      "download": "megapiggy.tweaks.zip"
     }
   ]
 }
