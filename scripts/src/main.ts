@@ -124,10 +124,17 @@ async function getModInfo(mod : ModInfo) {
                 // Extract just the url from it
                 var first_image_match = image.match(/(!\[.*\]\()(.*)\)/);
                 if (first_image_match != null) {
-                    let image_url = fix_url(first_image_match[2], readme_raw)
-                    first_image = await generateModThumbnail(mod.name, image_url)
+                    try {
+                        let image_url = fix_url(first_image_match[2], readme_raw)
+                        first_image = await generateModThumbnail(mod.name, image_url)
+                        break;
+                    }
+                    catch {
+                        first_image = "";
+                        core.info("Threw error trying to get image for " + mod.name);
+                        continue;
+                    }
                 }
-                break;
             }
         }
     }
