@@ -195,6 +195,14 @@
       "mod_guid": "megapiggy.tweaks",
       "repo": "MegaPiggy/DredgeTweaks",
       "download": "megapiggy.tweaks.zip"
+    },
+    {
+      "name": "Dredge Hard Mode",
+      "mod_guid": "DaSea.DredgeHardMode",
+      "repo": "SeaKestrel/HardModeDredge",
+      "download": "DaSea.DredgeHardMode.zip",
+      "author": "DaSea",
+      "description": "Adds a fun and very hard gamemode to DREDGE"
     }
   ]
 }
