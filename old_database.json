@@ -568,5 +568,24 @@
     "readme_raw": "https://raw.githubusercontent.com/SeaKestrel/HardModeDredge/main/README.md",
     "thumbnail": "",
     "latest_release_description": "**Full Changelog**: https://github.com/SeaKestrel/HardModeDredge/compare/v0.4.2...v0.4.4"
+  },
+  {
+    "name": "Deep Submergence",
+    "slug": "deep_submergence",
+    "mod_guid": "twestpha.DeepSubmergence",
+    "repo": "twestpha/DredgeDeepSubmergence",
+    "download": "twestpha.DeepSubmergence.zip",
+    "author": "twestpha",
+    "description": "A mod for Dredge that replaces the boat with a submarine",
+    "repo_creation_date": "2024-08-19T03:21:23Z",
+    "repo_update_date": "2024-08-22T02:19:19Z",
+    "release_date": "2024-08-22T01:37:05Z",
+    "asset_update_date": "2024-08-22T01:46:13Z",
+    "latest_version": "0.0.1",
+    "downloads": 0,
+    "readme_url": "https://github.com/twestpha/DredgeDeepSubmergence/blob/main/README.md",
+    "readme_raw": "https://raw.githubusercontent.com/twestpha/DredgeDeepSubmergence/main/README.md",
+    "thumbnail": "",
+    "latest_release_description": "A mod for Dredge that replaces the boat with a submarine"
   }
 ]
