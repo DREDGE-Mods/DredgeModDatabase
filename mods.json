@@ -203,6 +203,13 @@
       "download": "DaSea.DredgeHardMode.zip",
       "author": "DaSea",
       "description": "Adds a fun and very hard gamemode to DREDGE"
+    },
+    {
+      "name": "Deep Submergence",
+      "mod_guid": "twestpha.DeepSubmergence",
+      "repo": "twestpha/DredgeDeepSubmergence",
+      "download": "twestpha.DeepSubmergence.zip",
+      "description": "A mod for Dredge that replaces the boat with a submarine"
     }
   ]
 }
