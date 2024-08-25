@@ -75,6 +75,7 @@ export async function downloadImage(
     const response = await fetch(imageUrl);
   
     if (!response.ok) {
+      console.log(`Response status: ${response.status} ${response.statusText}`);
       return null;
     }
   
