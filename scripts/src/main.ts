@@ -113,7 +113,7 @@ async function getModInfo(mod : ModInfo) {
 
     // Get the first image in the readme, if there is one, but make sure it isn't from img.shields.io
     let readme_plain_text = await fetch_text(readme_raw);
-    let imageRegex = /(!\[.*\]\(.*)\)/g
+    let imageRegex = /(!\[.*\]\(.*)\)|\<img.+src\=(?:\"|\')(.+?)(?:\"|\')(?:.+?)\>/g
     var imageResults = readme_plain_text.match(imageRegex);
     let first_image : string = "";
     if (imageResults != null) {
@@ -121,18 +121,36 @@ async function getModInfo(mod : ModInfo) {
             var image = imageResults[i]
             console.log(mod.name + " " + i + " " + image);
             if (!image.includes("img.shields.io")) {
-                // Extract just the url from it
-                var first_image_match = image.match(/(!\[.*\]\()(.*)\)/);
-                if (first_image_match != null) {
-                    try {
-                        let image_url = fix_url(first_image_match[2], readme_raw)
-                        first_image = await generateModThumbnail(mod.name, image_url)
-                        break;
+                if (image.includes("<img")) {
+                    // Extract just the url from it
+                    var first_image_match = image.match(/\<img.+src\=(?:\"|\')(.+?)(?:\"|\')(?:.+?)\>/);
+                    if (first_image_match != null) {
+                        try {
+                            let image_url = fix_url(first_image_match[3], readme_raw)
+                            first_image = await generateModThumbnail(mod.name, image_url)
+                            break;
+                        }
+                        catch {
+                            first_image = "";
+                            core.info("Threw error trying to get image for " + mod.name);
+                            continue;
+                        }
                     }
-                    catch {
-                        first_image = "";
-                        core.info("Threw error trying to get image for " + mod.name);
-                        continue;
+                }
+                else {
+                    // Extract just the url from it
+                    var first_image_match = image.match(/(!\[.*\]\()(.*)\)/);
+                    if (first_image_match != null) {
+                        try {
+                            let image_url = fix_url(first_image_match[2], readme_raw)
+                            first_image = await generateModThumbnail(mod.name, image_url)
+                            break;
+                        }
+                        catch {
+                            first_image = "";
+                            core.info("Threw error trying to get image for " + mod.name);
+                            continue;
+                        }
                     }
                 }
             }
