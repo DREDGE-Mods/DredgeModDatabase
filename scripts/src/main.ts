@@ -120,7 +120,7 @@ async function getModInfo(mod : ModInfo) {
         for (let i = 0; i < imageResults.length; i++) {
             var image = imageResults[i]
             console.log(mod.name + " " + i + " " + image);
-            if (!image.includes("img.shields.io")) {
+            if (!image.includes("img.shields.io") && !image.includes("badge")) {
                 if (image.includes("<img")) {
                     // Extract just the url from it
                     var first_image_match = image.match(/\<img.+src\=(?:\"|\')(.+?)(?:\"|\')(?:.+?)\>/);
