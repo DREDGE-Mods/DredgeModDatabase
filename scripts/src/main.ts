@@ -130,9 +130,9 @@ async function getModInfo(mod : ModInfo) {
                             first_image = await generateModThumbnail(mod.name, image_url)
                             break;
                         }
-                        catch {
+                        catch (error) {
                             first_image = "";
-                            core.info("Threw error trying to get image for " + mod.name);
+                            core.info(`Threw error trying to get image for ${mod.name}\n${error}`);
                             continue;
                         }
                     }
@@ -146,9 +146,9 @@ async function getModInfo(mod : ModInfo) {
                             first_image = await generateModThumbnail(mod.name, image_url)
                             break;
                         }
-                        catch {
+                        catch (error) {
                             first_image = "";
-                            core.info("Threw error trying to get image for " + mod.name);
+                            core.info(`Threw error trying to get image for ${mod.name}\n${error}`);
                             continue;
                         }
                     }
