@@ -132,7 +132,7 @@ async function getModInfo(mod : ModInfo) {
                         }
                         catch (error) {
                             first_image = "";
-                            core.info(`Threw error trying to get image for ${mod.name}\n${error}`);
+                            core.info(`Threw error trying to get image for ${mod.name}\n${first_image_match}\n${error}`);
                             continue;
                         }
                     }
@@ -148,7 +148,7 @@ async function getModInfo(mod : ModInfo) {
                         }
                         catch (error) {
                             first_image = "";
-                            core.info(`Threw error trying to get image for ${mod.name}\n${error}`);
+                            core.info(`Threw error trying to get image for ${mod.name}\n${first_image_match}\n${error}`);
                             continue;
                         }
                     }
