@@ -126,7 +126,7 @@ async function getModInfo(mod : ModInfo) {
                     var first_image_match = image.match(/\<img.+src\=(?:\"|\')(.+?)(?:\"|\')(?:.+?)\>/);
                     if (first_image_match != null) {
                         try {
-                            let image_url = fix_url(first_image_match[3], readme_raw)
+                            let image_url = fix_url(first_image_match[1], readme_raw)
                             first_image = await generateModThumbnail(mod.name, image_url)
                             break;
                         }
