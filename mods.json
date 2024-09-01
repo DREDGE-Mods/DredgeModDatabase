@@ -210,6 +210,12 @@
       "repo": "twestpha/DredgeDeepSubmergence",
       "download": "twestpha.DeepSubmergence.zip",
       "description": "A mod for Dredge that replaces the boat with a submarine"
+    },
+    {
+      "name": "Remove Player Map Marker",
+      "mod_guid": "Johncook2.RemovePlayerMapMarker",
+      "repo": "Johncook2/Remove-Player-Map-Marker",
+      "download": "Johncook2.RemovePlayerMapMarker.zip"
     }
   ]
 }
