@@ -1,2 +1,3 @@
 scripts/thumbnails/*
 scripts/database.json
+scripts/src/database/database.json
