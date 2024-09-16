@@ -1,4 +1,4 @@
 name: "Post weekly mod update to Discord"
 runs:
   using: "node16"
-  main: "../../scripts/build/scripts/src/weekly-mod-update.js"
+  main: "../../scripts/build/scripts/src/weekly-discord-update.js"
