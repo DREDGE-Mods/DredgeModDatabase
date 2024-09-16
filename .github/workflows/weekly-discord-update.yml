@@ -1,4 +1,4 @@
-name: Update Database
+name: Post weekly mods update to Discord
 
 on:
   schedule:
