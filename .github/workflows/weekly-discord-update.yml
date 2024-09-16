@@ -1,0 +1,38 @@
+name: Update Database
+
+on:
+  schedule:
+    - cron: 0 13 * * MON
+  workflow_dispatch:
+
+jobs:
+  update-database:
+    name: Update Database
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: Build
+        run: |
+          cd scripts
+          npm install
+          npm run build
+      - name: Sanity check
+        run: |
+          cd scripts
+          cd build
+          pwd
+          ls
+      - name: Checkout database repo
+        uses: actions/checkout@v3
+        with:
+          ref: database
+          path: database
+      - name: Post updates to Discord
+        uses: ./actions/weekly-discord-update
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
