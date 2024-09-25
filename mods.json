@@ -216,6 +216,12 @@
       "mod_guid": "Johncook2.RemovePlayerMapMarker",
       "repo": "Johncook2/Remove-Player-Map-Marker",
       "download": "Johncook2.RemovePlayerMapMarker.zip"
+    },
+    {
+      "name": "Fishing Speed Rework",
+      "mod_guid": "Johncook2.FishingSpeedRework",
+      "repo": "Johncook2/Fishing-speed-Rework",
+      "download": "Johncook2.FishingSpeedRework.zip"
     }
   ]
 }
