@@ -222,6 +222,12 @@
       "mod_guid": "Johncook2.FishingSpeedRework",
       "repo": "Johncook2/Fishing-speed-Rework",
       "download": "Johncook2.FishingSpeedRework.zip"
+    },
+    {
+      "name": "Material and Trinket Bait",
+      "mod_guid": "xen-42.MaterialBait",
+      "repo": "xen-42/dredge-material-bait",
+      "download": "xen-42.MaterialBait.zip"
     }
   ]
 }
