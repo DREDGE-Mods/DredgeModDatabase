@@ -26,6 +26,19 @@ async function run() {
 
     var db = <DatabaseModInfo[]>JSON.parse(fs.readFileSync('./database/database.json','utf8'));
 
+    // Check for updated mods
+    let updatedMods : DatabaseModInfo[] = []
+    db.forEach((mod) => {
+        if (mod.asset_update_date !== undefined) {
+            var updated_mod_dmy = mod.asset_update_date.split("T")[0].split("-")
+            let updated_date_object = new Date()
+            updated_date_object.setFullYear(Number(updated_mod_dmy[2]), Number(updated_mod_dmy[1]) - 1, Number(updated_mod_dmy[0]))
+            if (updated_date_object.getTime() > new Date().getTime() - 7 * 24 * 60 * 60 * 1000) {
+                updatedMods.push(mod)
+            }
+        }
+    })
+
     await fetch_json("https://raw.githubusercontent.com/DREDGE-Mods/DredgeModDownloadTracker/main/scripts/downloads.json").then((downloadJson) => {
         core.info("Got the download json")
         
@@ -69,12 +82,12 @@ async function run() {
             index++
         }
 
-        postTopFive(topFive, newMods, db, webhookUrl);
+        postTopFive(topFive, newMods, updatedMods, db, webhookUrl);
     });
 
 }
 
-async function postTopFive(topFive : any, newMods : string[], db : any[], webhookUrl : string) {
+async function postTopFive(topFive : any, newMods : string[], updatedMods : DatabaseModInfo[], db : any[], webhookUrl : string) {
     var text = "📈 Most downloaded mods this week:\n"
     for (let i = 0; i < 5; i++) {
         var unique_id = topFive[i][0]
@@ -95,6 +108,16 @@ async function postTopFive(topFive : any, newMods : string[], db : any[], webhoo
                 return mod.mod_guid == mod_guid
             })
             text += "\n" + modInfo.name + " by " + modInfo.author
+        })
+    }
+
+    if (updatedMods.length == 0) {
+        text += "\n\n❌ No mods were updated this week"
+    }
+    else {
+        text += "\n\n🎉 Updated mods this week:"
+        updatedMods.forEach((mod) => {
+            text += "\n" + mod.name + " by " + mod.author + " is now version " + mod.latest_version
         })
     }
     
