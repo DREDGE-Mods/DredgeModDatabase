@@ -115,6 +115,9 @@ async function postTopFive(topFive : any, newMods : string[], updatedMods : Data
         })
     }
 
+    // Don't report new mods as having just updated
+    updatedMods = updatedMods.filter((mod) => !newMods.includes(mod.mod_guid))   
+
     if (updatedMods.length == 0) {
         text += "\n\n❌ No mods were updated this week"
     }
