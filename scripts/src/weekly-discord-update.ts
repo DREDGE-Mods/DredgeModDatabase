@@ -2,7 +2,6 @@ const core = require("@actions/core");
 const node_fetch = require("node-fetch");
 const fs = require("fs");
 import "./mod-info";
-import mod_list from "../../mods.json";
 
 function compareDownloads(a : any, b : any) {
     let modA, downloadsA
@@ -32,7 +31,7 @@ async function run() {
         if (mod.asset_update_date !== undefined) {
             var updated_mod_dmy = mod.asset_update_date.split("T")[0].split("-")
             let updated_date_object = new Date()
-            updated_date_object.setFullYear(Number(updated_mod_dmy[2]), Number(updated_mod_dmy[1]) - 1, Number(updated_mod_dmy[0]))
+            updated_date_object.setFullYear(Number(updated_mod_dmy[0]), Number(updated_mod_dmy[1]) - 1, Number(updated_mod_dmy[2]))
             if (updated_date_object.getTime() > new Date().getTime() - 7 * 24 * 60 * 60 * 1000) {
                 updatedMods.push(mod)
             }
@@ -107,7 +106,12 @@ async function postTopFive(topFive : any, newMods : string[], updatedMods : Data
             var modInfo = db.find(function (mod) {
                 return mod.mod_guid == mod_guid
             })
-            text += "\n" + modInfo.name + " by " + modInfo.author
+            if (modInfo === undefined) {
+                text += "\n- Unknown?"
+            }
+            else {
+                text += "\n- " + modInfo.name + " by " + modInfo.author
+            }
         })
     }
 
@@ -117,7 +121,7 @@ async function postTopFive(topFive : any, newMods : string[], updatedMods : Data
     else {
         text += "\n\n🎉 Updated mods this week:"
         updatedMods.forEach((mod) => {
-            text += "\n" + mod.name + " by " + mod.author + " is now version " + mod.latest_version
+            text += "\n- " + mod.name + " by " + mod.author + " -> __" + mod.latest_version + "__"
         })
     }
     
