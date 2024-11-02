@@ -228,6 +228,12 @@
       "mod_guid": "xen-42.MaterialBait",
       "repo": "xen-42/dredge-material-bait",
       "download": "xen-42.MaterialBait.zip"
+    },
+    {
+      "name": "Title Screen Command",
+      "mod_guid": "megapiggy.titlescreencommand",
+      "repo": "MegaPiggy/DredgeTitleScreenCommand",
+      "download": "megapiggy.titlescreencommand.zip"
     }
   ]
 }
