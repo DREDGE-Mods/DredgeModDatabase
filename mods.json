@@ -234,6 +234,12 @@
       "mod_guid": "megapiggy.titlescreencommand",
       "repo": "MegaPiggy/DredgeTitleScreenCommand",
       "download": "megapiggy.titlescreencommand.zip"
+    },
+    {
+      "name": "Rig Repair",
+      "mod_guid": "megapiggy.rigrepair",
+      "repo": "MegaPiggy/DredgeRigRepair",
+      "download": "megapiggy.rigrepair.zip"
     }
   ]
 }
