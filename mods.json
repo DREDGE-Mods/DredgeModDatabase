@@ -240,6 +240,14 @@
       "mod_guid": "megapiggy.rigrepair",
       "repo": "MegaPiggy/DredgeRigRepair",
       "download": "megapiggy.rigrepair.zip"
+    },
+    {
+      "name": "DredgeFlags",
+      "mod_guid": "DaSea.DredgeFlags",
+      "repo": "jeanpantaleon/DredgeFlags",
+      "download": "DaSea.DredgeFlags.zip",
+      "author": "DaSea",
+      "description": "Adds the ability to create your own flags"
     }
   ]
 }
