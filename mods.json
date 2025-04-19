@@ -248,6 +248,13 @@
       "download": "DaSea.DredgeFlags.zip",
       "author": "DaSea",
       "description": "Adds the ability to create your own flags"
+    },
+    {
+      "name": "Big Spender",
+      "mod_guid": "iainsaun.BigSpender",
+      "repo": "iainsaun/DredgeBigSpender",
+      "download": "iainsaun.BigSpender.zip",
+      "description": "Makes earning money harder and spending money more important." 
     }
   ]
 }
