@@ -701,5 +701,24 @@
     "readme_raw": "https://raw.githubusercontent.com/jeanpantaleon/DredgeFlags/main/README.md",
     "thumbnail": "",
     "latest_release_description": "# First release !"
+  },
+  {
+    "name": "Big Spender",
+    "slug": "big_spender",
+    "mod_guid": "iainsaun.BigSpender",
+    "repo": "iainsaun/DredgeBigSpender",
+    "download": "iainsaun.BigSpender.zip",
+    "author": "iainsaun",
+    "description": "Makes earning money harder and spending money more important.",
+    "repo_creation_date": "2025-04-18T07:19:19Z",
+    "repo_update_date": "2025-04-19T09:30:47Z",
+    "release_date": "2025-04-19T09:20:43Z",
+    "asset_update_date": "2025-04-19T09:22:06Z",
+    "latest_version": "0.1.0",
+    "downloads": 1,
+    "readme_url": "https://github.com/iainsaun/DredgeBigSpender/blob/main/README.md",
+    "readme_raw": "https://raw.githubusercontent.com/iainsaun/DredgeBigSpender/main/README.md",
+    "thumbnail": "",
+    "latest_release_description": "First version of my mod with nothing but fish selling price changes, although this rebalances the economy a fair bit already."
   }
 ]
