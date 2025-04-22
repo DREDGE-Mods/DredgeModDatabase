@@ -254,7 +254,14 @@
       "mod_guid": "iainsaun.BigSpender",
       "repo": "iainsaun/DredgeBigSpender",
       "download": "iainsaun.BigSpender.zip",
-      "description": "Makes earning money harder and spending money more important." 
+      "description": "Makes earning money harder and spending money more important."
+    },
+    {
+      "name": "First Person",
+      "mod_guid": "mmbluey.firstperson",
+      "repo": "bdlm-dev/DREDGE-FirstPerson",
+      "download": "mmbluey.firstperson.zip",
+      "description": "First Person conversion; FOV & Waves configurable via in-game config"
     }
   ]
 }
