@@ -739,5 +739,24 @@
     "readme_raw": "https://raw.githubusercontent.com/bdlm-dev/DREDGE-NightMode/main/README.md",
     "thumbnail": "",
     "latest_release_description": "Initial release.\r\nPermanent night mode, the sun is gone, there is no day-night light cycle.\r\nSanity & aberration chance behaves as permanently night."
+  },
+  {
+    "name": "First Person",
+    "slug": "first_person",
+    "mod_guid": "mmbluey.firstperson",
+    "repo": "bdlm-dev/DREDGE-FirstPerson",
+    "download": "mmbluey.firstperson.zip",
+    "author": "bdlm-dev",
+    "description": "First Person conversion; FOV & Waves configurable via in-game config",
+    "repo_creation_date": "2025-04-21T23:49:42Z",
+    "repo_update_date": "2025-04-22T00:04:52Z",
+    "release_date": "2025-04-21T23:59:30Z",
+    "asset_update_date": "2025-04-22T00:00:50Z",
+    "latest_version": "v1.0.0",
+    "downloads": 1,
+    "readme_url": "https://github.com/bdlm-dev/DREDGE-FirstPerson/blob/main/README.md",
+    "readme_raw": "https://raw.githubusercontent.com/bdlm-dev/DREDGE-FirstPerson/main/README.md",
+    "thumbnail": "",
+    "latest_release_description": "Initial release.\r\nMost aspects of the game are now first-person, though some details (e.g., cutscenes) return to third-person.\r\nOptimal experience with stage 1 boat, as others have more visually restrictive models."
   }
 ]
