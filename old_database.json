@@ -88,7 +88,7 @@
     "release_date": "2023-05-30T01:18:55Z",
     "asset_update_date": "2024-12-26T19:00:45Z",
     "latest_version": "v0.6.0",
-    "downloads": 1215,
+    "downloads": 1216,
     "readme_url": "https://github.com/DREDGE-Mods/Winch/blob/master/Winch.Examples/IntroSkipper/README.md",
     "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/Winch.Examples/IntroSkipper/README.md",
     "thumbnail": "",
@@ -183,7 +183,7 @@
     "release_date": "2023-12-09T22:52:07Z",
     "asset_update_date": "2023-12-12T01:57:57Z",
     "latest_version": "1.1",
-    "downloads": 1414,
+    "downloads": 1415,
     "readme_url": "https://github.com/MegaPiggy/DredgeFastDock/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/MegaPiggy/DredgeFastDock/main/README.md",
     "thumbnail": "Fast Dock.webp",
@@ -720,5 +720,24 @@
     "readme_raw": "https://raw.githubusercontent.com/iainsaun/DredgeBigSpender/main/README.md",
     "thumbnail": "",
     "latest_release_description": "This update makes trophy fish more lucrative and also dredge materials are worth more than vanilla, check out their sale prices at the shipwright!"
+  },
+  {
+    "name": "Night Mode",
+    "slug": "night_mode",
+    "mod_guid": "mmbluey.nightmode",
+    "repo": "bdlm-dev/DREDGE-NightMode",
+    "download": "mmbluey.nightmode.zip",
+    "author": "bdlm-dev",
+    "description": "Permanent darkness, the sun is overrated anyway.",
+    "repo_creation_date": "2025-04-22T00:52:35Z",
+    "repo_update_date": "2025-04-22T00:59:29Z",
+    "release_date": "2025-04-22T00:56:24Z",
+    "asset_update_date": "2025-04-22T00:59:27Z",
+    "latest_version": "v1.0.0",
+    "downloads": 0,
+    "readme_url": "https://github.com/bdlm-dev/DREDGE-NightMode/blob/main/README.md",
+    "readme_raw": "https://raw.githubusercontent.com/bdlm-dev/DREDGE-NightMode/main/README.md",
+    "thumbnail": "",
+    "latest_release_description": "Initial release.\r\nPermanent night mode, the sun is gone, there is no day-night light cycle.\r\nSanity & aberration chance behaves as permanently night."
   }
 ]
