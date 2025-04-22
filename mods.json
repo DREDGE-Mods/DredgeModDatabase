@@ -257,6 +257,13 @@
       "description": "Makes earning money harder and spending money more important."
     },
     {
+      "name": "Night Mode",
+      "mod_guid": "mmbluey.nightmode",
+      "repo": "bdlm-dev/DREDGE-NightMode",
+      "download": "mmbluey.nightmode.zip",
+      "description": "Permanent darkness, the sun is overrated anyway."
+    },
+    {
       "name": "First Person",
       "mod_guid": "mmbluey.firstperson",
       "repo": "bdlm-dev/DREDGE-FirstPerson",
