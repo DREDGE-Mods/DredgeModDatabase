@@ -254,7 +254,14 @@
       "mod_guid": "iainsaun.BigSpender",
       "repo": "iainsaun/DredgeBigSpender",
       "download": "iainsaun.BigSpender.zip",
-      "description": "Makes earning money harder and spending money more important." 
+      "description": "Makes earning money harder and spending money more important."
+    },
+    {
+      "name": "Night Mode",
+      "mod_guid": "mmbluey.nightmode",
+      "repo": "bdlm-dev/DREDGE-NightMode",
+      "download": "mmbluey.nightmode.zip",
+      "description": "Permanent darkness, the sun is overrated anyway."
     }
   ]
 }
