@@ -34,7 +34,7 @@
     "downloads": 2252,
     "readme_url": "https://github.com/xen-42/cosmic-horror-fishing-buddies/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/cosmic-horror-fishing-buddies/main/README.md",
-    "thumbnail": "Cosmic Horror Fishing Buddies.webp",
+    "thumbnail": "",
     "latest_release_description": "Thank you MegaPiggy for this update\r\n\r\n- Boat items and the upgrade from Iron Rig DLC now visually appear for others\r\n   - Tier 5 Hull\r\n   - Material Pot\r\n   - Siphon Trawler & Material Harvester\r\n- Added timeout debug settings\r\n- Whatever else I did, I don’t remember."
   },
   {
@@ -72,7 +72,7 @@
     "downloads": 349,
     "readme_url": "https://github.com/DREDGE-Mods/Winch/blob/master/Winch.Examples/ExampleItems/README.md",
     "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/Winch.Examples/ExampleItems/README.md",
-    "thumbnail": "Example Items.webp",
+    "thumbnail": "",
     "latest_release_description": "## Winch v0.6.0\r\n- Added WinchLauncher.exe which will detect if the installed version of DREDGE is from Steam or Epic and then launch it via the vendor (previously Epic would just not launch properly from the manager).\r\n\r\n## IntroSkipper v1.0.1\r\n- Fixed a newly introduced NRE that would leave you stuck on a black screen in DREDGE 1.5.4 (Epic Games version) \r\n\r\n**Generated From PR: https://github.com/DREDGE-Mods/Winch/pull/37**"
   },
   {
@@ -148,7 +148,7 @@
     "downloads": 256,
     "readme_url": "https://github.com/xen-42/dredge-quest-item-unlocker/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/dredge-quest-item-unlocker/main/README.md",
-    "thumbnail": "Quest Item Unlocker.webp",
+    "thumbnail": "",
     "latest_release_description": "- Fixes the Family Crest"
   },
   {
@@ -186,7 +186,7 @@
     "downloads": 1442,
     "readme_url": "https://github.com/MegaPiggy/DredgeFastDock/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/MegaPiggy/DredgeFastDock/main/README.md",
-    "thumbnail": "Fast Dock.webp",
+    "thumbnail": "",
     "latest_release_description": "Fixed mod_meta.json"
   },
   {
@@ -243,7 +243,7 @@
     "downloads": 288,
     "readme_url": "https://github.com/xen-42/dredge-freecam/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/dredge-freecam/main/README.md",
-    "thumbnail": "Dredge Free Cam.webp",
+    "thumbnail": "",
     "latest_release_description": "Press 0 to toggle debug free cam"
   },
   {
@@ -376,7 +376,7 @@
     "downloads": 183,
     "readme_url": "https://github.com/SeaKestrel/MorePeaceful/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/SeaKestrel/MorePeaceful/main/README.md",
-    "thumbnail": "MorePeaceful.webp",
+    "thumbnail": "",
     "latest_release_description": "Add a real peaceful mode to Dredge"
   },
   {
@@ -395,7 +395,7 @@
     "downloads": 307,
     "readme_url": "https://github.com/SeaKestrel/BoatChanger/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/SeaKestrel/BoatChanger/main/README.md",
-    "thumbnail": "BoatChanger.webp",
+    "thumbnail": "",
     "latest_release_description": "**Changes:**\r\n- Now supports tier 5 hull \r\n\r\n**Full Changelog**: https://github.com/SeaKestrel/BoatChanger/compare/v1.0.0...v1.1.0"
   },
   {
@@ -414,7 +414,7 @@
     "downloads": 801,
     "readme_url": "https://github.com/SeaKestrel/FullAberrationRods/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/SeaKestrel/FullAberrationRods/main/README.md",
-    "thumbnail": "Full Aberration Rods.webp",
+    "thumbnail": "",
     "latest_release_description": "Modify the Viscera Crane rod to allow you to combine all rods with aberration bonus in your boat"
   },
   {
@@ -433,7 +433,7 @@
     "downloads": 158,
     "readme_url": "https://github.com/SeaKestrel/DredgeRichPresence/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/SeaKestrel/DredgeRichPresence/main/README.md",
-    "thumbnail": "DredgeRichPresence.webp",
+    "thumbnail": "",
     "latest_release_description": "- Added support for the Pale Reach\r\n- Fixed Stellar Basin not showing\r\n\r\n*Thanks to MegaPiggy for contributing*"
   },
   {
@@ -490,7 +490,7 @@
     "downloads": 587,
     "readme_url": "https://github.com/MegaPiggy/DredgeMoMoney/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/MegaPiggy/DredgeMoMoney/main/README.md",
-    "thumbnail": "Mo' Money.webp",
+    "thumbnail": "",
     "latest_release_description": "First release"
   },
   {
@@ -604,7 +604,7 @@
     "downloads": 85,
     "readme_url": "https://github.com/Johncook2/Remove-Player-Map-Marker/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/Johncook2/Remove-Player-Map-Marker/main/README.md",
-    "thumbnail": "Remove Player Map Marker.webp",
+    "thumbnail": "",
     "latest_release_description": "Removes the marker on the map that signifies the players position and rotation"
   },
   {
@@ -642,7 +642,7 @@
     "downloads": 254,
     "readme_url": "https://github.com/xen-42/dredge-material-bait/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/dredge-material-bait/main/README.md",
-    "thumbnail": "Material and Trinket Bait.webp",
+    "thumbnail": "",
     "latest_release_description": "Mod for DREDGE that adds a new bait type for collecting materials and trinkets."
   },
   {
@@ -718,7 +718,7 @@
     "downloads": 13,
     "readme_url": "https://github.com/iainsaun/DredgeBigSpender/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/iainsaun/DredgeBigSpender/main/README.md",
-    "thumbnail": "Big Spender.webp",
+    "thumbnail": "",
     "latest_release_description": "You can now sell materials to the shipwright and they are more worth selling.\r\nIronhaven crates can also be sold, and the ooze canisters."
   },
   {
@@ -775,7 +775,7 @@
     "downloads": 3,
     "readme_url": "https://github.com/alextric234/ArchipelagoDredgeMod/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/alextric234/ArchipelagoDredgeMod/main/README.md",
-    "thumbnail": "",
+    "thumbnail": "Archipelago Dredge.webp",
     "latest_release_description": "This is the initial release of the Archipelago Mod.  \r\n\r\n- Checks are first time catching fish\r\n- Items randomized are all fish and the relics for the main pursuit\r\n- Goal is completed when all relics are turned into The Collector\r\n- Includes terminal commands for connecting and disconnecting"
   }
 ]
