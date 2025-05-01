@@ -239,6 +239,18 @@ function doubleDotSlash(repo_url: string, file_url: string) : string {
 
 function fix_url(url : string, readme_url : string) : string {
     if (url.startsWith("https://") || url.startsWith("http://")) {
+
+        // Fix for embedding an image that is part of the github repo 
+        // eg must change
+        // https://github.com/alextric234/ArchipelagoDredgeMod/blob/main/ArchipelagoDredge/Assets/ArchipelagoDredge.jpg
+        // into
+        // https://raw.githubusercontent.com/alextric234/ArchipelagoDredgeMod/refs/heads/main/ArchipelagoDredge/Assets/ArchipelagoDredge.jpg
+        if (url.includes("https://github.com/")) {
+            url = url.replace("https://github.com/", "https://raw.githubusercontent.com/")
+            // if somebody puts a file in a folder called "blob" this will break but I do not care
+            url = url.replace("/blob/", "/refs/heads/")
+        }
+
         return url;
     }
     const repo_url = getDirectoryUrl(readme_url);
