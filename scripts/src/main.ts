@@ -245,7 +245,8 @@ function fix_url(url : string, readme_url : string) : string {
         // https://github.com/alextric234/ArchipelagoDredgeMod/blob/main/ArchipelagoDredge/Assets/ArchipelagoDredge.jpg
         // into
         // https://raw.githubusercontent.com/alextric234/ArchipelagoDredgeMod/refs/heads/main/ArchipelagoDredge/Assets/ArchipelagoDredge.jpg
-        if (url.includes("https://github.com/") && !url.includes("user-attachments")) {
+        if (url.includes("https://github.com/") && !url.includes("user-attachments") && (url.includes(".jpg") || url.includes(".png") || url.includes(".webp")
+        )) {
             url = url.replace("https://github.com/", "https://raw.githubusercontent.com/")
             // if somebody puts a file in a folder called "blob" this will break but I do not care
             url = url.replace("/blob/", "/refs/heads/")
