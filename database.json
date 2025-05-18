@@ -12,7 +12,7 @@
     "release_date": "2023-05-30T01:18:55Z",
     "asset_update_date": "2024-12-26T19:00:44Z",
     "latest_version": "v0.6.0",
-    "downloads": 4538,
+    "downloads": 4539,
     "readme_url": "https://github.com/DREDGE-Mods/Winch/blob/master/Winch/README.md",
     "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/Winch/README.md",
     "thumbnail": "Winch.webp",
@@ -72,7 +72,7 @@
     "downloads": 355,
     "readme_url": "https://github.com/DREDGE-Mods/Winch/blob/master/Winch.Examples/ExampleItems/README.md",
     "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/Winch.Examples/ExampleItems/README.md",
-    "thumbnail": "Example Items.webp",
+    "thumbnail": "",
     "latest_release_description": "## Winch v0.6.0\r\n- Added WinchLauncher.exe which will detect if the installed version of DREDGE is from Steam or Epic and then launch it via the vendor (previously Epic would just not launch properly from the manager).\r\n\r\n## IntroSkipper v1.0.1\r\n- Fixed a newly introduced NRE that would leave you stuck on a black screen in DREDGE 1.5.4 (Epic Games version) \r\n\r\n**Generated From PR: https://github.com/DREDGE-Mods/Winch/pull/37**"
   },
   {
@@ -148,7 +148,7 @@
     "downloads": 269,
     "readme_url": "https://github.com/xen-42/dredge-quest-item-unlocker/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/dredge-quest-item-unlocker/main/README.md",
-    "thumbnail": "Quest Item Unlocker.webp",
+    "thumbnail": "",
     "latest_release_description": "- Fixes the Family Crest"
   },
   {
@@ -164,10 +164,10 @@
     "release_date": "2023-12-05T21:31:32Z",
     "asset_update_date": "2024-12-26T23:20:06Z",
     "latest_version": "v0.4.2",
-    "downloads": 738,
+    "downloads": 739,
     "readme_url": "https://github.com/xen-42/DredgeVR/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/DredgeVR/main/README.md",
-    "thumbnail": "Dredge VR.webp",
+    "thumbnail": "",
     "latest_release_description": "- Fixed UI scale being off since DREDGE version 1.5.2\r\n- Tested and works on the Epic Games version (1.5.4)"
   },
   {
@@ -183,7 +183,7 @@
     "release_date": "2023-12-09T22:52:07Z",
     "asset_update_date": "2023-12-12T01:57:57Z",
     "latest_version": "1.1",
-    "downloads": 1539,
+    "downloads": 1540,
     "readme_url": "https://github.com/MegaPiggy/DredgeFastDock/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/MegaPiggy/DredgeFastDock/main/README.md",
     "thumbnail": "Fast Dock.webp",
@@ -202,7 +202,7 @@
     "release_date": "2024-01-25T00:01:05Z",
     "asset_update_date": "2024-01-25T00:07:08Z",
     "latest_version": "v1.0.0",
-    "downloads": 564,
+    "downloads": 565,
     "readme_url": "https://github.com/nogarcia/DredgeLookup/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/nogarcia/DredgeLookup/main/README.md",
     "thumbnail": "",
@@ -262,7 +262,7 @@
     "downloads": 398,
     "readme_url": "https://github.com/nogarcia/DredgeRGBPots/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/nogarcia/DredgeRGBPots/main/README.md",
-    "thumbnail": "RGB Pots.webp",
+    "thumbnail": "",
     "latest_release_description": "First version! Either download the release manually and extract it to your Winch mod folder, or download the mod from the Available tab in the mod manager.\r\n\r\n**Full Changelog**: https://github.com/nogarcia/DredgeLookup/commits/v1.0.0"
   },
   {
@@ -319,7 +319,7 @@
     "downloads": 185,
     "readme_url": "https://github.com/xen-42/dredge-monstrous-ship/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/dredge-monstrous-ship/main/README.md",
-    "thumbnail": "",
+    "thumbnail": "Monstrous Ship.webp",
     "latest_release_description": "- Updated to use Winch\r\n- Fixed a bunch of collision issues"
   },
   {
@@ -430,7 +430,7 @@
     "release_date": "2024-04-24T21:52:24Z",
     "asset_update_date": "2024-04-27T13:04:56Z",
     "latest_version": "v1.1.0",
-    "downloads": 169,
+    "downloads": 170,
     "readme_url": "https://github.com/SeaKestrel/DredgeRichPresence/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/SeaKestrel/DredgeRichPresence/main/README.md",
     "thumbnail": "DredgeRichPresence.webp",
@@ -449,7 +449,7 @@
     "release_date": "2024-06-16T12:57:00Z",
     "asset_update_date": "2024-06-16T12:58:25Z",
     "latest_version": "1.0",
-    "downloads": 698,
+    "downloads": 699,
     "readme_url": "https://github.com/MegaPiggy/DredgePersistentMarkers/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/MegaPiggy/DredgePersistentMarkers/main/README.md",
     "thumbnail": "Persistent Markers.webp",
@@ -471,7 +471,7 @@
     "downloads": 138,
     "readme_url": "https://github.com/MegaPiggy/DredgeCustomLoadingScreen/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/MegaPiggy/DredgeCustomLoadingScreen/main/README.md",
-    "thumbnail": "Custom Loading Screen.webp",
+    "thumbnail": "",
     "latest_release_description": "First release"
   },
   {
@@ -547,7 +547,7 @@
     "downloads": 1036,
     "readme_url": "https://github.com/MegaPiggy/DredgeTweaks/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/MegaPiggy/DredgeTweaks/main/README.md",
-    "thumbnail": "Tweaks.webp",
+    "thumbnail": "",
     "latest_release_description": "- Updated for 1.5.1\r\n- Added 3 new settings to the miscellanous section. The first two were previously always enabled but now they have a setting.\r\n   They will need to be transferred from the default config for people with a config from last update.\r\n  - onlyActivateBoostWhenMoving - Make it so you can activate haste ability only when moving\r\n  - sellExtraItems - Make it so you can sell Peculiar Engine, Sampling Device, pieces of treasure map\r\n  - buyLockedLights - Make it so you can buy the Halogen, Tungsten, Incandescent lights without chapter progression"
   },
   {
@@ -582,7 +582,7 @@
     "release_date": "2024-08-22T01:37:05Z",
     "asset_update_date": "2024-09-15T17:35:55Z",
     "latest_version": "0.4.0",
-    "downloads": 858,
+    "downloads": 859,
     "readme_url": "https://github.com/twestpha/DredgeDeepSubmergence/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/twestpha/DredgeDeepSubmergence/main/README.md",
     "thumbnail": "Deep Submergence.webp",
