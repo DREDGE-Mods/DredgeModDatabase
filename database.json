@@ -183,7 +183,7 @@
     "release_date": "2023-12-09T22:52:07Z",
     "asset_update_date": "2023-12-12T01:57:57Z",
     "latest_version": "1.1",
-    "downloads": 1850,
+    "downloads": 1851,
     "readme_url": "https://github.com/MegaPiggy/DredgeFastDock/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/MegaPiggy/DredgeFastDock/main/README.md",
     "thumbnail": "Fast Dock.webp",
@@ -376,7 +376,7 @@
     "downloads": 231,
     "readme_url": "https://github.com/SeaKestrel/MorePeaceful/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/SeaKestrel/MorePeaceful/main/README.md",
-    "thumbnail": "MorePeaceful.webp",
+    "thumbnail": "",
     "latest_release_description": "Add a real peaceful mode to Dredge"
   },
   {
@@ -414,7 +414,7 @@
     "downloads": 1038,
     "readme_url": "https://github.com/SeaKestrel/FullAberrationRods/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/SeaKestrel/FullAberrationRods/main/README.md",
-    "thumbnail": "Full Aberration Rods.webp",
+    "thumbnail": "",
     "latest_release_description": "Modify the Viscera Crane rod to allow you to combine all rods with aberration bonus in your boat"
   },
   {
