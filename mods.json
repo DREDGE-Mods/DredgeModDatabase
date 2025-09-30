@@ -276,6 +276,14 @@
       "repo": "alextric234/ArchipelagoDredgeMod",
       "download": "Alextric234.ArchipelagoDredge.zip",
       "author": "Alextric234"
+    },
+    {
+      "name": "Plentiful Seas",
+      "mod_guid": "kite.plentifulseas",
+      "repo": "Ammonite616/DREDGEMODS",
+      "download": "kite.plentifulseas.zip",
+      "author": "KiteSergal",
+      "description": "Currently adds 2 new fish to DREDGE found Southwest open ocean by Gale Cliffs. Will add more over time!"
     }
   ]
 }
