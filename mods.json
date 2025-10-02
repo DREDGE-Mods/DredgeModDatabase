@@ -276,6 +276,13 @@
       "repo": "alextric234/ArchipelagoDredgeMod",
       "download": "Alextric234.ArchipelagoDredge.zip",
       "author": "Alextric234"
+    },
+    {
+      "name": "Plentiful Seas",
+      "mod_guid": "kite.plentifulseas",
+      "repo": "Ammonite616/DREDGE_Plentiful_Seas",
+      "download": "kite.plentifulseas.zip",
+      "author": "KiteSergal"
     }
   ]
 }
