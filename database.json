@@ -12,7 +12,7 @@
     "release_date": "2023-05-30T01:18:55Z",
     "asset_update_date": "2025-05-19T06:23:33Z",
     "latest_version": "v0.6.1",
-    "downloads": 6727,
+    "downloads": 6728,
     "readme_url": "https://github.com/DREDGE-Mods/Winch/blob/master/Winch/README.md",
     "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/Winch/README.md",
     "thumbnail": "Winch.webp",
@@ -34,7 +34,7 @@
     "downloads": 3056,
     "readme_url": "https://github.com/xen-42/cosmic-horror-fishing-buddies/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/cosmic-horror-fishing-buddies/main/README.md",
-    "thumbnail": "",
+    "thumbnail": "Cosmic Horror Fishing Buddies.webp",
     "latest_release_description": "Thank you MegaPiggy for this update\r\n\r\n- Boat items and the upgrade from Iron Rig DLC now visually appear for others\r\n   - Tier 5 Hull\r\n   - Material Pot\r\n   - Siphon Trawler & Material Harvester\r\n- Added timeout debug settings\r\n- Whatever else I did, I don’t remember."
   },
   {
@@ -164,7 +164,7 @@
     "release_date": "2023-12-05T21:31:32Z",
     "asset_update_date": "2024-12-26T23:20:06Z",
     "latest_version": "v0.4.2",
-    "downloads": 920,
+    "downloads": 921,
     "readme_url": "https://github.com/xen-42/DredgeVR/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/DredgeVR/main/README.md",
     "thumbnail": "Dredge VR.webp",
@@ -186,7 +186,7 @@
     "downloads": 2283,
     "readme_url": "https://github.com/MegaPiggy/DredgeFastDock/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/MegaPiggy/DredgeFastDock/main/README.md",
-    "thumbnail": "",
+    "thumbnail": "Fast Dock.webp",
     "latest_release_description": "Fixed mod_meta.json"
   },
   {
@@ -243,7 +243,7 @@
     "downloads": 424,
     "readme_url": "https://github.com/xen-42/dredge-freecam/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/dredge-freecam/main/README.md",
-    "thumbnail": "",
+    "thumbnail": "Dredge Free Cam.webp",
     "latest_release_description": "Press 0 to toggle debug free cam"
   },
   {
@@ -433,7 +433,7 @@
     "downloads": 335,
     "readme_url": "https://github.com/SeaKestrel/DredgeRichPresence/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/SeaKestrel/DredgeRichPresence/main/README.md",
-    "thumbnail": "",
+    "thumbnail": "DredgeRichPresence.webp",
     "latest_release_description": "## What's Changed\r\n* The Iron Rig by @MegaPiggy in https://github.com/jeanpantaleon/DredgeRichPresence/pull/2\r\n\r\n\r\n**Full Changelog**: https://github.com/jeanpantaleon/DredgeRichPresence/compare/v1.1.0...v1.2.0"
   },
   {
@@ -753,7 +753,7 @@
     "release_date": "2025-04-21T23:59:30Z",
     "asset_update_date": "2025-04-22T00:00:50Z",
     "latest_version": "v1.0.0",
-    "downloads": 187,
+    "downloads": 188,
     "readme_url": "https://github.com/bdlm-dev/DREDGE-FirstPerson/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/bdlm-dev/DREDGE-FirstPerson/main/README.md",
     "thumbnail": "",
@@ -791,7 +791,7 @@
     "release_date": "2025-10-02T16:59:22Z",
     "asset_update_date": "2025-10-02T17:00:50Z",
     "latest_version": "1.0.0",
-    "downloads": 126,
+    "downloads": 127,
     "readme_url": "https://github.com/Ammonite616/DREDGE_Plentiful_Seas/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/Ammonite616/DREDGE_Plentiful_Seas/main/README.md",
     "thumbnail": "Plentiful Seas.webp",
