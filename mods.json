@@ -283,6 +283,14 @@
       "repo": "Ammonite616/DREDGE_Plentiful_Seas",
       "download": "kite.plentifulseas.zip",
       "author": "KiteSergal"
+    },
+    {
+      "name": "Malignant Splashes",
+      "mod_guid": "AudaciousBovine.MalignantSplashes",
+      "repo": "AudaciousBovine/DredgeMalignantSplashes",
+      "download": "AudaciousBovine.MalignantSplashes.zip",
+      "author": "AudaciousBovine",
+      "description": "Dark Splashes are more of a hazard now!"
     }
   ]
 }
