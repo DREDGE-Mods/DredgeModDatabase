@@ -12,7 +12,7 @@
     "release_date": "2023-05-30T01:18:55Z",
     "asset_update_date": "2025-05-19T06:23:33Z",
     "latest_version": "v0.6.1",
-    "downloads": 8250,
+    "downloads": 8253,
     "readme_url": "https://github.com/DREDGE-Mods/Winch/blob/master/Winch/README.md",
     "readme_raw": "https://raw.githubusercontent.com/DREDGE-Mods/Winch/master/Winch/README.md",
     "thumbnail": "Winch.webp",
@@ -376,7 +376,7 @@
     "downloads": 299,
     "readme_url": "https://github.com/SeaKestrel/MorePeaceful/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/SeaKestrel/MorePeaceful/main/README.md",
-    "thumbnail": "",
+    "thumbnail": "MorePeaceful.webp",
     "latest_release_description": "Add a real peaceful mode to Dredge"
   },
   {
@@ -395,7 +395,7 @@
     "downloads": 534,
     "readme_url": "https://github.com/SeaKestrel/BoatChanger/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/SeaKestrel/BoatChanger/main/README.md",
-    "thumbnail": "",
+    "thumbnail": "BoatChanger.webp",
     "latest_release_description": "## What's Changed\r\n* fix: remove the day double length line by @jeanpantaleon in https://github.com/jeanpantaleon/BoatChanger/pull/1\r\n\r\n**Full Changelog**: https://github.com/jeanpantaleon/BoatChanger/compare/v1.1.0...v1.1.1"
   },
   {
@@ -582,7 +582,7 @@
     "release_date": "2024-08-22T01:37:05Z",
     "asset_update_date": "2024-09-15T17:35:55Z",
     "latest_version": "0.4.0",
-    "downloads": 1631,
+    "downloads": 1632,
     "readme_url": "https://github.com/twestpha/DredgeDeepSubmergence/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/twestpha/DredgeDeepSubmergence/main/README.md",
     "thumbnail": "Deep Submergence.webp",
@@ -772,7 +772,7 @@
     "release_date": "2025-04-29T19:18:52Z",
     "asset_update_date": "2026-03-01T02:57:10Z",
     "latest_version": "1.0.0",
-    "downloads": 1348,
+    "downloads": 1351,
     "readme_url": "https://github.com/alextric234/ArchipelagoDredgeMod/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/alextric234/ArchipelagoDredgeMod/main/README.md",
     "thumbnail": "Archipelago Dredge.webp",
