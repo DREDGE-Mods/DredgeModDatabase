@@ -291,6 +291,14 @@
       "download": "AudaciousBovine.MalignantSplashes.zip",
       "author": "AudaciousBovine",
       "description": "Dark Splashes are more of a hazard now!"
+    },
+    {
+      "name": "RenderScale",
+      "mod_guid": "OctopusHugger.RenderScale",
+      "repo": "octopushugger/DredgeRenderScaleMod",
+      "download": "OctopusHugger.RenderScale.zip",
+      "author": "OctopusHugger",
+      "description": "Change internal render resolution"
     }
   ]
 }
