@@ -6,7 +6,7 @@
       "mod_guid": "hacktix.winch",
       "repo": "DREDGE-Mods/Winch",
       "download": "Winch.zip",
-      "author": "Hacktix",
+      "author": "DREDGE-Mods",
       "readme_path": "Winch/README.md"
     },
     {
@@ -22,7 +22,7 @@
       "repo": "DREDGE-Mods/Winch",
       "download": "DisasterButton.zip",
       "description": "Trigger sanity events via button press",
-      "author": "Hacktix",
+      "author": "DREDGE-Mods",
       "readme_path": "Winch.Examples/DisasterButton/README.md"
     },
     {
@@ -31,7 +31,7 @@
       "repo": "DREDGE-Mods/Winch",
       "download": "ExampleItems.zip",
       "description": "Adds example items using Winch",
-      "author": "Hacktix",
+      "author": "DREDGE-Mods",
       "readme_path": "Winch.Examples/ExampleItems/README.md"
     },
     {
@@ -40,7 +40,7 @@
       "repo": "DREDGE-Mods/Winch",
       "download": "IntroSkipper.zip",
       "description": "Skip the splash screen when starting the game",
-      "author": "Hacktix",
+      "author": "DREDGE-Mods",
       "readme_path": "Winch.Examples/IntroSkipper/README.md"
     },
     {
