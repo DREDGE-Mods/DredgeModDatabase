@@ -291,6 +291,13 @@
       "download": "OctopusHugger.RenderScale.zip",
       "author": "OctopusHugger",
       "description": "Change internal render resolution"
+    },
+    {
+      "name": "Insanity World",
+      "mod_guid": "lapkadev.InsanityWorldMod",
+      "repo": "lapkadev/InsanityWorldDredgeMod",
+      "download": "InsanityWorld.zip",
+      "description": "TODO"
     }
   ]
 }
