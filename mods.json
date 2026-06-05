@@ -291,6 +291,14 @@
       "download": "OctopusHugger.RenderScale.zip",
       "author": "OctopusHugger",
       "description": "Change internal render resolution"
+    },
+    {
+      "name": "Fathom The Fathoms",
+      "mod_guid": "Marcusmoth.FathomTheFathoms",
+      "repo": "MarcusMothMods/Fathom-The-Fathoms",
+      "download": "Marcusmoth.FathomTheFathoms.zip",
+      "author": "MarcusMoth",
+      "description": "A DREDGE mod that adds some new fish to the game."
     }
   ]
 }
