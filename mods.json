@@ -291,6 +291,14 @@
       "download": "OctopusHugger.RenderScale.zip",
       "author": "OctopusHugger",
       "description": "Change internal render resolution"
+    },
+    {
+      "name": "Rod Locker",
+      "mod_guid": "legoless.RodLocker",
+      "repo": "Legoless1/RodLocker",
+      "download": "legoless.RodLocker.zip",
+      "author": "Legoless",
+      "description": "Adds a locker to Blackstone Isle containing one of each platform-colored Custom Rod variant."
     }
   ]
 }
