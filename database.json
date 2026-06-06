@@ -815,5 +815,24 @@
     "readme_raw": "https://raw.githubusercontent.com/octopushugger/DredgeRenderScaleMod/main/README.md",
     "thumbnail": "",
     "latest_release_description": "Initial release"
+  },
+  {
+    "name": "Insanity World",
+    "slug": "insanity_world",
+    "mod_guid": "lapkadev.InsanityWorldMod",
+    "repo": "lapkadev/InsanityWorldDredgeMod",
+    "download": "InsanityWorld.zip",
+    "author": "lapkadev",
+    "description": "You can't die anymore - it's INSANE ... but something feels wrong ...",
+    "repo_creation_date": "2026-05-27T20:42:44Z",
+    "repo_update_date": "2026-06-05T08:08:39Z",
+    "release_date": "2026-05-31T09:57:36Z",
+    "asset_update_date": "2026-06-03T19:36:37Z",
+    "latest_version": "v0.2.2",
+    "downloads": 6,
+    "readme_url": "https://github.com/lapkadev/InsanityWorldDredgeMod/blob/master/README.md",
+    "readme_raw": "https://raw.githubusercontent.com/lapkadev/InsanityWorldDredgeMod/master/README.md",
+    "thumbnail": "",
+    "latest_release_description": "Update README.md"
   }
 ]
