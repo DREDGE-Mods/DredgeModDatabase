@@ -298,6 +298,14 @@
       "repo": "lapkadev/InsanityWorldDredgeMod",
       "download": "InsanityWorld.zip",
       "description": "You can't die anymore - it's INSANE ... but something feels wrong ..."
+    },
+    {
+      "name": "Fathom The Fathoms",
+      "mod_guid": "Marcusmoth.FathomTheFathoms",
+      "repo": "MarcusMothMods/Fathom-The-Fathoms",
+      "download": "Marcusmoth.FathomTheFathoms.zip",
+      "author": "MarcusMoth",
+      "description": "A DREDGE mod that adds some new fish to the game." 
     }
   ]
 }
