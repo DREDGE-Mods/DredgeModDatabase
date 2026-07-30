@@ -305,7 +305,7 @@
       "repo": "MarcusMothMods/Fathom-The-Fathoms",
       "download": "Marcusmoth.FathomTheFathoms.zip",
       "author": "MarcusMoth",
-      "description": "A DREDGE mod that adds some new fish to the game." 
+      "description": "A DREDGE mod that adds some new fish to the game."
     },
     {
       "name": "Rod Locker",
@@ -313,7 +313,15 @@
       "repo": "Legoless1/RodLocker",
       "download": "legoless.RodLocker.zip",
       "author": "Legoless",
-      "description": "Adds a locker to Blackstone Isle containing one of each platform-colored Custom Rod variant." 
+      "description": "Adds a locker to Blackstone Isle containing one of each platform-colored Custom Rod variant."
+    },
+    {
+      "name": "Immersive First Person",
+      "mod_guid": "sgtjoe.immersivefirstperson",
+      "repo": "SergerantJoe/DredgeImmersiveFirstPerson",
+      "download": "sgtjoe.immersivefirstperson.zip",
+      "author": "SgtJoe",
+      "description": "Proper first person mod that makes it seem like you're actually piloting the boat and standing on docks!"
     }
   ]
 }
