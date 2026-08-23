@@ -3,6 +3,14 @@ description: Request for a new mod to be added to the database
 title: "[Your mod name here]"
 labels: ["add-new-mod"]
 body:
+  - type: checkboxes
+    id: readme
+    attributes:
+      label: Readme
+      description: Before submitting your mod, please confirm you have read the Dredge Mod Database readme:
+      options:
+        - label: I have read the [readme](https://github.com/DREDGE-Mods/DredgeModDatabase/blob/main/README.md) and my mod meets the requirements to be published.
+          required: true
   - type: input
     id: discordId
     attributes:
