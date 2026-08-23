@@ -322,6 +322,13 @@
       "download": "sgtjoe.immersivefirstperson.zip",
       "author": "SgtJoe",
       "description": "Proper first person mod that makes it seem like you're actually piloting the boat and standing on docks!"
+    },
+    {
+      "name": "Dredge Port Service's  MOD",
+      "mod_guid": "dredd.combinedservices",
+      "repo": "Lord-Dredd/Dredge-MOD-PortServices",
+      "download": "dredd.combinedservices.zip",
+      "author": "Dredd and Forge"
     }
   ]
 }
