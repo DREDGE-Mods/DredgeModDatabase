@@ -6,7 +6,7 @@ Database of mods for use with the DREDGE mod loader [Winch](https://github.com/H
 
 Mods listed in this database are also used to generate the mods section of the [mods website](https://dredgemods.com/mods/).
 
-Before submitting your mod please ensure the following:
+_Before submitting your mod please ensure the following:_
 
 - **The mod must be open source.** Barring extenuating circumstances such as licensed Unity assets which cannot be redistributed, the mod must be buildable from the files in the mod repo. The best practice is to use our [mod template](https://github.com/DREDGE-Mods/WinchModTemplate).
 - **The mod cannot be blatantly AI-generated.** LLMs are so ubiquitous now that it would be impossible to enforce a full ban, but if a mod is obviously created by an AI it cannot be published here. Doubly so for AI-generated artwork. 
