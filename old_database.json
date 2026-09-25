@@ -27,15 +27,15 @@
     "author": "xen-42",
     "description": "A multiplayer mod for DREDGE using Mirror and Winch",
     "repo_creation_date": "2023-05-01T20:54:27Z",
-    "repo_update_date": "2026-09-24T00:52:26Z",
+    "repo_update_date": "2026-09-24T21:41:40Z",
     "release_date": "2023-10-10T16:55:12Z",
-    "asset_update_date": "2025-02-17T18:45:54Z",
-    "latest_version": "v0.4.0",
+    "asset_update_date": "2026-09-24T00:53:59Z",
+    "latest_version": "v0.4.1",
     "downloads": 3954,
     "readme_url": "https://github.com/xen-42/cosmic-horror-fishing-buddies/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/xen-42/cosmic-horror-fishing-buddies/main/README.md",
     "thumbnail": "Cosmic Horror Fishing Buddies.webp",
-    "latest_release_description": "Thank you MegaPiggy for this update\r\n\r\n- Boat items and the upgrade from Iron Rig DLC now visually appear for others\r\n   - Tier 5 Hull\r\n   - Material Pot\r\n   - Siphon Trawler & Material Harvester\r\n- Added timeout debug settings\r\n- Whatever else I did, I don’t remember."
+    "latest_release_description": "Possibly fixed the issue where having more than 2 players on a server made the game unplayable (thanks bdlm-dev!)"
   },
   {
     "name": "Disaster Button",
@@ -886,7 +886,7 @@
     "release_date": "2026-07-30T01:10:07Z",
     "asset_update_date": "2026-07-30T01:24:19Z",
     "latest_version": "v1.0",
-    "downloads": 145,
+    "downloads": 146,
     "readme_url": "https://github.com/SergerantJoe/DredgeImmersiveFirstPerson/blob/main/README.md",
     "readme_raw": "https://raw.githubusercontent.com/SergerantJoe/DredgeImmersiveFirstPerson/main/README.md",
     "thumbnail": "Immersive First Person.webp",
