@@ -315,6 +315,13 @@
       "download": "sgtjoe.immersivefirstperson.zip",
       "author": "SgtJoe",
       "description": "Proper first person mod that makes it seem like you're actually piloting the boat and standing on docks!"
+    },
+    {
+      "name": "Trawl Iron Rig Fish",
+      "mod_guid": "mmbluey.trawltir",
+      "repo": "bdlm-dev/DREDGE-TrawlTIR",
+      "download": "mmbluey.trawltir.zip",
+      "author": "mmbluey"
     }
   ]
 }
