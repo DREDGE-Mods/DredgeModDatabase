@@ -322,6 +322,14 @@
       "repo": "bdlm-dev/DREDGE-TrawlTIR",
       "download": "mmbluey.trawltir.zip",
       "author": "mmbluey"
+    },
+    {
+      "name": "TheLongRoad",
+      "mod_guid": "VoxelsMods.TheLongRoad",
+      "repo": "VoxelCreatesStuff/DREDGE-TheLongRoad",
+      "download": "TheLongRoad.zip",
+      "author": "VoxelsMods",
+      "description": "A Mod for dredge that raises prices and extends timers"
     }
   ]
 }
