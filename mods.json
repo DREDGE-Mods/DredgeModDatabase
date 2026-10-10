@@ -330,6 +330,13 @@
       "download": "TheLongRoad.zip",
       "author": "VoxelsMods",
       "description": "A Mod for dredge that raises prices and extends timers"
+    },
+    {
+      "name": "EncyclopediaPlus",
+      "mod_guid": "mmbluey.encyclopediaplus",
+      "repo": "bdlm-dev/DREDGE-EncyclopediaPlus",
+      "download": "mmbluey.encyclopediaplus.zip",
+      "author": "mmbluey"
     }
   ]
 }
